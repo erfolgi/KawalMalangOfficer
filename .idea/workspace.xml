@@ -17,7 +17,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a41d8fd-ee98-4cd5-b7a2-86a1ad635b1c" name="Default Changelist" comment="up sdk" />
+    <list default="true" id="3a41d8fd-ee98-4cd5-b7a2-86a1ad635b1c" name="Default Changelist" comment="workspace.xml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <list id="0e85ecb2-4786-49be-97bf-ff1c94877a5d" name="feat: Fcm notification" comment="feat: Fcm notification&#10;&#10;Implement FCM notification">
       <changelist_data name="Akbar Raihan Maghribi" email="akbar.raihan123@gmail.com" date="1644140432000" />
     </list>
@@ -468,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686239588369</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="up sdk">
+      <created>1686477887381</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1686477887381</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -486,7 +495,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="feat: do-finish-patrol&#10;&#10;- integrate API of do patrol&#10;- integrate API of finish patrol" />
     <MESSAGE value="feat: integrate-service-loc&#10;&#10;implement Service to update location every 30 seconds" />
     <MESSAGE value="feat: detail-panic&#10;&#10;- API integration of respond to panic&#10;- API integration of finish panic" />
     <MESSAGE value="feat: detail-panic&#10;&#10;Layout change if panic status is done" />
@@ -511,6 +519,7 @@
     <MESSAGE value="fix: change background&#10;&#10;1. Splash screen&#10;2. Login screen" />
     <MESSAGE value="fix: detail-report&#10;&#10;1. Change button finish to &quot;Sudah Di TKP&quot;&#10;2. Finish report with no photo &amp; description&#10;3. Set description layout's visibility to GONE" />
     <MESSAGE value="up sdk" />
-    <option name="LAST_COMMIT_MESSAGE" value="up sdk" />
+    <MESSAGE value="workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml" />
   </component>
 </project>
