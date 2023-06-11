@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Kawal Malang Officer</string>
+    <string name="first_run">first_run</string>
+    <string name="auth">auth</string>
+    <string name="role">role</string>
+    <string name="fcm">fcm_token</string>
+    <string name="user_store">user_store</string>
+    <string name="is_login">is_login</string>
+    <string name="is_patrol">is_patrol</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="stored_briefing">stored_briefing</string>
+</resources>

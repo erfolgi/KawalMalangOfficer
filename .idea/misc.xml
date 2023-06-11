@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/border_lg.xml" value="0.24814814814814815" />
+        <entry key="app/src/main/res/drawable/border_primary.xml" value="0.24814814814814815" />
+        <entry key="app/src/main/res/drawable/border_selected.xml" value="0.24166666666666667" />
+        <entry key="app/src/main/res/drawable/bottom_navbar_item.xml" value="0.22777777777777777" />
+        <entry key="app/src/main/res/drawable/bottom_sheet_bg.xml" value="0.24814814814814815" />
+        <entry key="app/src/main/res/drawable/ic_arrow_back.xml" value="0.23703703703703705" />
+        <entry key="app/src/main/res/drawable/ic_camera_edit.xml" value="0.2324074074074074" />
+        <entry key="app/src/main/res/drawable/ic_checkbox_empty.xml" value="0.131" />
+        <entry key="app/src/main/res/drawable/ic_checkbox_fill.xml" value="0.131" />
+        <entry key="app/src/main/res/drawable/ic_disaster_2.xml" value="0.24814814814814815" />
+        <entry key="app/src/main/res/drawable/ic_discovery.xml" value="0.22685185185185186" />
+        <entry key="app/src/main/res/drawable/ic_doc_full.xml" value="0.22407407407407406" />
+        <entry key="app/src/main/res/drawable/ic_document.xml" value="0.22777777777777777" />
+        <entry key="app/src/main/res/drawable/ic_filter.xml" value="0.24814814814814815" />
+        <entry key="app/src/main/res/drawable/ic_filter_1.xml" value="0.23703703703703705" />
+        <entry key="app/src/main/res/drawable/ic_history.xml" value="0.20277777777777778" />
+        <entry key="app/src/main/res/drawable/ic_home.xml" value="0.22777777777777777" />
+        <entry key="app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1275" />
+        <entry key="app/src/main/res/drawable/ic_note_filled.xml" value="0.22685185185185186" />
+        <entry key="app/src/main/res/drawable/ic_notification.xml" value="0.22777777777777777" />
+        <entry key="app/src/main/res/drawable/ic_notification_active.xml" value="0.22407407407407406" />
+        <entry key="app/src/main/res/drawable/ic_panic_filled.xml" value="0.1275" />
+        <entry key="app/src/main/res/drawable/ic_police_car.xml" value="0.20277777777777778" />
+        <entry key="app/src/main/res/drawable/ic_profile_active.xml" value="0.2361111111111111" />
+        <entry key="app/src/main/res/drawable/ic_pw_toggle.xml" value="0.23148148148148148" />
+        <entry key="app/src/main/res/drawable/note_selector.xml" value="0.1275" />
+        <entry key="app/src/main/res/drawable/notification_selector.xml" value="0.22407407407407406" />
+        <entry key="app/src/main/res/drawable/panic_selector.xml" value="0.22407407407407406" />
+        <entry key="app/src/main/res/drawable/profile_selector.xml" value="0.22037037037037038" />
+        <entry key="app/src/main/res/drawable/pw_toggle.xml" value="0.23148148148148148" />
+        <entry key="app/src/main/res/drawable/report_list_top.xml" value="0.23703703703703705" />
+        <entry key="app/src/main/res/drawable/report_selector.xml" value="0.22407407407407406" />
+        <entry key="app/src/main/res/drawable/rounded_border_bg.xml" value="0.20555555555555555" />
+        <entry key="app/src/main/res/drawable/rounded_lg_bg.xml" value="0.20555555555555555" />
+        <entry key="app/src/main/res/drawable/splash.xml" value="0.1359375" />
+        <entry key="app/src/main/res/drawable/state_check.xml" value="0.22037037037037038" />
+        <entry key="app/src/main/res/drawable/state_fieldbox.xml" value="0.23148148148148148" />
+        <entry key="app/src/main/res/drawable/state_pos.xml" value="0.25416666666666665" />
+        <entry key="app/src/main/res/drawable/state_profile.xml" value="0.25416666666666665" />
+        <entry key="app/src/main/res/font/inter.xml" value="0.14947916666666666" />
+        <entry key="app/src/main/res/layout/activity_create_briefing.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.11851851851851852" />
+        <entry key="app/src/main/res/layout/activity_detail_briefing.xml" value="0.21725555419921877" />
+        <entry key="app/src/main/res/layout/activity_detail_report.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_edit_car.xml" value="0.12436676798378926" />
+        <entry key="app/src/main/res/layout/activity_edit_member.xml" value="0.1644021739130435" />
+        <entry key="app/src/main/res/layout/activity_edit_password.xml" value="0.312640388589258" />
+        <entry key="app/src/main/res/layout/activity_image.xml" value="0.11927083333333334" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.2682830810546875" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1644021739130435" />
+        <entry key="app/src/main/res/layout/activity_map.xml" value="0.12864583333333332" />
+        <entry key="app/src/main/res/layout/activity_map_detail.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/activity_officer.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_panic_history.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_patrol_history.xml" value="0.3931777954101563" />
+        <entry key="app/src/main/res/layout/activity_preview.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/briefing_filter.xml" value="0.1644021739130435" />
+        <entry key="app/src/main/res/layout/briefing_item.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/category_item.xml" value="0.18704710144927536" />
+        <entry key="app/src/main/res/layout/confirm_dialog.xml" value="0.1644021739130435" />
+        <entry key="app/src/main/res/layout/custom_tab_filter.xml" value="0.12436676798378926" />
+        <entry key="app/src/main/res/layout/description_detail_report.xml" value="0.13360507246376813" />
+        <entry key="app/src/main/res/layout/dialog_layout.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/empty_briefing_state.xml" value="0.1644021739130435" />
+        <entry key="app/src/main/res/layout/empty_notification.xml" value="0.1644021739130435" />
+        <entry key="app/src/main/res/layout/empty_report_filtered_state.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/empty_report_state.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/finish_panic_dialog.xml" value="0.12436676798378926" />
+        <entry key="app/src/main/res/layout/fragment_briefing_list.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_notification.xml" value="0.1539855072463768" />
+        <entry key="app/src/main/res/layout/fragment_panic_event.xml" value="0.2484548825710754" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_report_list.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/income_panic_dialog.xml" value="0.1644021739130435" />
+        <entry key="app/src/main/res/layout/notification_item.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/officer_list.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/officer_patrol_item.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/officer_selector_item.xml" value="0.17346014492753623" />
+        <entry key="app/src/main/res/layout/panic_filter.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/panic_timeline_bsd.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/patrol_car_detail_report.xml" value="0.2436957096707994" />
+        <entry key="app/src/main/res/layout/patrol_car_item.xml" value="0.13360507246376813" />
+        <entry key="app/src/main/res/layout/patrol_history_item.xml" value="0.12436676798378926" />
+        <entry key="app/src/main/res/layout/patrol_officer_item.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/rating_bsd.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/report_item.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/status_item.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/timeline_item.xml" value="0.22596893310546876" />
+        <entry key="app/src/main/res/layout/toolbar_briefing.xml" value="0.1644021739130435" />
+        <entry key="app/src/main/res/layout/toolbar_detail.xml" value="0.17255434782608695" />
+        <entry key="app/src/main/res/menu/bottom_menu.xml" value="0.2546875" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.23802083333333332" />
+        <entry key="app/src/main/res/menu/officer_menu.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1275" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_notification_tray.xml" value="0.1275" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.27863922119140627" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

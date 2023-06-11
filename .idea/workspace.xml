@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="pixel" />
+        <device id="pixel_2" />
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="FcmException" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3a41d8fd-ee98-4cd5-b7a2-86a1ad635b1c" name="Default Changelist" comment="up sdk" />
+    <list id="0e85ecb2-4786-49be-97bf-ff1c94877a5d" name="feat: Fcm notification" comment="feat: Fcm notification&#10;&#10;Implement FCM notification">
+      <changelist_data name="Akbar Raihan Maghribi" email="akbar.raihan123@gmail.com" date="1644140432000" />
+    </list>
+    <list id="17d17959-31e8-43b7-92aa-8bfe6632883d" name="feat: Fcm notification-2" comment="feat: Fcm notification&#10;&#10;Implement FCM notification">
+      <changelist_data name="Akbar Raihan Maghribi" email="akbar.raihan123@gmail.com" date="1644140432000" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/erfolgi/.android/avd/Pixel_3a_API_32_arm64-v8a.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Object" />
+        <option value="Kotlin Interface" />
+        <option value="navigationResourceFile" />
+        <option value="layoutResourceFile_vertical" />
+        <option value="resourceFile" />
+        <option value="Kotlin Data Class" />
+        <option value="layoutResourceFile" />
+        <option value="Kotlin Class" />
+        <option value="valueResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/../sipitung" />
+    <option name="KEY_ALIAS" value="keystore_2" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="240l5wFG2oPjWHOyIXGk2zVrpVl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "com.google.services.firebase.aqiPopupShown": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="android.template.-1556384575">
+      <recent name="com.fornity.sipitung.officer.presentation.report.panicHistory" />
+    </key>
+    <key name="android.template.1723532038">
+      <recent name="com.fornity.sipitung.officer.sample" />
+      <recent name="com.fornity.polresjakarta.panicbutton.ui.login" />
+      <recent name="com.fornity.polresjakarta.panicbutton.util" />
+    </key>
+    <key name="android.template.-1283915162">
+      <recent name="com.fornity.sipitung.officer.presentation.account.edit.password" />
+      <recent name="com.fornity.sipitung.officer.presentation.account.edit.editCar" />
+    </key>
+    <key name="android.template.-963281085">
+      <recent name="com.fornity.sipitung.officer.presentation.report.detail" />
+    </key>
+    <key name="android.template.-1847282863">
+      <recent name="com.fornity.sipitung.officer.presentation" />
+      <recent name="com.fornity.sipitung.officer.presentation.dashboard" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.fornity.sipitung.officer.core.util" />
+      <recent name="com.fornity.polresjakarta.panicbutton.util" />
+      <recent name="com.fornity.polresjakarta.panicbutton.model.response" />
+    </key>
+    <key name="android.template.811313931">
+      <recent name="com.fornity.sipitung.officer.presentation.report.mapDetail" />
+    </key>
+    <key name="android.template.692224158">
+      <recent name="com.fornity.sipitung.officer.presentation.patrol.history" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/fornity/polresjakarta/panicbutton/ui/login" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/fornity/polresjakarta/panicbutton/model/form" />
+      <recent name="$PROJECT_DIR$/app/src/main" />
+      <recent name="$PROJECT_DIR$/app/src/main/res" />
+    </key>
+    <key name="android.template.-1910412807">
+      <recent name="com.fornity.polresjakarta.panicbutton.util" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/raw" />
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.fornity.sipitung.officer.presentation.account.profile" />
+      <recent name="com.fornity.sipitung.officer.presentation.briefing.list" />
+      <recent name="com.fornity.sipitung.officer.data.api" />
+      <recent name="com.fornity.sipitung.officer.presentation" />
+      <recent name="com.fornity.sipitung.officer.core.util" />
+    </key>
+    <key name="android.template.-1847495588">
+      <recent name="com.fornity.sipitung.officer.presentation.auth.login" />
+    </key>
+    <key name="android.template.-1570887886">
+      <recent name="com.fornity.sipitung.officer.presentation.briefing.create" />
+      <recent name="com.fornity.sipitung.officer.presentation.account.edit.editMember" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="Kawal_Malang_Officer.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a41d8fd-ee98-4cd5-b7a2-86a1ad635b1c" name="Default Changelist" comment="" />
+      <created>1642775204964</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642775204964</updated>
+    </task>
+    <task id="LOCAL-00001" summary="add firebase">
+      <created>1642788697770</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642788697770</updated>
+    </task>
+    <task id="LOCAL-00002" summary="clone from github">
+      <created>1642919105284</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1642919105285</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: Improve starter + Auth implementation&#10;&#10;- Improve starter project with MVVM + Clean Architecture + Dagger Hilt&#10;- Auth implementation : Login &amp; Logout">
+      <created>1643708115943</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1643708115944</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: Notification&#10;&#10;Slicing of Notification Fragment">
+      <created>1643718338196</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1643718338196</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: Officer profile&#10;&#10;- Slicing profile [1]&#10;- Get profile API Implementation">
+      <created>1643751378072</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1643751378073</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: Panic Report List&#10;&#10;API implementation of panic report list">
+      <created>1643782805035</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1643782805036</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: Panic Report List&#10;&#10;Filter implementation [Minus filter by date range]">
+      <created>1643843826327</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1643843826327</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: Detail Panic Report&#10;&#10;Load content from current list">
+      <created>1643896078384</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1643896078385</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: do-finish-patrol&#10;&#10;- integrate API of do patrol&#10;- integrate API of finish patrol">
+      <created>1643944184779</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1643944184779</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: integrate-service-loc&#10;&#10;implement Service to update location every 30 seconds">
+      <created>1643997499962</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1643997499963</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: detail-panic&#10;&#10;- API integration of respond to panic&#10;- API integration of finish panic">
+      <created>1644028907147</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1644028907147</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: detail-panic&#10;&#10;Layout change if panic status is done">
+      <created>1644030160021</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1644030160021</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat: activated-panic&#10;&#10;API integration of activated panic in dashboard [Car-side]">
+      <created>1644058364664</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1644058364664</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: activated-panic&#10;&#10;API integration of activated panic in dashboard [Car-side]">
+      <created>1644058427388</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1644058427388</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat: panic-history&#10;&#10;API integration of panic history list">
+      <created>1644070532918</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1644070532918</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat: pagination-panic-history&#10;&#10;add pagination listener to Panic History">
+      <created>1644101246297</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1644101246297</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat: patrol-history&#10;&#10;Add refresh listener">
+      <created>1644101948296</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1644101948296</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat: edit-account&#10;&#10;- Edit car profile&#10;- Edit password">
+      <created>1644134138465</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1644134138465</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat: edit-account&#10;&#10;- Edit user photo">
+      <created>1644136284643</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1644136284643</updated>
+    </task>
+    <task id="LOCAL-00020" summary="feat: Fcm notification&#10;&#10;Implement FCM notification">
+      <created>1644140432972</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1644140432972</updated>
+    </task>
+    <task id="LOCAL-00021" summary="test">
+      <created>1644161123419</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1644161123419</updated>
+    </task>
+    <task id="LOCAL-00022" summary="feat: update-things&#10;&#10;- Add statistic data&#10;- Tap marker to open Google Maps&#10;- API integration of Notification">
+      <created>1644171423352</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1644171423352</updated>
+    </task>
+    <task id="LOCAL-00023" summary="feat: Briefing-list&#10;&#10;- Implement filter&#10;- Implement search&#10;- Update profile layout for officer">
+      <created>1644195592660</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1644195592660</updated>
+    </task>
+    <task id="LOCAL-00024" summary="feat: Update-member&#10;&#10;API integration of update member">
+      <created>1644196483847</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1644196483847</updated>
+    </task>
+    <task id="LOCAL-00025" summary="feat: Update-member&#10;&#10;API integration of update member">
+      <created>1644196503212</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1644196503212</updated>
+    </task>
+    <task id="LOCAL-00026" summary="feat: Update-member&#10;&#10;API integration of update member">
+      <created>1644196556224</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1644196556224</updated>
+    </task>
+    <task id="LOCAL-00027" summary="feat: create-update-briefing&#10;&#10;- Create briefing&#10;- Update briefing&#10;- fix push notification add sound">
+      <created>1644214148483</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1644214148483</updated>
+    </task>
+    <task id="LOCAL-00028" summary="fix: increase versionCode">
+      <created>1644214565764</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1644214565764</updated>
+    </task>
+    <task id="LOCAL-00029" summary="fix: release&#10;&#10;- change baseUrl&#10;- increase versionCode to 4">
+      <created>1644304876639</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1644304876639</updated>
+    </task>
+    <task id="LOCAL-00030" summary="init: Push to Gitlab">
+      <created>1644331451939</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1644331451939</updated>
+    </task>
+    <task id="LOCAL-00031" summary="fix: revision">
+      <created>1645143025532</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1645143025532</updated>
+    </task>
+    <task id="LOCAL-00032" summary="fix: lat-lng&#10;&#10;Location has been updated &amp; recorded while patrolling">
+      <created>1645251616050</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1645251616050</updated>
+    </task>
+    <task id="LOCAL-00033" summary="fix: change background&#10;&#10;1. Splash screen&#10;2. Login screen">
+      <created>1645375541817</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1645375541817</updated>
+    </task>
+    <task id="LOCAL-00034" summary="fix: detail-report&#10;&#10;1. Change button finish to &quot;Sudah Di TKP&quot;&#10;2. Finish report with no photo &amp; description&#10;3. Set description layout's visibility to GONE">
+      <created>1645600164962</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1645600164962</updated>
+    </task>
+    <task id="LOCAL-00035" summary="up sdk">
+      <created>1686239588369</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1686239588369</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="feat: do-finish-patrol&#10;&#10;- integrate API of do patrol&#10;- integrate API of finish patrol" />
+    <MESSAGE value="feat: integrate-service-loc&#10;&#10;implement Service to update location every 30 seconds" />
+    <MESSAGE value="feat: detail-panic&#10;&#10;- API integration of respond to panic&#10;- API integration of finish panic" />
+    <MESSAGE value="feat: detail-panic&#10;&#10;Layout change if panic status is done" />
+    <MESSAGE value="feat: activated-panic&#10;&#10;API integration of activated panic in dashboard [Car-side]" />
+    <MESSAGE value="feat: panic-history&#10;&#10;API integration of panic history list" />
+    <MESSAGE value="feat: pagination-panic-history&#10;&#10;add pagination listener to Panic History" />
+    <MESSAGE value="feat: patrol-history&#10;&#10;Add refresh listener" />
+    <MESSAGE value="feat: edit-account&#10;&#10;- Edit car profile&#10;- Edit password" />
+    <MESSAGE value="feat: edit-account&#10;&#10;- Edit user photo" />
+    <MESSAGE value="feat: Fcm notification&#10;&#10;Implement FCM notification" />
+    <MESSAGE value="test" />
+    <MESSAGE value="feat: update-things&#10;&#10;- Add statistic data&#10;- Tap marker to open Google Maps&#10;- API integration of Notification" />
+    <MESSAGE value="feat: Briefing-list&#10;&#10;- Implement filter&#10;- Implement search&#10;- Update profile layout for officer" />
+    <MESSAGE value="feat: Update-member&#10;&#10;API integration of update member" />
+    <MESSAGE value="feat: create-update-briefing&#10;&#10;- Create briefing&#10;- Update briefing&#10;- fix push notification add sound" />
+    <MESSAGE value="fix: increase versionCode" />
+    <MESSAGE value="fix: increase versionCode to 4" />
+    <MESSAGE value="fix: release&#10;&#10;- change baseUrl&#10;- increase versionCode to 4" />
+    <MESSAGE value="init: Push to Gitlab" />
+    <MESSAGE value="fix: revision" />
+    <MESSAGE value="fix: lat-lng&#10;&#10;Location has been updated &amp; recorded while patrolling" />
+    <MESSAGE value="fix: change background&#10;&#10;1. Splash screen&#10;2. Login screen" />
+    <MESSAGE value="fix: detail-report&#10;&#10;1. Change button finish to &quot;Sudah Di TKP&quot;&#10;2. Finish report with no photo &amp; description&#10;3. Set description layout's visibility to GONE" />
+    <MESSAGE value="up sdk" />
+    <option name="LAST_COMMIT_MESSAGE" value="up sdk" />
+  </component>
+</project>

@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "650234273971",
+    "project_id": "panic-button-polres-jakarta",
+    "storage_bucket": "panic-button-polres-jakarta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650234273971:android:b9b0cecb2929d516d610c6",
+        "android_client_info": {
+          "package_name": "com.fornity.polresjakarta.panicbutton"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650234273971-8r1psquk9mummvqmguqjcd8tbg6plu05.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSF7evBV7gWJKLV-diBuJUtGQ1veEX5Tk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650234273971-8r1psquk9mummvqmguqjcd8tbg6plu05.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650234273971:android:4d8f2f9a706422d2d610c6",
+        "android_client_info": {
+          "package_name": "com.kawal.malang.officer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650234273971-8r1psquk9mummvqmguqjcd8tbg6plu05.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSF7evBV7gWJKLV-diBuJUtGQ1veEX5Tk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650234273971-8r1psquk9mummvqmguqjcd8tbg6plu05.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650234273971:android:3f0adbc3ca566202d610c6",
+        "android_client_info": {
+          "package_name": "com.fornity.sipitung.panicbutton"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650234273971-8r1psquk9mummvqmguqjcd8tbg6plu05.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSF7evBV7gWJKLV-diBuJUtGQ1veEX5Tk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650234273971-8r1psquk9mummvqmguqjcd8tbg6plu05.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

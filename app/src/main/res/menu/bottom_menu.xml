@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/panicEventFragment"
+        android:icon="@drawable/panic_selector"
+        android:title="Lokasi Panik" />
+
+    <item
+        android:id="@+id/reportListFragment"
+        android:icon="@drawable/report_selector"
+        android:title="Laporan Panik"/>
+
+    <item
+        android:id="@+id/notificationFragment"
+        android:icon="@drawable/notification_selector"
+        android:title="Notifikasi"/>
+
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/profile_selector"
+        android:title="Profil"/>
+</menu>

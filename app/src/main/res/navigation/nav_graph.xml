@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/panicEventFragment">
+
+    <fragment
+        android:id="@+id/panicEventFragment"
+        android:name="com.kawal.malang.officer.presentation.panicevent.PanicEventFragment"
+        android:label="fragment_panic_event"
+        tools:layout="@layout/fragment_panic_event" />
+    <fragment
+        android:id="@+id/reportListFragment"
+        android:name="com.kawal.malang.officer.presentation.report.list.ReportListFragment"
+        android:label="fragment_report_list"
+        tools:layout="@layout/fragment_report_list" />
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.kawal.malang.officer.presentation.notification.NotificationFragment"
+        android:label="fragment_notification"
+        tools:layout="@layout/fragment_notification" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.kawal.malang.officer.presentation.account.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
