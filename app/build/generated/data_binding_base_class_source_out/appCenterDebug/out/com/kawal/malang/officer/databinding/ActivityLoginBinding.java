@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-import android.widget.ScrollView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -35,11 +34,11 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final LinearLayout linearLayout;
 
   @NonNull
-  public final ScrollView scrollView2;
+  public final LinearLayout scrollView2;
 
   private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull MaterialButton btnLogin,
       @NonNull TextInputLayout etPassword, @NonNull TextInputLayout etUsername,
-      @NonNull LinearLayout linearLayout, @NonNull ScrollView scrollView2) {
+      @NonNull LinearLayout linearLayout, @NonNull LinearLayout scrollView2) {
     this.rootView = rootView;
     this.btnLogin = btnLogin;
     this.etPassword = etPassword;
@@ -100,7 +99,7 @@ public final class ActivityLoginBinding implements ViewBinding {
       }
 
       id = R.id.scrollView2;
-      ScrollView scrollView2 = ViewBindings.findChildViewById(rootView, id);
+      LinearLayout scrollView2 = ViewBindings.findChildViewById(rootView, id);
       if (scrollView2 == null) {
         break missingId;
       }

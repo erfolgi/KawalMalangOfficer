@@ -109,11 +109,11 @@ import hilt_aggregated_deps._dagger_hilt_android_internal_modules_HiltWrapper_Ac
         _com_kawal_malang_officer_presentation_account_edit_editMember_EditMemberActivity_GeneratedInjector.class,
         _com_kawal_malang_officer_presentation_OfficerApplication_GeneratedInjector.class,
         _com_kawal_malang_officer_presentation_di_RepositoryModule.class,
-        _com_kawal_malang_officer_presentation_auth_login_LoginActivity_GeneratedInjector.class,
         _com_kawal_malang_officer_presentation_di_AdapterModule.class,
         _com_kawal_malang_officer_presentation_panicevent_PanicEventFragment_GeneratedInjector.class,
         _com_kawal_malang_officer_presentation_DashboardActivity_GeneratedInjector.class,
-        _com_kawal_malang_officer_presentation_di_UseCaseModule.class
+        _com_kawal_malang_officer_presentation_di_UseCaseModule.class,
+        _com_kawal_malang_officer_presentation_auth_login_LoginActivity_GeneratedInjector.class
     }
 )
 class OfficerApplication_ComponentTreeDeps {

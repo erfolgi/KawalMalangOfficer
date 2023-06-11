@@ -736,8 +736,8 @@ public final class DaggerOfficerApplication_HiltComponents_SingletonC extends Of
     }
 
     @Override
-    public void injectLoginActivity(LoginActivity arg0) {
-      injectLoginActivity2(arg0);
+    public void injectLoginActivity(LoginActivity loginActivity) {
+      injectLoginActivity2(loginActivity);
     }
 
     @Override

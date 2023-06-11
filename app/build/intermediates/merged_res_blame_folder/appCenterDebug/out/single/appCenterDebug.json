@@ -8,12 +8,12 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/font/nunito.xml"
     },
     {
-        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_doc_filled.xml.flat",
-        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_doc_filled.xml"
-    },
-    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_rounded_5_bg.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/rounded_5_bg.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_doc_filled.xml.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_doc_filled.xml"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/font_poppins_extrabolditalic.ttf.flat",
@@ -124,12 +124,12 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/mipmap-xxhdpi/ic_logo_app.png"
     },
     {
-        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/font_nunito_light.ttf.flat",
-        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/font/nunito_light.ttf"
-    },
-    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_panic_selector.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/panic_selector.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/font_nunito_light.ttf.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/font/nunito_light.ttf"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_pw_toggle.xml.flat",
@@ -144,16 +144,16 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/category_item.xml"
     },
     {
-        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_checkbox_fill.xml.flat",
-        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_checkbox_fill.xml"
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_officer_list.xml.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/officer_list.xml"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/font_inter_light.ttf.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/font/inter_light.ttf"
     },
     {
-        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_officer_list.xml.flat",
-        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/officer_list.xml"
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_checkbox_fill.xml.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_checkbox_fill.xml"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
