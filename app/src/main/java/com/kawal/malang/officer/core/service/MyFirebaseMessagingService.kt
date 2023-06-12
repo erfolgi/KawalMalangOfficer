@@ -21,7 +21,7 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
         val json = JSONObject(remoteMessage.data["data"] ?: "Empty")
         intent.putExtra(DetailReportActivity.ID, json.getString("id").toInt())
         val pendingIntent = PendingIntent.getActivity(applicationContext, 100,
-            intent, PendingIntent.FLAG_CANCEL_CURRENT)
+            intent, PendingIntent.FLAG_IMMUTABLE)
         NotificationHelper().displayNotificationWithSound(applicationContext, remoteMessage, pendingIntent)
 
     }
