@@ -87,8 +87,7 @@ class CreateBriefingActivity : AppCompatActivity() {
                     body["judul"] = RequestBody.create(MultipartBody.FORM, title)
                     body["deskripsi"] = RequestBody.create(MultipartBody.FORM, desc)
                     body["lokasi"] = RequestBody.create(MultipartBody.FORM, loc)
-                    if (!isEdit) doCreate()
-                    else doUpdate()
+
                 }
             }
         }
@@ -223,61 +222,9 @@ class CreateBriefingActivity : AppCompatActivity() {
         dpd.show()
     }
 
-    private fun doCreate() {
-        file?.let { viewModel.createBriefing(body, it) }
-        viewModel.postData.observe(this) { res ->
-            when (res) {
-                is Resource.Loading -> showLoading()
-                is Resource.Error -> {
-                    hideLoading()
-                    res.message?.let { AppUtil.snackBar(this, it) }
-                }
-                is Resource.NetworkError -> {
-                    hideLoading()
-                    res.message?.let {
-                        AppUtil.snackBarAction(this, it, "Try Again") {
-                            doCreate()
-                        }
-                    }
-                }
-                is Resource.Success -> {
-                    hideLoading()
-                    res.data?.let {
-                        Toast.makeText(this, it.message, Toast.LENGTH_SHORT).show()
-                        finish()
-                    }
-                }
-            }
-        }
-    }
 
-    private fun doUpdate() {
-        viewModel.updateBriefing("${data?.id}", body, file)
-        viewModel.postData.observe(this) { res ->
-            when (res) {
-                is Resource.Loading -> showLoading()
-                is Resource.Error -> {
-                    hideLoading()
-                    res.message?.let { AppUtil.snackBar(this, it) }
-                }
-                is Resource.NetworkError -> {
-                    hideLoading()
-                    res.message?.let {
-                        AppUtil.snackBarAction(this, it, "Try Again") {
-                            doUpdate()
-                        }
-                    }
-                }
-                is Resource.Success -> {
-                    hideLoading()
-                    res.data?.let {
-                        Toast.makeText(this, it.message, Toast.LENGTH_SHORT).show()
-                        finish()
-                    }
-                }
-            }
-        }
-    }
+
+
 
     private fun showLoading() = dialog.show()
 

@@ -67,8 +67,8 @@ class LocationService : Service() {
         val notificationBuilder =
             NotificationCompat.Builder(this, NOTIFICATION_CHANNEL_ID)
         val notification: Notification = notificationBuilder.setOngoing(true)
-            .setContentTitle("Status Patroli")
-            .setContentText("Mobil sedang berpatroli")
+            .setContentTitle("Status Petugas")
+            .setContentText("Petugas sedang menangani Panic")
             .setPriority(NotificationManager.IMPORTANCE_MIN)
             .setSmallIcon(com.kawal.malang.officer.R.mipmap.ic_notification_grey)
             .setCategory(Notification.CATEGORY_SERVICE)

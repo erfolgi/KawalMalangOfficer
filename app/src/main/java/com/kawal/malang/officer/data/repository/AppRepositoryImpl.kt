@@ -62,11 +62,6 @@ class AppRepositoryImpl(
             Resource.Error("An error occurred")
         }
     }
-
-    override suspend fun getStatistic(token: String): Resource<BaseResponse<StatisticData>> {
-        return statisticToResponse(remoteDataSource.getStatistic(token))
-    }
-
     private fun statisticToResponse(response: Response<BaseResponse<StatisticData>>): Resource<BaseResponse<StatisticData>> {
         return try {
             if (response.code() == 200) Resource.Success(response.body())
@@ -228,9 +223,6 @@ class AppRepositoryImpl(
         }
     }
 
-    override suspend fun getPatrolHistory(token: String): Resource<ArrayList<PatrolData>> =
-        patrolHistoryToResponse(remoteDataSource.getPatrolHistory(token))
-
     private fun patrolHistoryToResponse(response: Response<ArrayList<PatrolData>>): Resource<ArrayList<PatrolData>> {
         return try {
             if (response.code() == 200) Resource.Success(response.body())
@@ -240,11 +232,6 @@ class AppRepositoryImpl(
             Resource.Error("An error occurred")
         }
     }
-
-    override suspend fun doPatrol(
-        token: String,
-        body: ArrayList<String>
-    ): Resource<BaseResponse<PatrolData>> = doPatrolToResponse(remoteDataSource.doPatrol(token, body))
 
     private fun doPatrolToResponse(response: Response<BaseResponse<PatrolData>>): Resource<BaseResponse<PatrolData>> {
         return try {
@@ -256,8 +243,6 @@ class AppRepositoryImpl(
         }
     }
 
-    override suspend fun finishPatrol(token: String): Resource<BaseResponse<PatrolData>> =
-        finishPatrolToResponse(remoteDataSource.finishPatrol(token))
 
     private fun finishPatrolToResponse(response: Response<BaseResponse<PatrolData>>): Resource<BaseResponse<PatrolData>> {
         return try {
@@ -285,8 +270,7 @@ class AppRepositoryImpl(
         }
     }
 
-    override suspend fun getBriefingCategory(token: String): Resource<ArrayList<CategoryData>>  =
-        briefingCategoryToResponse(remoteDataSource.getBriefingCategory(token))
+
 
     private fun briefingCategoryToResponse(response: Response<ArrayList<CategoryData>>): Resource<ArrayList<CategoryData>> {
         return try {
@@ -298,15 +282,6 @@ class AppRepositoryImpl(
         }
     }
 
-    override suspend fun getBriefingList(
-        token: String,
-        lastId: String,
-        categoryId: String,
-        judul: String,
-        tanggal: String
-    ): Resource<ArrayList<BriefingData>>  {
-        return getBriefingToResponse(remoteDataSource.getBriefingList(token, lastId,categoryId,judul,tanggal))
-    }
 
     private fun getBriefingToResponse(response: Response<ArrayList<BriefingData>>): Resource<ArrayList<BriefingData>> {
         return try {
@@ -318,9 +293,7 @@ class AppRepositoryImpl(
         }
     }
 
-    override suspend fun getDetailBriefing(token: String, id: String): Resource<BriefingData> {
-        return detailBriefingToResponse(remoteDataSource.getDetailBriefing(token, id))
-    }
+
 
     private fun detailBriefingToResponse(response: Response<BriefingData>): Resource<BriefingData> {
         return try {
@@ -332,29 +305,10 @@ class AppRepositoryImpl(
         }
     }
 
-    override suspend fun createBriefing(
-        token: String,
-        body: Map<String, RequestBody>,
-        file: MultipartBody.Part
-    ): Resource<BaseResponse<BriefingData>> {
-        return postBriefingToResponse(remoteDataSource.createBriefing(token, body, file))
-    }
 
-    override suspend fun updateBriefing(
-        token: String,
-        id: String,
-        body: Map<String, RequestBody>,
-        file: MultipartBody.Part?
-    ): Resource<BaseResponse<BriefingData>> {
-        return postBriefingToResponse(remoteDataSource.updateBriefing(token, id, body, file))
-    }
 
-    override suspend fun deleteBriefing(
-        token: String,
-        id: String
-    ): Resource<BaseResponse<BriefingData>> {
-        return postBriefingToResponse(remoteDataSource.deleteBriefing(token, id))
-    }
+
+
 
     private fun postBriefingToResponse(response: Response<BaseResponse<BriefingData>>): Resource<BaseResponse<BriefingData>> {
         return try {

@@ -38,56 +38,12 @@ class PatrolViewModel(
         }
     }
 
-    fun getPatrolHistory() = viewModelScope.launch(Dispatchers.IO) {
-        history.postValue(Resource.Loading())
-        try {
-            if (AppUtil.isNetworkAvailable(app.applicationContext)) {
-                val result = useCase.execGetPatrolHistory(pref.getAuth())
-                history.postValue(result)
-            } else history.postValue(Resource.NetworkError("Turn on your connection"))
-        } catch (e: Exception) {
-            e.printStackTrace()
-            history.postValue(Resource.Error("An error occurred"))
-        }
-    }
 
-    fun refreshPatrolHistory() = viewModelScope.launch(Dispatchers.IO) {
-        try {
-            if (AppUtil.isNetworkAvailable(app.applicationContext)) {
-                val result = useCase.execGetPatrolHistory(pref.getAuth())
-                history.postValue(result)
-            } else history.postValue(Resource.NetworkError("Turn on your connection"))
-        } catch (e: Exception) {
-            e.printStackTrace()
-            history.postValue(Resource.Error("An error occurred"))
-        }
-    }
 
-    fun doPatrol(body: ArrayList<String>) = viewModelScope.launch(Dispatchers.IO) {
-        doPatrolData.postValue(Resource.Loading())
-        try {
-            if (AppUtil.isNetworkAvailable(app.applicationContext)) {
-                val result = useCase.execDoPatrol(pref.getAuth(), body)
-                doPatrolData.postValue(result)
-            } else doPatrolData.postValue(Resource.NetworkError("Turn on your connection"))
-        } catch (e: Exception) {
-            e.printStackTrace()
-            doPatrolData.postValue(Resource.Error("An error occurred"))
-        }
-    }
 
-    fun finishPatrol() = viewModelScope.launch(Dispatchers.IO) {
-        doPatrolData.postValue(Resource.Loading())
-        try {
-            if (AppUtil.isNetworkAvailable(app.applicationContext)) {
-                val result = useCase.execFinishPatrol(pref.getAuth())
-                doPatrolData.postValue(result)
-            } else doPatrolData.postValue(Resource.NetworkError("Turn on your connection"))
-        } catch (e: Exception) {
-            e.printStackTrace()
-            doPatrolData.postValue(Resource.Error("An error occurred"))
-        }
-    }
+
+
+
 
     fun recordPosition(body: Map<String, String>) = viewModelScope.launch(Dispatchers.IO) {
         try {

@@ -89,7 +89,6 @@ class DetailBriefingActivity : AppCompatActivity() {
             this.data = dataX
         }
         bind()
-        refresh()
     }
 
     private fun bind(){
@@ -119,63 +118,11 @@ class DetailBriefingActivity : AppCompatActivity() {
             tvNo.setOnClickListener { confirmDialog.dismiss() }
             tvYes.setOnClickListener {
                 confirmDialog.dismiss()
-                deleteBriefing()
             }
         }
     }
 
-    private fun refresh() {
-        viewModel.getDetailBriefing("${data?.id}")
-        viewModel.detail.observe(this) { res ->
-            when (res) {
-                is Resource.Error -> {
-                    res.message?.let { AppUtil.snackBar(this, it) }
-                }
-                is Resource.NetworkError -> {
-                    res.message?.let {
-                        AppUtil.snackBarAction(this, it, "Try Again") {
-                            refresh()
-                        }
-                    }
-                }
-                is Resource.Success -> {
-                    res.data?.let {
-                        data = it
-                        bind()
-                    }
-                }
-                else -> {}
-            }
-        }
-    }
 
-    private fun deleteBriefing() {
-        viewModel.deleteBriefing("${data?.id}")
-        viewModel.postData.observe(this) { res ->
-            when (res) {
-                is Resource.Loading -> showLoading()
-                is Resource.Error -> {
-                    hideLoading()
-                    res.message?.let { AppUtil.snackBar(this, it) }
-                }
-                is Resource.NetworkError -> {
-                    hideLoading()
-                    res.message?.let {
-                        AppUtil.snackBarAction(this, it, "Try Again") {
-                            deleteBriefing()
-                        }
-                    }
-                }
-                is Resource.Success -> {
-                    hideLoading()
-                    res.data?.let {
-                        Toast.makeText(this, it.message, Toast.LENGTH_SHORT).show()
-                        finish()
-                    }
-                }
-            }
-        }
-    }
 
     private fun showLoading() = dialog.show()
 

@@ -88,8 +88,7 @@ class ProfileFragment : Fragment() {
         initViewModels()
         initOfficerDialog()
         binding.apply {
-            switchPatrol.isChecked = pref.getPatrolStatus()
-            switchPatrol.text = if (pref.getPatrolStatus()) "Aktif" else "Tidak Aktif"
+
             btnPanicHistory.setOnClickListener {
                 val i = Intent(root.context, PanicHistoryActivity::class.java)
                 root.context.startActivity(i)
@@ -97,10 +96,7 @@ class ProfileFragment : Fragment() {
         }
         binding.btnLogout.setOnClickListener { doLogout() }
         binding.apply {
-            btnPatrolHistory.setOnClickListener {
-                val intent = Intent(root.context, PatrolHistoryActivity::class.java)
-                root.context.startActivity(intent)
-            }
+
             btnProfileEdit.setOnClickListener {
                 val intent = Intent(root.context, EditCarActivity::class.java)
                 val intentOfficer = Intent(root.context, EditMemberActivity::class.java)
@@ -119,13 +115,7 @@ class ProfileFragment : Fragment() {
         handleSwitch()
     }
 
-    override fun onResume() {
-        super.onResume()
-        getProfile()
-        if (!pref.isOfficer()) {
-            getStatistic()
-        }
-    }
+
 
     private fun initViewModels() {
         viewModel = ViewModelProvider((requireActivity()),
@@ -159,7 +149,7 @@ class ProfileFragment : Fragment() {
     private fun checkIfOfficerIsLogin() {
         binding.apply {
             if (pref.isOfficer()) {
-                cvStatistic.visibility = GONE
+
                 panicHistory.visibility = GONE
                 tvCarNumber.text = data.name
                 tvUsername.text = data.member?.nip ?: "Undefined"
@@ -171,16 +161,7 @@ class ProfileFragment : Fragment() {
 
     @SuppressLint("SetTextI18n")
     private fun handleSwitch() {
-        binding.apply {
-            switchPatrol.setOnCheckedChangeListener { _, isChecked ->
-                if (isChecked) {
-                    officerDialog.show()
-                    getOfficerList()
-                } else if (!isChecked && pref.getPatrolStatus()) {
-                    finishPatrol()
-                }
-            }
-        }
+
     }
 
     private var launchResult = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
@@ -228,34 +209,7 @@ class ProfileFragment : Fragment() {
         }
     }
 
-    @SuppressLint("SetTextI18n")
-    private fun getStatistic() {
-        accountViewModel.getStatistic()
-        accountViewModel.statistic.observe(viewLifecycleOwner) { res ->
-            when (res) {
-                is Resource.Error -> {
-                    res.message?.let { AppUtil.snackBar((requireActivity()), it) }
-                }
-                is Resource.NetworkError -> {
-                    res.message?.let {
-                        AppUtil.snackBarAction((requireActivity()), it, "Try Again") {
-                            getStatistic()
-                        }
-                    }
-                }
-                is Resource.Success -> {
-                    res.data?.data?.let {
-                        binding.apply {
-                            tvHandledPanic.text = "${it.totalPanic}"
-                            tvDistanceTotal.text = "${it.todayDistance} km"
-                            tvTodayDistance.text = "${it.todayDistance} km"
-                        }
-                    }
-                }
-                else -> {}
-            }
-        }
-    }
+
 
     private fun getOfficerList(search: String = "") {
         officerListBinding.apply {
@@ -282,86 +236,7 @@ class ProfileFragment : Fragment() {
         }
     }
 
-    @SuppressLint("SetTextI18n")
-    private fun doPatrol() {
-        officers.forEach { data -> body.add("${data.id}") }
-        patrolViewModel.doPatrol(body)
-        patrolViewModel.doPatrolData.observe(viewLifecycleOwner) { res ->
-            when (res) {
-                is Resource.Loading -> showLoading()
-                is Resource.Error -> {
-                    hideLoading()
-                    binding.switchPatrol.isChecked = false
-                    binding.switchPatrol.text = "Tidak Aktif"
-                    res.message?.let { AppUtil.snackBar((requireActivity()), it) }
-                }
-                is Resource.NetworkError -> {
-                    hideLoading()
-                    binding.switchPatrol.isChecked = false
-                    binding.switchPatrol.text = "Tidak Aktif"
-                    res.message?.let {
-                        AppUtil.snackBarAction((requireActivity()), it, "Try Again") {
-                            doPatrol()
-                            //Proto Service
-                        }
-                    }
-                }
-                is Resource.Success -> {
-                    hideLoading()
-                    pref.setPatrolStatus(true)
-                    binding.switchPatrol.text = "Aktif"
-                    res.data?.let {
-                        AppUtil.snackBar((requireActivity()), it.message ?: "", false)
-                        officerDialog.dismiss()
-                    }
-//                    val serviceIntent = Intent((requireActivity()), SendLocationService::class.java)
-//                    (requireActivity()).startService(serviceIntent)
-                    requireActivity().window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
-                    (activity as DashboardActivity).startPatrol()
-                }
-            }
-        }
-    }
 
-    @SuppressLint("SetTextI18n")
-    private fun finishPatrol() {
-        patrolViewModel.finishPatrol()
-        patrolViewModel.doPatrolData.observe(viewLifecycleOwner) { res ->
-            when (res) {
-                is Resource.Loading -> showLoading()
-                is Resource.Error -> {
-                    hideLoading()
-                    binding.switchPatrol.isChecked = true
-                    binding.switchPatrol.text = "Aktif"
-                    res.message?.let { AppUtil.snackBar((requireActivity()), it) }
-                }
-                is Resource.NetworkError -> {
-                    hideLoading()
-                    binding.switchPatrol.isChecked = true
-                    binding.switchPatrol.text = "Aktif"
-                    res.message?.let {
-                        AppUtil.snackBarAction((requireActivity()), it, "Try Again") {
-                            finishPatrol()
-                        }
-                    }
-                }
-                is Resource.Success -> {
-                    hideLoading()
-                    pref.setPatrolStatus(false)
-                    binding.switchPatrol.text = "Tidak Aktif"
-                    res.data?.let {
-                        AppUtil.snackBar((requireActivity()), it.message ?: "", false)
-                    }
-                    // Proto Service
-//                    val serviceIntent = Intent((requireActivity()), SendLocationService::class.java)
-//                    (requireActivity()).stopService(serviceIntent)
-//                    requireActivity().window.clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
-                    (activity as DashboardActivity).stopPatrol()
-
-                }
-            }
-        }
-    }
 
     private fun doUpdatePhoto() {
         file?.let { accountViewModel.updatePhoto(it) }
@@ -393,7 +268,7 @@ class ProfileFragment : Fragment() {
 
     private fun doLogout() {
         //Proto Service
-       if (pref.getPatrolStatus()) finishPatrol()
+
 
 //        if (pref.getPatrolStatus())
         viewModel.doLogout()
@@ -444,7 +319,7 @@ class ProfileFragment : Fragment() {
             btnConfirm.setOnClickListener {
                 if (officers.isNotEmpty()) {
                     //Proto Service
-                doPatrol()
+
                     //(activity as DashboardActivity).startPatrol()
                 }
                 else Toast.makeText(root.context, "Petugas harus dipilih", Toast.LENGTH_SHORT).show()

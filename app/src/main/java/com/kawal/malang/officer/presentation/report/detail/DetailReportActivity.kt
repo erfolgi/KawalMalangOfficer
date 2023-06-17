@@ -9,6 +9,7 @@ import android.graphics.drawable.BitmapDrawable
 import android.graphics.drawable.Drawable
 import android.net.Uri
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View.GONE
 import android.view.View.VISIBLE
@@ -21,6 +22,8 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.bumptech.glide.Glide
+import com.bumptech.glide.request.target.CustomTarget
+import com.bumptech.glide.request.transition.Transition
 import com.kawal.malang.officer.R
 import com.kawal.malang.officer.core.util.AppUtil
 import com.kawal.malang.officer.core.util.Resource
@@ -32,6 +35,8 @@ import com.kawal.malang.officer.presentation.viewmodels.panic.PanicViewModelFact
 import com.github.dhaval2404.imagepicker.ImagePicker
 import com.github.dhaval2404.imagepicker.ImagePicker.Companion.getError
 import com.google.android.material.bottomsheet.BottomSheetDialog
+import com.kawal.malang.officer.core.service.prototype.LocationService
+import com.kawal.malang.officer.core.util.AppPreference
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -65,7 +70,7 @@ class DetailReportActivity : AppCompatActivity() {
     private lateinit var mapController: MapController
     private lateinit var geoPoint: GeoPoint
     private lateinit var bsdTimeline: BottomSheetDialog
-
+    private lateinit var preference: AppPreference
     @Inject
     lateinit var policeCarAdapter: PoliceCarAdapter
     @Inject
@@ -88,7 +93,7 @@ class DetailReportActivity : AppCompatActivity() {
         dialog = AppUtil.loading(this)
         data = intent.getParcelableExtra(DETAIL_DATA)
         id = intent.getIntExtra(ID, 0)
-
+        preference = AppPreference(this)
         initAppBar()
         initRecyclerView()
         initFinishPanicDialog()
@@ -234,18 +239,47 @@ class DetailReportActivity : AppCompatActivity() {
 
     private fun loadReporterMarker() {
         lifecycleScope.launch(Dispatchers.IO) {
+
+//            if(data?.category?.markerIcon == null){
+//
+//            }else{
             val url = URL(data?.category?.markerIcon)
-            val drawable = Drawable.createFromStream(url.content as InputStream, "Db")
-            val bmp = (drawable as BitmapDrawable).bitmap
-            val dr = BitmapDrawable(resources, Bitmap.createScaledBitmap(bmp, 80, 120, true))
+            Log.d("PostASDsdfsdf",data?.category?.markerIcon.toString())
+            Log.d("PostASDsdfsdf",url.toString())
+//            val drawable = Drawable.createFromStream(url.content as InputStream, "Db")
+//            val bmp = (drawable as BitmapDrawable).bitmap
+
+//            val dr = BitmapDrawable(resources, Bitmap.createScaledBitmap(bmp, 80, 120, true))
             val marker = Marker(binding.descReport.mapView)
             geoPoint = GeoPoint(data?.latitude ?: 0.0, data?.longitude ?: 0.0)
             marker.title = data?.category?.name
             marker.snippet = data?.eventDescription
-            marker.icon = dr
+            //marker.icon = ContextCompat.getDrawable(baseContext, R.drawable.ic_loc)
             marker.position = geoPoint
+
+
+            Glide.with(baseContext)
+                .asBitmap()
+                .load(data?.category?.markerIcon)
+                .into(object : CustomTarget<Bitmap>(80,108){
+                    override fun onResourceReady(resource: Bitmap, transition: Transition<in Bitmap>?) {
+//                    res = resource
+                        marker.icon = BitmapDrawable(baseContext.resources, resource)
+
+                    }
+                    override fun onLoadCleared(placeholder: Drawable?) {
+                        // this is called when imageView is cleared on lifecycle call or for
+                        // some other reason.
+                        // if you are referencing the bitmap somewhere else too other than this imageView
+                        // clear it here as you can no longer have the bitmap
+                    }
+                })
+
             binding.descReport.mapView.overlays.add(marker)
             withContext(Dispatchers.Main) { initMap(marker) }
+//            }
+
+
         }
     }
 
@@ -375,9 +409,11 @@ class DetailReportActivity : AppCompatActivity() {
                 is Resource.Success -> {
                     hideLoading()
                     res.data?.message?.let {
+                        startPatrol()
                         AppUtil.snackBar(this, it, false)
                         binding.btnGo.visibility = GONE
                         refreshDetail(data?.id ?: 0)
+
                     }
                 }
             }
@@ -405,6 +441,7 @@ class DetailReportActivity : AppCompatActivity() {
                     hideLoading()
                     res.data?.message?.let {
                         finishDialog.dismiss()
+                        stopPatrol();
                         AppUtil.snackBar(this, it, false)
                         refreshDetail(data?.id ?: 0)
                     }
@@ -416,5 +453,18 @@ class DetailReportActivity : AppCompatActivity() {
     private fun showLoading() = dialog.show()
 
     private fun hideLoading() = dialog.hide()
+
+
+    fun startPatrol(){
+        val mServiceIntent = Intent(this, LocationService::class.java)
+        mServiceIntent.putExtra("AUTH",preference.getAuth())
+        mServiceIntent.action = LocationService.STARTFOREGROUND_ACTION;
+        startService(mServiceIntent)
+    }
+    fun stopPatrol(){
+        val mServiceIntent = Intent(this, LocationService::class.java)
+        mServiceIntent.action = LocationService.STOPFOREGROUND_ACTION;
+        startService(mServiceIntent)
+    }
 
 }

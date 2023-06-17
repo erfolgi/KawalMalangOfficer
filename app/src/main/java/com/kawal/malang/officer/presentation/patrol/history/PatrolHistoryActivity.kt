@@ -64,7 +64,7 @@ class PatrolHistoryActivity : AppCompatActivity() {
     }
 
     private fun getPatrolHistory() {
-        viewModel.getPatrolHistory()
+
         viewModel.history.observe(this) { res ->
             when (res) {
                 is Resource.Loading -> showLoading()
@@ -92,7 +92,7 @@ class PatrolHistoryActivity : AppCompatActivity() {
         val activity = this
         binding.apply {
             swipeRefreshPatrolHistory.setOnRefreshListener {
-                viewModel.refreshPatrolHistory()
+
                 viewModel.history.observe(activity) { res ->
                     when (res) {
                         is Resource.Error -> {

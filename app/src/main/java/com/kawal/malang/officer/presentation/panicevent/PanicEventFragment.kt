@@ -53,8 +53,8 @@ class PanicEventFragment : Fragment() {
     private lateinit var pref: AppPreference
     private lateinit var dialog: Dialog
 
-    private var lat: Double =-6.1554
-    private var lng: Double = 106.8927
+    private var lat: Double =-7.9826145
+    private var lng: Double = 112.6308113
     private var data: PanicReportData? = null
 
     @Inject

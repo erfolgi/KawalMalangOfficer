@@ -27,9 +27,7 @@ class RemoteDataSourceImpl(
 
     override suspend fun getProfile(token: String): Response<LoginData> = service.getProfile(token)
 
-    override suspend fun getStatistic(token: String): Response<BaseResponse<StatisticData>> {
-        return service.getStatistic(token)
-    }
+
 
     override suspend fun updateCar(
         token: String,
@@ -93,60 +91,12 @@ class RemoteDataSourceImpl(
     override suspend fun getMembers(token: String, search: String): Response<ArrayList<MemberData>> =
         service.getMembers(token, search)
 
-    override suspend fun getPatrolHistory(token: String): Response<ArrayList<PatrolData>> =
-        service.getPatrolHistory(token)
-
-    override suspend fun doPatrol(
-        token: String,
-        body: ArrayList<String>
-    ): Response<BaseResponse<PatrolData>> = service.doPatrol(token, body)
-
-    override suspend fun finishPatrol(token: String): Response<BaseResponse<PatrolData>> =
-        service.finishPatrol(token)
 
     override suspend fun recordCarPosition(
         token: String,
         body: Map<String, String>
     ): Response<BaseResponse<LocationHistoryData>> = service.recordCarPosition(token, body)
 
-    override suspend fun getBriefingCategory(token: String): Response<ArrayList<CategoryData>>  =
-        service.getBriefingCategory(token)
-
-    override suspend fun getBriefingList(
-        token: String,
-        lastId: String,
-        categoryId: String,
-        judul: String,
-        tanggal: String
-    ): Response<ArrayList<BriefingData>> =service.getBriefingList(token,lastId,categoryId,judul,tanggal)
-
-    override suspend fun getDetailBriefing(token: String, id: String): Response<BriefingData> {
-        return service.getDetailBriefing(token, id)
-    }
-
-    override suspend fun createBriefing(
-        token: String,
-        body: Map<String, RequestBody>,
-        file: MultipartBody.Part
-    ): Response<BaseResponse<BriefingData>> {
-        return service.createBriefing(token, body, file)
-    }
-
-    override suspend fun updateBriefing(
-        token: String,
-        id: String,
-        body: Map<String, RequestBody>,
-        file: MultipartBody.Part?
-    ): Response<BaseResponse<BriefingData>> {
-        return service.updateBriefing(token, id, body, file)
-    }
-
-    override suspend fun deleteBriefing(
-        token: String,
-        id: String
-    ): Response<BaseResponse<BriefingData>> {
-        return service.deleteBriefing(token, id)
-    }
 
     override suspend fun getNotification(
         token: String,

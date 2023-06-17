@@ -31,10 +31,7 @@ interface ApiService {
     @GET("user")
     suspend fun getProfile(@Header("Authorization") token: String): Response<LoginData>
 
-    @GET("statistik/mobil")
-    suspend fun getStatistic(
-        @Header("Authorization") token: String
-    ): Response<BaseResponse<StatisticData>>
+
 
     @POST("user/mobil")
     suspend fun updateCar(
@@ -69,7 +66,7 @@ interface ApiService {
     suspend fun getPanicCategory(
         @Header("Authorization") token: String): Response<ArrayList<CategoryData>>
 
-    @GET("panic/mobil")
+    @GET("panic/petugas")
     suspend fun getPanicReport(
         @Header("Authorization") token: String,
         @Query("kategori_id") categoryId: String?,
@@ -91,7 +88,7 @@ interface ApiService {
         @Path("id") id: String,
     ): Response<PanicReportData>
 
-    @GET("mobil/tangani")
+    @GET("panic/ditangani")
     suspend fun getActivatedPanic(
         @Header("Authorization") token: String,
         @Query("latitude") latitude: Double,
@@ -121,17 +118,6 @@ interface ApiService {
     suspend fun getPatrolHistory(@Header("Authorization") token: String):
             Response<ArrayList<PatrolData>>
 
-    @POST("patroli/mulai")
-    @FormUrlEncoded
-    suspend fun doPatrol(
-        @Header("Authorization") token: String,
-        @Field("anggota_id[]") body: ArrayList<String>
-    ): Response<BaseResponse<PatrolData>>
-
-    @POST("patroli/selesai")
-    suspend fun finishPatrol(
-        @Header("Authorization") token: String,
-    ): Response<BaseResponse<PatrolData>>
 
     @POST("riwayat-lokasi")
     suspend fun recordCarPosition(
@@ -140,49 +126,49 @@ interface ApiService {
     ): Response<BaseResponse<LocationHistoryData>>
 
     //================================BRIEFING==================================//
-    @GET("data/kategori-briefing")
-    suspend fun getBriefingCategory(
-        @Header("Authorization") token: String): Response<ArrayList<CategoryData>>
+//    @GET("data/kategori-briefing")
+//    suspend fun getBriefingCategory(
+//        @Header("Authorization") token: String): Response<ArrayList<CategoryData>>
 
-    @GET("briefing")
-    suspend fun getBriefingList(
-        @Header("Authorization") token: String,
-        @Query("last_id") lastId: String?,
-        @Query("kategori_id") categoryId: String?,
-        @Query("judul") judul: String = "",
-        @Query("tanggal") tanggal: String = ""
-    ): Response<ArrayList<BriefingData>>
+//    @GET("briefing")
+//    suspend fun getBriefingList(
+//        @Header("Authorization") token: String,
+//        @Query("last_id") lastId: String?,
+//        @Query("kategori_id") categoryId: String?,
+//        @Query("judul") judul: String = "",
+//        @Query("tanggal") tanggal: String = ""
+//    ): Response<ArrayList<BriefingData>>
 
-    @GET("briefing/{id}")
-    suspend fun getDetailBriefing(
-        @Header("Authorization") token: String,
-        @Path("id") id: String,
-    ): Response<BriefingData>
+//    @GET("briefing/{id}")
+//    suspend fun getDetailBriefing(
+//        @Header("Authorization") token: String,
+//        @Path("id") id: String,
+//    ): Response<BriefingData>
 
-    @POST("briefing")
-    @Multipart
-    suspend fun createBriefing(
-        @Header("Authorization") token: String,
-        @PartMap body: Map<String, @JvmSuppressWildcards RequestBody>,
-        @Part file: MultipartBody.Part
-    ): Response<BaseResponse<BriefingData>>
+//    @POST("briefing")
+//    @Multipart
+//    suspend fun createBriefing(
+//        @Header("Authorization") token: String,
+//        @PartMap body: Map<String, @JvmSuppressWildcards RequestBody>,
+//        @Part file: MultipartBody.Part
+//    ): Response<BaseResponse<BriefingData>>
 
-    @POST("briefing/{id}")
-    @Multipart
-    suspend fun updateBriefing(
-        @Header("Authorization") token: String,
-        @Path("id") id: String,
-        @PartMap body: Map<String, @JvmSuppressWildcards RequestBody>,
-        @Part file: MultipartBody.Part?,
-        @Query("_method") method: String? = "put"
-    ): Response<BaseResponse<BriefingData>>
+//    @POST("briefing/{id}")
+//    @Multipart
+//    suspend fun updateBriefing(
+//        @Header("Authorization") token: String,
+//        @Path("id") id: String,
+//        @PartMap body: Map<String, @JvmSuppressWildcards RequestBody>,
+//        @Part file: MultipartBody.Part?,
+//        @Query("_method") method: String? = "put"
+//    ): Response<BaseResponse<BriefingData>>
 
-    @POST("briefing/{id}")
-    suspend fun deleteBriefing(
-        @Header("Authorization") token: String,
-        @Path("id") id: String,
-        @Query("_method") method: String = "delete"
-    ): Response<BaseResponse<BriefingData>>
+//    @POST("briefing/{id}")
+//    suspend fun deleteBriefing(
+//        @Header("Authorization") token: String,
+//        @Path("id") id: String,
+//        @Query("_method") method: String = "delete"
+//    ): Response<BaseResponse<BriefingData>>
 
     //============================NOTIFICATION==================================//
     @GET("user/notif")

@@ -21,7 +21,6 @@ interface AppRepository {
     suspend fun logout(token: String): Resource<BaseResponse<LoginData>>
     //============================ACCOUNT================================//
     suspend fun getProfile(token: String): Resource<LoginData>
-    suspend fun getStatistic(token: String): Resource<BaseResponse<StatisticData>>
     suspend fun updateCar(token: String, body: Map<String, String>): Resource<BaseResponse<LoginData>>
     suspend fun updateMember(token: String, body: Map<String, String>): Resource<BaseResponse<LoginData>>
     suspend fun updatePassword(token: String, body: Map<String, String>): Resource<BaseResponse<LoginData>>
@@ -44,18 +43,9 @@ interface AppRepository {
             Resource<BaseResponse<PanicReportData>>
     //==============================PATROL================================//
     suspend fun getMembers(token: String, search: String = ""): Resource<ArrayList<MemberData>>
-    suspend fun getPatrolHistory(token: String): Resource<ArrayList<PatrolData>>
-    suspend fun doPatrol(token: String, body: ArrayList<String>): Resource<BaseResponse<PatrolData>>
-    suspend fun finishPatrol(token: String): Resource<BaseResponse<PatrolData>>
-    suspend fun recordCarLocation(token: String, body: Map<String, String>): Resource<BaseResponse<LocationHistoryData>>
 
-    //==============================BRIEFING================================//
-    suspend fun getBriefingCategory(token: String): Resource<ArrayList<CategoryData>>
-    suspend fun getBriefingList(token: String,lastId:String,categoryId:String,judul:String,tanggal:String): Resource<ArrayList<BriefingData>>
-    suspend fun getDetailBriefing(token: String, id: String): Resource<BriefingData>
-    suspend fun createBriefing(token: String, body: Map<String, RequestBody>, file: MultipartBody.Part): Resource<BaseResponse<BriefingData>>
-    suspend fun updateBriefing(token: String, id: String, body: Map<String, RequestBody>, file: MultipartBody.Part?): Resource<BaseResponse<BriefingData>>
-    suspend fun deleteBriefing(token: String, id: String): Resource<BaseResponse<BriefingData>>
+
+    suspend fun recordCarLocation(token: String, body: Map<String, String>): Resource<BaseResponse<LocationHistoryData>>
 
     //===========================NOTIFICATION===============================//
     suspend fun getNotification(token: String, lastId: String): Resource<ArrayList<NotificationData>>

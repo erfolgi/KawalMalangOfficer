@@ -23,7 +23,7 @@ interface RemoteDataSource {
 
     //=========================ACCOUNT==========================//
     suspend fun getProfile(token: String): Response<LoginData>
-    suspend fun getStatistic(token: String): Response<BaseResponse<StatisticData>>
+
     suspend fun updateCar(token: String, body: Map<String, String>): Response<BaseResponse<LoginData>>
     suspend fun updatePassword(token: String, body: Map<String, String>): Response<BaseResponse<LoginData>>
     suspend fun updateMember(token: String, body: Map<String, String>): Response<BaseResponse<LoginData>>
@@ -47,21 +47,9 @@ interface RemoteDataSource {
 
     //===========================PATROL==========================//
     suspend fun getMembers(token: String, search: String = ""): Response<ArrayList<MemberData>>
-    suspend fun getPatrolHistory(token: String): Response<ArrayList<PatrolData>>
-    suspend fun doPatrol(token: String, body: ArrayList<String>): Response<BaseResponse<PatrolData>>
-    suspend fun finishPatrol(token: String): Response<BaseResponse<PatrolData>>
+
     suspend fun recordCarPosition(token: String, body: Map<String, String>):
             Response<BaseResponse<LocationHistoryData>>
-
-    //==============================BRIEFING================================//
-    suspend fun getBriefingCategory(token: String): Response<ArrayList<CategoryData>>
-    suspend fun getBriefingList(token: String,lastId:String,categoryId:String,judul:String,tanggal:String): Response<ArrayList<BriefingData>>
-    suspend fun getDetailBriefing(token: String, id: String): Response<BriefingData>
-    suspend fun createBriefing(token: String, body: Map<String, RequestBody>, file: MultipartBody.Part):
-            Response<BaseResponse<BriefingData>>
-    suspend fun updateBriefing(token: String, id: String, body: Map<String, RequestBody>, file: MultipartBody.Part?):
-            Response<BaseResponse<BriefingData>>
-    suspend fun deleteBriefing(token: String, id: String): Response<BaseResponse<BriefingData>>
 
     //===============================NOTIFICATION============================//
     suspend fun getNotification(token: String, lastId: String): Response<ArrayList<NotificationData>>

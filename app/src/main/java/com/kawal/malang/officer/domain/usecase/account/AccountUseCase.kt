@@ -9,8 +9,6 @@ import okhttp3.MultipartBody
 
 class AccountUseCase(private val repository: AppRepository) {
     suspend fun execGetProfile(token: String): Resource<LoginData> = repository.getProfile(token)
-    suspend fun execGetStatistic(token: String): Resource<BaseResponse<StatisticData>> =
-        repository.getStatistic(token)
     suspend fun execUpdateCar(token: String, body: Map<String, String>): Resource<BaseResponse<LoginData>> =
         repository.updateCar(token, body)
     suspend fun execUpdateMember(token: String, body: Map<String, String>): Resource<BaseResponse<LoginData>> =

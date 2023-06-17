@@ -10,12 +10,7 @@ import com.kawal.malang.officer.domain.repository.AppRepository
 class PatrolUseCase(private val repository: AppRepository) {
     suspend fun execGetMembers(token: String, search: String = ""): Resource<ArrayList<MemberData>> =
         repository.getMembers(token, search)
-    suspend fun execDoPatrol(token: String, body: ArrayList<String>): Resource<BaseResponse<PatrolData>> =
-        repository.doPatrol(token, body)
-    suspend fun execFinishPatrol(token: String): Resource<BaseResponse<PatrolData>> =
-        repository.finishPatrol(token)
-    suspend fun execGetPatrolHistory(token: String): Resource<ArrayList<PatrolData>> =
-        repository.getPatrolHistory(token)
+
     suspend fun execRecordPosition(token: String, body: Map<String, String>): Resource<BaseResponse<LocationHistoryData>> =
         repository.recordCarLocation(token, body)
 }

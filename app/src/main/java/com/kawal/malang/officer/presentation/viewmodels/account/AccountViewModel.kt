@@ -40,17 +40,6 @@ class AccountViewModel(
         }
     }
 
-    fun getStatistic() = viewModelScope.launch(Dispatchers.IO) {
-        try {
-            if (AppUtil.isNetworkAvailable(app.applicationContext)) {
-                val result = useCase.execGetStatistic(pref.getAuth())
-                statistic.postValue(result)
-            } else statistic.postValue(Resource.NetworkError("Turn on your connection"))
-        } catch (e: Exception) {
-            e.printStackTrace()
-            statistic.postValue(Resource.Error("An error occurred"))
-        }
-    }
 
     fun updateCar(body: Map<String, String>) = viewModelScope.launch(Dispatchers.IO) {
         update.postValue(Resource.Loading())

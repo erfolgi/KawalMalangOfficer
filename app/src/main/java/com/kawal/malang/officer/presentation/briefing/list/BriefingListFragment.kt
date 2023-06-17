@@ -73,12 +73,12 @@ class BriefingListFragment : Fragment() {
         paging = PaginationListener()
         initRecyclerView()
         initFilterDialog()
-        refresh()
+
         binding.etSearch.setEndIconOnClickListener { bsd.show() }
         binding.etSearch.editText?.setOnEditorActionListener { textView, id, _ ->
             if (id == EditorInfo.IME_ACTION_DONE) {
                 title = "${textView.text}"
-                filterBriefingList()
+
                 return@setOnEditorActionListener true
             }
             return@setOnEditorActionListener false
@@ -93,8 +93,6 @@ class BriefingListFragment : Fragment() {
 
     override fun onResume() {
         super.onResume()
-        getCategories()
-        getBriefingList()
     }
 
     private fun initRecyclerView() {
@@ -102,7 +100,7 @@ class BriefingListFragment : Fragment() {
             rvReportList.adapter = adapter
             rvReportList.layoutManager = LinearLayoutManager(requireActivity())
             paging.lManager = rvReportList.layoutManager as LinearLayoutManager
-            paging.load = { paginate() }
+
             rvReportList.addOnScrollListener(paging)
         }
     }
@@ -130,153 +128,10 @@ class BriefingListFragment : Fragment() {
             btnApply.setOnClickListener {
                 if (tvCategory.text != "Pilih kategori laporan"
                     || tvDate.text != "Tanggal") {
-                    filterBriefingList()
+
                     bsd.dismiss()
                 } else Toast.makeText(root.context, "Pilih kategori atau rentang tanggal",
                     Toast.LENGTH_SHORT).show()
-            }
-        }
-    }
-
-    private fun getBriefingList() {
-        viewModel.getBriefingList()
-        viewModel.briefingData.observe(viewLifecycleOwner) { res ->
-            when(res) {
-                is Resource.Loading -> showLoading()
-                is Resource.Error -> {
-                    hideLoading()
-                    res.message?.let { AppUtil.snackBar((requireActivity()), it) }
-                }
-                is Resource.NetworkError -> {
-                    hideLoading()
-                    res.message?.let {
-                        AppUtil.snackBarAction((requireActivity()), it, "Try Again") {
-                            getBriefingList()
-                        }
-                    }
-                }
-                is Resource.Success -> {
-                    hideLoading()
-                    res.data?.let { loadReportContent(it) }
-                }
-            }
-        }
-    }
-
-    private fun getCategories() {
-        viewModel.getBriefingCategory()
-        viewModel.categories.observe(viewLifecycleOwner) { res ->
-            when(res) {
-                is Resource.Error -> {
-                    hideLoading()
-                    res.message?.let { AppUtil.snackBar((requireActivity()), it) }
-                }
-                is Resource.NetworkError -> {
-                    hideLoading()
-                    res.message?.let {
-                        AppUtil.snackBarAction((requireActivity()), it, "Try Again") {
-                            getCategories()
-                        }
-                    }
-                }
-                is Resource.Success -> {
-                    hideLoading()
-                    res.data?.let {
-                        categories = it
-                        loadCategories(it)
-                    }
-                }
-                else -> {}
-            }
-        }
-    }
-
-    private fun filterBriefingList() {
-        viewModel.filterBriefingList("", categoryId, "", title)
-        viewModel.briefingData.observe(viewLifecycleOwner) { res ->
-            when(res) {
-                is Resource.Loading -> showLoading()
-                is Resource.Error -> {
-                    hideLoading()
-                    res.message?.let { AppUtil.snackBar((requireActivity()), it) }
-                }
-                is Resource.NetworkError -> {
-                    hideLoading()
-                    res.message?.let {
-                        AppUtil.snackBarAction((requireActivity()), it, "Try Again") {
-                            filterBriefingList()
-                        }
-                    }
-                }
-                is Resource.Success -> {
-                    hideLoading()
-                    res.data?.let { loadReportContent(it) }
-                }
-            }
-        }
-    }
-
-    private fun refresh() {
-        binding.apply {
-            swipeRefresh.setOnRefreshListener {
-                viewModel.refreshBriefingList()
-                viewModel.briefingData.observe(viewLifecycleOwner) { res ->
-                    when(res) {
-                        is Resource.Loading -> showLoading()
-                        is Resource.Error -> {
-                            hideLoading()
-                            res.message?.let { AppUtil.snackBar((requireActivity()), it) }
-                        }
-                        is Resource.NetworkError -> {
-                            hideLoading()
-                            res.message?.let {
-                                AppUtil.snackBarAction((requireActivity()), it,
-                                    "Try Again") { getBriefingList() }
-                            }
-                        }
-                        is Resource.Success -> {
-                            hideLoading()
-                            categoryId = ""
-                            title = ""
-                            isFiltered = false
-                            res.data?.let { loadReportContent(it) }
-                        }
-                    }
-                }
-                swipeRefresh.isRefreshing = false
-            }
-        }
-    }
-
-    private fun paginate() {
-        viewModel.paginateBriefingList(
-            "${adapter.differ.currentList.last().id}",
-            categoryId,
-            title
-        )
-        viewModel.paginate.observe(viewLifecycleOwner) { res ->
-            when (res) {
-                is Resource.Loading -> showLoading()
-                is Resource.Error -> {
-                    hideLoading()
-                    res.message?.let { AppUtil.snackBar((requireActivity()), it) }
-                }
-                is Resource.NetworkError -> {
-                    hideLoading()
-                    res.message?.let {
-                        AppUtil.snackBarAction((requireActivity()), it,
-                            "Try Again") { paginate() }
-                    }
-                }
-                is Resource.Success -> {
-                    hideLoading()
-                    res.data?.let {
-                        if (it.isNotEmpty()) {
-                            paging.limit+it.size
-                            adapter.differ.submitList(it)
-                        }
-                    }
-                }
             }
         }
     }
