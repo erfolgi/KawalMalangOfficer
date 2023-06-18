@@ -13,7 +13,7 @@ import com.kawal.malang.officer.core.service.prototype.LocationService.Companion
 import com.kawal.malang.officer.core.util.AppPreference
 import com.kawal.malang.officer.databinding.ActivityDashboardBinding
 import com.kawal.malang.officer.databinding.ActivityOfficerBinding
-//import com.microsoft.appcenter.distribute.Distribute
+import com.microsoft.appcenter.distribute.Distribute
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -57,7 +57,7 @@ class DashboardActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
-        // Distribute.checkForUpdate()
+        Distribute.checkForUpdate()
         window.statusBarColor = ContextCompat.getColor(
             this, android.R.color.transparent)
     }

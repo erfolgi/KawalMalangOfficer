@@ -7,6 +7,7 @@ import android.view.View;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.SavedStateHandle;
 import androidx.lifecycle.ViewModel;
+import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import com.kawal.malang.officer.data.api.ApiService;
 import com.kawal.malang.officer.data.repository.datasource.RemoteDataSource;
 import com.kawal.malang.officer.domain.repository.AppRepository;
@@ -614,28 +615,28 @@ public final class DaggerOfficerApplication_HiltComponents_SingletonC extends Of
     }
 
     @Override
-    public void injectProfileFragment(ProfileFragment arg0) {
-      injectProfileFragment2(arg0);
+    public void injectProfileFragment(ProfileFragment profileFragment) {
+      injectProfileFragment2(profileFragment);
     }
 
     @Override
-    public void injectBriefingListFragment(BriefingListFragment arg0) {
-      injectBriefingListFragment2(arg0);
+    public void injectBriefingListFragment(BriefingListFragment briefingListFragment) {
+      injectBriefingListFragment2(briefingListFragment);
     }
 
     @Override
-    public void injectNotificationFragment(NotificationFragment arg0) {
-      injectNotificationFragment2(arg0);
+    public void injectNotificationFragment(NotificationFragment notificationFragment) {
+      injectNotificationFragment2(notificationFragment);
     }
 
     @Override
-    public void injectPanicEventFragment(PanicEventFragment arg0) {
-      injectPanicEventFragment2(arg0);
+    public void injectPanicEventFragment(PanicEventFragment panicEventFragment) {
+      injectPanicEventFragment2(panicEventFragment);
     }
 
     @Override
-    public void injectReportListFragment(ReportListFragment arg0) {
-      injectReportListFragment2(arg0);
+    public void injectReportListFragment(ReportListFragment reportListFragment) {
+      injectReportListFragment2(reportListFragment);
     }
 
     @Override
@@ -648,6 +649,7 @@ public final class DaggerOfficerApplication_HiltComponents_SingletonC extends Of
       return new ViewWithFragmentCBuilder(singletonC, activityRetainedCImpl, activityCImpl, fragmentCImpl);
     }
 
+    @CanIgnoreReturnValue
     private ProfileFragment injectProfileFragment2(ProfileFragment instance) {
       ProfileFragment_MembersInjector.injectViewModelFactory(instance, singletonC.provideAuthFactoryProvider.get());
       ProfileFragment_MembersInjector.injectAccountFactory(instance, singletonC.provideAccountFactoryProvider.get());
@@ -656,6 +658,7 @@ public final class DaggerOfficerApplication_HiltComponents_SingletonC extends Of
       return instance;
     }
 
+    @CanIgnoreReturnValue
     private BriefingListFragment injectBriefingListFragment2(BriefingListFragment instance) {
       BriefingListFragment_MembersInjector.injectAdapter(instance, singletonC.provideBriefingListAdapterProvider.get());
       BriefingListFragment_MembersInjector.injectReportCategoryAdapter(instance, singletonC.provideReportCategoryAdapterProvider.get());
@@ -663,18 +666,21 @@ public final class DaggerOfficerApplication_HiltComponents_SingletonC extends Of
       return instance;
     }
 
+    @CanIgnoreReturnValue
     private NotificationFragment injectNotificationFragment2(NotificationFragment instance) {
       NotificationFragment_MembersInjector.injectAdapter(instance, singletonC.provideNotificationAdapterProvider.get());
       NotificationFragment_MembersInjector.injectFactory(instance, singletonC.provideNotificationFactoryProvider.get());
       return instance;
     }
 
+    @CanIgnoreReturnValue
     private PanicEventFragment injectPanicEventFragment2(PanicEventFragment instance) {
       PanicEventFragment_MembersInjector.injectAdapter(instance, singletonC.providePanicOfficerAdapterProvider.get());
       PanicEventFragment_MembersInjector.injectFactory(instance, singletonC.providePanicFactoryProvider.get());
       return instance;
     }
 
+    @CanIgnoreReturnValue
     private ReportListFragment injectReportListFragment2(ReportListFragment instance) {
       ReportListFragment_MembersInjector.injectAdapter(instance, singletonC.provideReportListAdapterProvider.get());
       ReportListFragment_MembersInjector.injectViewModelFactory(instance, singletonC.providePanicFactoryProvider.get());
@@ -717,22 +723,22 @@ public final class DaggerOfficerApplication_HiltComponents_SingletonC extends Of
     }
 
     @Override
-    public void injectDashboardActivity(DashboardActivity arg0) {
+    public void injectDashboardActivity(DashboardActivity dashboardActivity) {
     }
 
     @Override
-    public void injectEditCarActivity(EditCarActivity arg0) {
-      injectEditCarActivity2(arg0);
+    public void injectEditCarActivity(EditCarActivity editCarActivity) {
+      injectEditCarActivity2(editCarActivity);
     }
 
     @Override
-    public void injectEditMemberActivity(EditMemberActivity arg0) {
-      injectEditMemberActivity2(arg0);
+    public void injectEditMemberActivity(EditMemberActivity editMemberActivity) {
+      injectEditMemberActivity2(editMemberActivity);
     }
 
     @Override
-    public void injectEditPasswordActivity(EditPasswordActivity arg0) {
-      injectEditPasswordActivity2(arg0);
+    public void injectEditPasswordActivity(EditPasswordActivity editPasswordActivity) {
+      injectEditPasswordActivity2(editPasswordActivity);
     }
 
     @Override
@@ -741,28 +747,28 @@ public final class DaggerOfficerApplication_HiltComponents_SingletonC extends Of
     }
 
     @Override
-    public void injectCreateBriefingActivity(CreateBriefingActivity arg0) {
-      injectCreateBriefingActivity2(arg0);
+    public void injectCreateBriefingActivity(CreateBriefingActivity createBriefingActivity) {
+      injectCreateBriefingActivity2(createBriefingActivity);
     }
 
     @Override
-    public void injectDetailBriefingActivity(DetailBriefingActivity arg0) {
-      injectDetailBriefingActivity2(arg0);
+    public void injectDetailBriefingActivity(DetailBriefingActivity detailBriefingActivity) {
+      injectDetailBriefingActivity2(detailBriefingActivity);
     }
 
     @Override
-    public void injectPatrolHistoryActivity(PatrolHistoryActivity arg0) {
-      injectPatrolHistoryActivity2(arg0);
+    public void injectPatrolHistoryActivity(PatrolHistoryActivity patrolHistoryActivity) {
+      injectPatrolHistoryActivity2(patrolHistoryActivity);
     }
 
     @Override
-    public void injectDetailReportActivity(DetailReportActivity arg0) {
-      injectDetailReportActivity2(arg0);
+    public void injectDetailReportActivity(DetailReportActivity detailReportActivity) {
+      injectDetailReportActivity2(detailReportActivity);
     }
 
     @Override
-    public void injectPanicHistoryActivity(PanicHistoryActivity arg0) {
-      injectPanicHistoryActivity2(arg0);
+    public void injectPanicHistoryActivity(PanicHistoryActivity panicHistoryActivity) {
+      injectPanicHistoryActivity2(panicHistoryActivity);
     }
 
     @Override
@@ -790,37 +796,44 @@ public final class DaggerOfficerApplication_HiltComponents_SingletonC extends Of
       return new ViewCBuilder(singletonC, activityRetainedCImpl, activityCImpl);
     }
 
+    @CanIgnoreReturnValue
     private EditCarActivity injectEditCarActivity2(EditCarActivity instance) {
       EditCarActivity_MembersInjector.injectFactory(instance, singletonC.provideAccountFactoryProvider.get());
       return instance;
     }
 
+    @CanIgnoreReturnValue
     private EditMemberActivity injectEditMemberActivity2(EditMemberActivity instance) {
       EditMemberActivity_MembersInjector.injectFactory(instance, singletonC.provideAccountFactoryProvider.get());
       return instance;
     }
 
+    @CanIgnoreReturnValue
     private EditPasswordActivity injectEditPasswordActivity2(EditPasswordActivity instance) {
       EditPasswordActivity_MembersInjector.injectFactory(instance, singletonC.provideAccountFactoryProvider.get());
       return instance;
     }
 
+    @CanIgnoreReturnValue
     private LoginActivity injectLoginActivity2(LoginActivity instance) {
       LoginActivity_MembersInjector.injectViewModelFactory(instance, singletonC.provideAuthFactoryProvider.get());
       return instance;
     }
 
+    @CanIgnoreReturnValue
     private CreateBriefingActivity injectCreateBriefingActivity2(CreateBriefingActivity instance) {
       CreateBriefingActivity_MembersInjector.injectFactory(instance, singletonC.provideBriefingFactoryProvider.get());
       CreateBriefingActivity_MembersInjector.injectReportCategoryAdapter(instance, singletonC.provideReportCategoryAdapterProvider.get());
       return instance;
     }
 
+    @CanIgnoreReturnValue
     private DetailBriefingActivity injectDetailBriefingActivity2(DetailBriefingActivity instance) {
       DetailBriefingActivity_MembersInjector.injectFactory(instance, singletonC.provideBriefingFactoryProvider.get());
       return instance;
     }
 
+    @CanIgnoreReturnValue
     private PatrolHistoryActivity injectPatrolHistoryActivity2(PatrolHistoryActivity instance) {
       PatrolHistoryActivity_MembersInjector.injectFactory(instance, singletonC.providePatrolFactoryProvider.get());
       PatrolHistoryActivity_MembersInjector.injectPatrolAdapter(instance, singletonC.providePatrolHistoryAdapterProvider.get());
@@ -828,6 +841,7 @@ public final class DaggerOfficerApplication_HiltComponents_SingletonC extends Of
       return instance;
     }
 
+    @CanIgnoreReturnValue
     private DetailReportActivity injectDetailReportActivity2(DetailReportActivity instance) {
       DetailReportActivity_MembersInjector.injectPoliceCarAdapter(instance, singletonC.providePoliceCarAdapterProvider.get());
       DetailReportActivity_MembersInjector.injectDetailOfficerAdapter(instance, singletonC.provideDetailOfficerAdapterProvider.get());
@@ -836,6 +850,7 @@ public final class DaggerOfficerApplication_HiltComponents_SingletonC extends Of
       return instance;
     }
 
+    @CanIgnoreReturnValue
     private PanicHistoryActivity injectPanicHistoryActivity2(PanicHistoryActivity instance) {
       PanicHistoryActivity_MembersInjector.injectAdapter(instance, singletonC.provideReportListAdapterProvider.get());
       PanicHistoryActivity_MembersInjector.injectReportCategoryAdapter(instance, singletonC.provideReportCategoryAdapterProvider.get());

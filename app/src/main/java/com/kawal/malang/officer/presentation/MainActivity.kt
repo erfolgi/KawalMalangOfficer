@@ -6,10 +6,10 @@ import androidx.appcompat.app.AppCompatActivity
 import com.kawal.malang.officer.core.util.AppPreference
 import com.kawal.malang.officer.presentation.auth.login.LoginActivity
 import com.google.firebase.analytics.FirebaseAnalytics
-//import com.microsoft.appcenter.AppCenter
-//import com.microsoft.appcenter.analytics.Analytics
-//import com.microsoft.appcenter.crashes.Crashes
-//import com.microsoft.appcenter.distribute.Distribute
+import com.microsoft.appcenter.AppCenter
+import com.microsoft.appcenter.analytics.Analytics
+import com.microsoft.appcenter.crashes.Crashes
+import com.microsoft.appcenter.distribute.Distribute
 
 class MainActivity : AppCompatActivity() {
     lateinit var appPreference: AppPreference
@@ -18,10 +18,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this)
         appPreference = AppPreference(this)
-//        AppCenter.start(
-//            application, "eb048eee-6152-48ed-b0d5-8556f06e0d40",
-//            Analytics::class.java, Crashes::class.java, Distribute::class.java
-//        )
+        AppCenter.start(
+            application, "853dedba-2f8f-447b-8e2c-e230a799670c",
+            Analytics::class.java, Crashes::class.java, Distribute::class.java
+        )
 
         if (appPreference.getAuth() == "") {
             val mainIntent = Intent(this, LoginActivity::class.java)
