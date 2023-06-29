@@ -1,11 +1,15 @@
 [
     {
-        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/stripped.dir/layout/officer_selector_item.xml",
-        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/officer_selector_item.xml"
-    },
-    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/stripped.dir/layout/notification_item.xml",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/notification_item.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/stripped.dir/layout/activity_detail_giat.xml",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/activity_detail_giat.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/stripped.dir/layout/officer_selector_item.xml",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/officer_selector_item.xml"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/stripped.dir/layout/timeline_item.xml",
@@ -16,12 +20,24 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/activity_officer.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/stripped.dir/layout/activity_agenda.xml",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/activity_agenda.xml"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/stripped.dir/layout/activity_panic_history.xml",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/activity_panic_history.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/stripped.dir/layout/item_giat_sm.xml",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/item_giat_sm.xml"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/stripped.dir/layout/status_item.xml",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/status_item.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/stripped.dir/layout/item_bantuan_sm.xml",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/item_bantuan_sm.xml"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/stripped.dir/layout/panic_timeline_bsd.xml",
@@ -32,12 +48,12 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/patrol_car_item.xml"
     },
     {
-        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/stripped.dir/layout/activity_edit_password.xml",
-        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/activity_edit_password.xml"
-    },
-    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/stripped.dir/layout/dialog_layout.xml",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/dialog_layout.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/stripped.dir/layout/activity_edit_password.xml",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/activity_edit_password.xml"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/stripped.dir/layout/popup_detail_briefing.xml",
@@ -68,12 +84,20 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/briefing_filter.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/stripped.dir/layout/item_agenda.xml",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/item_agenda.xml"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/stripped.dir/layout/patrol_officer_item.xml",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/patrol_officer_item.xml"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/stripped.dir/layout/activity_dashboard.xml",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/stripped.dir/layout/activity_detail_agenda.xml",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/activity_detail_agenda.xml"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/stripped.dir/layout/activity_edit_member.xml",
@@ -104,12 +128,16 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/fragment_notification.xml"
     },
     {
-        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/stripped.dir/layout/bs_confirm.xml",
-        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/bs_confirm.xml"
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/stripped.dir/layout/fragment_menus.xml",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/fragment_menus.xml"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/stripped.dir/layout/activity_create_briefing.xml",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/activity_create_briefing.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/stripped.dir/layout/bs_confirm.xml",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/bs_confirm.xml"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/stripped.dir/layout/toolbar_detail.xml",
@@ -156,6 +184,14 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/panic_filter.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/stripped.dir/layout/activity_lokasi.xml",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/activity_lokasi.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/stripped.dir/layout/item_giat.xml",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/item_giat.xml"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/stripped.dir/layout/fragment_briefing_list.xml",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/fragment_briefing_list.xml"
     },
@@ -176,6 +212,10 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/category_item.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/stripped.dir/layout/activity_giat.xml",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/activity_giat.xml"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/stripped.dir/layout/fragment_report_list.xml",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/fragment_report_list.xml"
     },
@@ -186,6 +226,10 @@
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/stripped.dir/layout/fragment_panic_event.xml",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/fragment_panic_event.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/stripped.dir/layout/item_agenda_sm.xml",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/item_agenda_sm.xml"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/stripped.dir/layout/empty_report_filtered_state.xml",

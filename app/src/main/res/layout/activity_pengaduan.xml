@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_grey">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/rounded_home"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space"
+            android:layout_marginHorizontal="@dimen/space"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/tbBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_back"
+                android:background="@drawable/button_invis"
+                android:layout_marginEnd="@dimen/space"
+                app:tint="@color/white" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                style="@style/Heading1"
+                android:layout_weight="1"
+                android:text="Pengaduan"
+
+                android:textColor="@color/white"
+                />
+
+            <!--        <ImageButton-->
+            <!--            android:id="@+id/btNotif"-->
+            <!--            android:layout_width="30dp"-->
+            <!--            android:layout_height="30dp"-->
+            <!--            android:src="@drawable/ic_notification"-->
+            <!--            android:background="@drawable/button_invis"-->
+            <!--            android:layout_gravity="center_vertical"-->
+            <!--            app:tint="@color/white"-->
+            <!--            />-->
+
+            <!--        <ImageButton-->
+            <!--            android:id="@+id/btCreate"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:layout_marginStart="@dimen/space"-->
+            <!--            android:src="@drawable/ic_add"-->
+            <!--            android:background="@drawable/button_invis"-->
+            <!--            android:layout_gravity="center_vertical"-->
+            <!--            app:tint="@color/white"-->
+            <!--            />-->
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="16dp"
+            android:paddingEnd="10dp"
+            android:paddingVertical="12dp"
+            android:background="@drawable/state_fieldbox"
+            >
+            <SearchView
+                android:id="@+id/svSurat"
+                android:layout_width="0dp"
+
+                android:layout_height="match_parent"
+                android:iconifiedByDefault="false"
+                android:layout_marginEnd="@dimen/space_8"
+                app:iconifiedByDefault="false"
+                app:queryHint="Cari pengaduan"
+                style="@style/BodytextSearch"
+                android:queryBackground="@android:color/transparent"
+                app:queryBackground="@android:color/transparent"
+                android:queryHint="Cari pengaduan"
+                android:background="@color/transparent"
+
+                android:layout_weight="1"/>
+            <CheckBox
+                android:id="@+id/cbProject"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/state_filter"
+                android:button="@null"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swSurat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvPengaduan"
+                    android:elevation="-4dp"
+                    android:background="@color/light_grey"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    app:textColor="@color/white"
+
+                    android:paddingTop="@dimen/space_8"
+                    android:clipToPadding="false"
+                    android:visibility="gone"
+                    />
+
+
+                <LinearLayout
+                    android:id="@+id/llEmpty"
+                    android:background="@color/light_grey"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="42dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/ic_menu_pengaduan"
+                        />
+                    <TextView
+                        android:layout_marginTop="@dimen/space"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Heading5"
+                        android:textColor="@color/grey"
+                        android:textAlignment="center"
+                        android:text="Tidak ada data"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fbAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_add"
+            android:tint="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_margin="@dimen/space"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</LinearLayout>

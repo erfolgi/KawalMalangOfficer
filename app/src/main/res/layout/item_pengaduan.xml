@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="@drawable/rounded_bg"
+    android:backgroundTint="@color/white"
+    android:padding="@dimen/space"
+
+    android:id="@+id/ll"
+    android:elevation="@dimen/space_4"
+    android:layout_marginHorizontal="@dimen/space"
+    android:layout_marginVertical="@dimen/space_8"
+    android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/txDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="2dp"
+                    android:drawablePadding="@dimen/space_4"
+                    style="@style/Caption"
+                    android:textColor="@color/grey3"
+                    android:text="Selasa, 12 Juni 2022 10:25"
+                    />
+                <TextView
+                    android:id="@+id/txTitle"
+                    android:layout_marginTop="@dimen/space_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Subtitle_1"
+                    android:text="Bencana Alam"
+                    />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/txStatus"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Action_3"
+                android:background="@drawable/rounded_bg"
+                android:text="Baru"
+                android:paddingVertical="6dp"
+                android:paddingHorizontal="@dimen/space_12"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/txKategori"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Action_3"
+                android:background="@drawable/rounded_bg"
+                android:text="Baru"
+                android:textColor="@color/primary_base"
+                android:backgroundTint="@color/primary_90"
+                android:paddingVertical="6dp"
+                android:paddingHorizontal="@dimen/space_12"
+                />
+            <Space
+                android:layout_width="@dimen/space_8"
+                android:layout_height="0dp"/>
+            <TextView
+                android:id="@+id/txSubkategori"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Action_3"
+                android:background="@drawable/rounded_bg"
+                android:text="Baru"
+                android:textColor="@color/primary_base"
+                android:backgroundTint="@color/primary_90"
+                android:paddingVertical="6dp"
+                android:paddingHorizontal="@dimen/space_12"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

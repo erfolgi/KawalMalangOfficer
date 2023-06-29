@@ -4,7 +4,7 @@
             "outputFile": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/merged.dir/values-v27/values-v27.xml",
             "map": [
                 {
-                    "source": "/Users/erfolgi/.gradle/caches/transforms-3/ac0fe45691c66d40a07a0f1507668770/transformed/jetified-core-splashscreen-1.0.0-beta01/res/values-v27/values-v27.xml",
+                    "source": "/Users/erfolgi/.gradle/caches/transforms-3/7ba0f23e3d59c37e06502caa660dd476/transformed/jetified-core-splashscreen-1.0.0-beta01/res/values-v27/values-v27.xml",
                     "from": {
                         "startLines": "2,3,4,7",
                         "startColumns": "4,4,4,4",

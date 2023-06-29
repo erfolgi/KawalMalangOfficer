@@ -9,11 +9,9 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.cardview.widget.CardView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.google.android.material.button.MaterialButton;
-import com.google.android.material.switchmaterial.SwitchMaterial;
 import com.kawal.malang.officer.R;
 import de.hdodenhof.circleimageview.CircleImageView;
 import java.lang.NullPointerException;
@@ -23,9 +21,6 @@ import java.lang.String;
 public final class FragmentProfileBinding implements ViewBinding {
   @NonNull
   private final LinearLayout rootView;
-
-  @NonNull
-  public final LinearLayout btnActivatePatrol;
 
   @NonNull
   public final ImageView btnEditPhoto;
@@ -40,13 +35,7 @@ public final class FragmentProfileBinding implements ViewBinding {
   public final LinearLayout btnPasswordEdit;
 
   @NonNull
-  public final LinearLayout btnPatrolHistory;
-
-  @NonNull
   public final LinearLayout btnProfileEdit;
-
-  @NonNull
-  public final CardView cvStatistic;
 
   @NonNull
   public final CircleImageView ivProfile;
@@ -58,50 +47,27 @@ public final class FragmentProfileBinding implements ViewBinding {
   public final LinearLayout patrolSection;
 
   @NonNull
-  public final SwitchMaterial switchPatrol;
-
-  @NonNull
   public final TextView tvCarNumber;
-
-  @NonNull
-  public final TextView tvDistanceTotal;
-
-  @NonNull
-  public final TextView tvHandledPanic;
-
-  @NonNull
-  public final TextView tvTodayDistance;
 
   @NonNull
   public final TextView tvUsername;
 
-  private FragmentProfileBinding(@NonNull LinearLayout rootView,
-      @NonNull LinearLayout btnActivatePatrol, @NonNull ImageView btnEditPhoto,
+  private FragmentProfileBinding(@NonNull LinearLayout rootView, @NonNull ImageView btnEditPhoto,
       @NonNull MaterialButton btnLogout, @NonNull LinearLayout btnPanicHistory,
-      @NonNull LinearLayout btnPasswordEdit, @NonNull LinearLayout btnPatrolHistory,
-      @NonNull LinearLayout btnProfileEdit, @NonNull CardView cvStatistic,
+      @NonNull LinearLayout btnPasswordEdit, @NonNull LinearLayout btnProfileEdit,
       @NonNull CircleImageView ivProfile, @NonNull LinearLayout panicHistory,
-      @NonNull LinearLayout patrolSection, @NonNull SwitchMaterial switchPatrol,
-      @NonNull TextView tvCarNumber, @NonNull TextView tvDistanceTotal,
-      @NonNull TextView tvHandledPanic, @NonNull TextView tvTodayDistance,
+      @NonNull LinearLayout patrolSection, @NonNull TextView tvCarNumber,
       @NonNull TextView tvUsername) {
     this.rootView = rootView;
-    this.btnActivatePatrol = btnActivatePatrol;
     this.btnEditPhoto = btnEditPhoto;
     this.btnLogout = btnLogout;
     this.btnPanicHistory = btnPanicHistory;
     this.btnPasswordEdit = btnPasswordEdit;
-    this.btnPatrolHistory = btnPatrolHistory;
     this.btnProfileEdit = btnProfileEdit;
-    this.cvStatistic = cvStatistic;
     this.ivProfile = ivProfile;
     this.panicHistory = panicHistory;
     this.patrolSection = patrolSection;
-    this.switchPatrol = switchPatrol;
     this.tvCarNumber = tvCarNumber;
-    this.tvDistanceTotal = tvDistanceTotal;
-    this.tvHandledPanic = tvHandledPanic;
-    this.tvTodayDistance = tvTodayDistance;
     this.tvUsername = tvUsername;
   }
 
@@ -132,12 +98,6 @@ public final class FragmentProfileBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btn_activate_patrol;
-      LinearLayout btnActivatePatrol = ViewBindings.findChildViewById(rootView, id);
-      if (btnActivatePatrol == null) {
-        break missingId;
-      }
-
       id = R.id.btn_edit_photo;
       ImageView btnEditPhoto = ViewBindings.findChildViewById(rootView, id);
       if (btnEditPhoto == null) {
@@ -162,21 +122,9 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.btn_patrol_history;
-      LinearLayout btnPatrolHistory = ViewBindings.findChildViewById(rootView, id);
-      if (btnPatrolHistory == null) {
-        break missingId;
-      }
-
       id = R.id.btn_profile_edit;
       LinearLayout btnProfileEdit = ViewBindings.findChildViewById(rootView, id);
       if (btnProfileEdit == null) {
-        break missingId;
-      }
-
-      id = R.id.cv_statistic;
-      CardView cvStatistic = ViewBindings.findChildViewById(rootView, id);
-      if (cvStatistic == null) {
         break missingId;
       }
 
@@ -198,33 +146,9 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.switch_patrol;
-      SwitchMaterial switchPatrol = ViewBindings.findChildViewById(rootView, id);
-      if (switchPatrol == null) {
-        break missingId;
-      }
-
       id = R.id.tv_car_number;
       TextView tvCarNumber = ViewBindings.findChildViewById(rootView, id);
       if (tvCarNumber == null) {
-        break missingId;
-      }
-
-      id = R.id.tv_distance_total;
-      TextView tvDistanceTotal = ViewBindings.findChildViewById(rootView, id);
-      if (tvDistanceTotal == null) {
-        break missingId;
-      }
-
-      id = R.id.tv_handled_panic;
-      TextView tvHandledPanic = ViewBindings.findChildViewById(rootView, id);
-      if (tvHandledPanic == null) {
-        break missingId;
-      }
-
-      id = R.id.tv_today_distance;
-      TextView tvTodayDistance = ViewBindings.findChildViewById(rootView, id);
-      if (tvTodayDistance == null) {
         break missingId;
       }
 
@@ -234,10 +158,9 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentProfileBinding((LinearLayout) rootView, btnActivatePatrol, btnEditPhoto,
-          btnLogout, btnPanicHistory, btnPasswordEdit, btnPatrolHistory, btnProfileEdit,
-          cvStatistic, ivProfile, panicHistory, patrolSection, switchPatrol, tvCarNumber,
-          tvDistanceTotal, tvHandledPanic, tvTodayDistance, tvUsername);
+      return new FragmentProfileBinding((LinearLayout) rootView, btnEditPhoto, btnLogout,
+          btnPanicHistory, btnPasswordEdit, btnProfileEdit, ivProfile, panicHistory, patrolSection,
+          tvCarNumber, tvUsername);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

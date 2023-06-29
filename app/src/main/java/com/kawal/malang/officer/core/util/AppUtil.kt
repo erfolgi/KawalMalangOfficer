@@ -15,6 +15,7 @@ import android.os.Looper
 import android.provider.Settings
 import android.view.View
 import android.view.Window
+import android.widget.TextView
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
@@ -24,6 +25,7 @@ import com.google.android.gms.location.LocationRequest
 import com.google.android.gms.location.LocationResult
 import com.google.android.gms.location.LocationServices
 import com.google.android.material.snackbar.Snackbar
+import com.kawal.malang.officer.core.util.Util.capitalizeWords
 import org.json.JSONException
 import org.json.JSONObject
 import java.io.IOException
@@ -32,6 +34,43 @@ import java.text.SimpleDateFormat
 import java.util.*
 
 object AppUtil {
+
+    var STATUS_BARU ="baru"
+    var STATUS_DITANGANI ="ditangani"
+    var STATUS_SELESAI ="selesai"
+    var STATUS_DITOLAK ="ditolak"
+    var STATUS = arrayListOf<String>(STATUS_BARU,STATUS_DITANGANI,STATUS_SELESAI,STATUS_DITOLAK)
+
+    fun TextView.setStatus(context: Context, status:String?) = run {
+        when(status?.lowercase()){
+            STATUS_BARU->{
+                this.background.setTint(ContextCompat.getColor(context, R.color.secondary_blue_surface))
+                this.setTextColor(ContextCompat.getColor(context, R.color.secondary_blue_main))
+            }
+//            STATUS_PROSES->{
+//                background.setTint(ContextCompat.getColor(context, R.color.secondary_orange_surface))
+//                setTextColor(ContextCompat.getColor(context, R.color.secondary_orange_main))
+//            }
+            STATUS_DITANGANI->{
+                this.background.setTint(ContextCompat.getColor(context, R.color.secondary_orange_surface))
+                this.setTextColor(ContextCompat.getColor(context, R.color.secondary_orange_main))
+            }
+            STATUS_SELESAI->{
+                this.background.setTint(ContextCompat.getColor(context, R.color.secondary_green_surface))
+                this.setTextColor(ContextCompat.getColor(context, R.color.secondary_green_main))
+            }
+            STATUS_DITOLAK->{
+                this.background.setTint(ContextCompat.getColor(context, R.color.primary_surface))
+                this.setTextColor(ContextCompat.getColor(context, R.color.primary_main))
+            }
+
+            else-> {
+                this.background.setTint(ContextCompat.getColor(context, R.color.grey4))
+            }
+        }
+        this.text=status?.capitalizeWords()
+    }
+
     fun isNetworkAvailable(context: Context?): Boolean {
         if (context == null) return false
         val connectivityManager =

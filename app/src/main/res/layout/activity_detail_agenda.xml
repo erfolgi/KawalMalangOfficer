@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <include android:id="@+id/toolbar" layout="@layout/toolbar_detail"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardFoto"
+                android:layout_width="match_parent"
+                app:cardCornerRadius="@dimen/corner_radius"
+                android:layout_marginBottom="12dp"
+                app:cardElevation="0dp"
+                android:layout_marginHorizontal="@dimen/space"
+                android:layout_height="247dp">
+                <ImageView
+                    android:id="@+id/imFoto"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_camera"
+                    android:scaleType="centerCrop"
+                    />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:id="@+id/txTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Title_2"
+                android:layout_marginTop="6dp"
+                android:text="Bencana Alam"
+                android:gravity="center_vertical"
+                android:drawablePadding="@dimen/space_8"
+                android:layout_marginHorizontal="@dimen/space"
+                />
+            <TextView
+                android:id="@+id/txTanggal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Body_2"
+                android:textColor="@color/dark_grey"
+                android:layout_marginTop="6dp"
+                android:text="Bencana Alam"
+                android:gravity="center_vertical"
+                android:drawablePadding="@dimen/space_8"
+                android:layout_marginHorizontal="@dimen/space"
+                />
+            <TextView
+                android:id="@+id/txKeterangan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Body_1"
+                android:textColor="@color/gray_text"
+                android:layout_marginTop="@dimen/space"
+                android:text="Bencana Alam"
+                android:gravity="center_vertical"
+                android:drawablePadding="@dimen/space_8"
+                android:layout_marginHorizontal="@dimen/space"
+                />
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</LinearLayout>

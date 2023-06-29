@@ -9,4 +9,7 @@
     <string name="is_patrol">is_patrol</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="stored_briefing">stored_briefing</string>
+    <string name="stat_giat">stat_giat</string>
+    <string name="stat_agenda">stat_agenda</string>
+    <string name="stat_pengaduan">stat_pengaduan</string>
 </resources>

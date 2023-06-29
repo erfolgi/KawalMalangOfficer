@@ -6,6 +6,11 @@
     app:startDestination="@id/panicEventFragment">
 
     <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.kawal.malang.officer.presentation.menus.MenusFragment"
+        android:label="fragment_panic_event"
+        tools:layout="@layout/fragment_panic_event" />
+    <fragment
         android:id="@+id/panicEventFragment"
         android:name="com.kawal.malang.officer.presentation.panicevent.PanicEventFragment"
         android:label="fragment_panic_event"

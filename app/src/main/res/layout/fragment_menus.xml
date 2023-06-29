@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="@dimen/space"
+        android:paddingVertical="@dimen/space"
+        android:orientation="horizontal"
+        android:background="@drawable/rounded_home"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/btProfile"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:src="@drawable/ic_profile_photo"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Halo, "
+            style="@style/Body_1"
+            android:textSize="20sp"
+            android:layout_marginStart="16sp"
+            android:textColor="@color/white"
+            android:drawablePadding="@dimen/space_8"/>
+
+
+        <TextView
+            android:id="@+id/tx_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            tools:text="Nama Kamu !"
+            android:maxLines="1"
+            android:ellipsize="end"
+            style="@style/Subtitle_1"
+            android:textColor="@color/white"
+            android:drawablePadding="@dimen/space_8"/>
+
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/sw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="@dimen/space"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/space"
+                    android:layout_marginVertical="@dimen/space_8"
+                    app:cardCornerRadius="@dimen/space_8">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="@dimen/space">
+
+
+                        <TextView
+                            style="@style/Subtitle_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Menu Presisi" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginVertical="@dimen/space_8" />
+
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rvPresisi"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:nestedScrollingEnabled="true"
+                            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                            android:orientation="horizontal"
+                            tools:listitem="@layout/item_bantuan_sm" />
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/space_8"/>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    app:cardCornerRadius="@dimen/space_8"
+                    android:layout_marginHorizontal="@dimen/space"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/space"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            style="@style/Subtitle_1"
+                            android:text="Menu Bantuan"
+                            />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginVertical="@dimen/space_8"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:id="@+id/btPengaduan"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/button_invis"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:padding="@dimen/space_8"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:src="@drawable/ic_menu_pengaduan"
+                                    />
+                                <Space
+                                    android:layout_width="0dp"
+                                    android:layout_height="8dp"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    style="@style/Body_2"
+                                    android:textAlignment="center"
+                                    android:text="Pengaduan"
+                                    />
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/bt_lokasi"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/button_invis"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:padding="@dimen/space_8"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:src="@drawable/ic_menu_location"
+                                    />
+                                <Space
+                                    android:layout_width="0dp"
+                                    android:layout_height="8dp"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    style="@style/Body_2"
+                                    android:textAlignment="center"
+                                    android:text="Lokasi Penting"
+                                    />
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/bt_call"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/button_invis"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:padding="@dimen/space_8"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:src="@drawable/ic_menu_call"
+                                    />
+                                <Space
+                                    android:layout_width="0dp"
+                                    android:layout_height="8dp"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    style="@style/Body_2"
+                                    android:textAlignment="center"
+                                    android:text="Call Center"
+                                    />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/bg_gray"
+                            android:layout_marginVertical="@dimen/space_8"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <Space
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                />
+                            <TextView
+                                android:id="@+id/txAllMenu"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                style="@style/Action_2"
+                                android:background="@drawable/button_invis"
+                                android:textColor="@color/primary_base"
+                                android:text="Semua Menu"
+                                app:drawableEndCompat="@drawable/ic_chevron_right" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:layout_marginTop="@dimen/space"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginHorizontal="@dimen/space"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Subtitle_1"
+                        android:text="Laporan Giat"
+                        />
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:id="@+id/bt_more_giat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Action_2"
+                        android:textColor="@color/primary_base"
+                        android:text="Lihat Semua"
+                        />
+
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_giat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="@dimen/space"
+                    android:orientation="horizontal"
+                    android:clipToPadding="false"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:listitem="@layout/item_agenda_sm"
+                    />
+
+
+                <LinearLayout
+                    android:layout_marginTop="@dimen/space"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginHorizontal="@dimen/space"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Subtitle_1"
+                        android:text="Agenda Kapolres"
+                        />
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:id="@+id/bt_more_agenda"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Action_2"
+                        android:textColor="@color/primary_base"
+                        android:text="Lihat Semua"
+                        />
+
+                </LinearLayout>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_agenda"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="@dimen/space"
+                    android:orientation="horizontal"
+                    android:clipToPadding="false"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:listitem="@layout/item_agenda_sm"
+                    />
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+</LinearLayout>

@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item
-        android:id="@+id/panicEventFragment"
-        android:icon="@drawable/panic_selector"
-        android:title="Lokasi Panik" />
 
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/state_home"
+        android:title="Beranda" />
     <item
         android:id="@+id/reportListFragment"
         android:icon="@drawable/report_selector"
         android:title="Laporan Panik"/>
+
+
+    <item
+        android:id="@+id/panicEventFragment"
+        android:icon="@drawable/panic_selector"
+        android:title="Lokasi Panik" />
 
     <item
         android:id="@+id/notificationFragment"

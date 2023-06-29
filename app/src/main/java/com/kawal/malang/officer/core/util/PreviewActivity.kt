@@ -65,21 +65,22 @@ class PreviewActivity : AppCompatActivity() {
             }
         }
 
-        binding.wvPreview.setWebViewClient(object : WebViewClient() {
-            override fun onReceivedError(
-                view: WebView,
-                errorCode: Int,
-                description: String,
-                failingUrl: String
-            ) {
-                Toast.makeText(binding.root.context, description, Toast.LENGTH_SHORT).show()
-            }
+        binding.wvPreview.webViewClient = object : WebViewClient() {
+//            @Deprecated("Deprecated in Java")
+//            override fun onReceivedError(
+//                view: WebView,
+//                errorCode: Int,
+//                description: String,
+//                failingUrl: String
+//            ) {
+//                Toast.makeText(binding.root.context, description, Toast.LENGTH_SHORT).show()
+//            }
 
-            override fun shouldOverrideUrlLoading(view: WebView, url: String): Boolean {
-                view.loadUrl(url)
-                return true
-            }
-        })
+//            override fun shouldOverrideUrlLoading(view: WebView, url: String): Boolean {
+//                view.loadUrl(url)
+//                return true
+//            }
+        }
         binding.wvPreview.loadUrl(url)
 
     }

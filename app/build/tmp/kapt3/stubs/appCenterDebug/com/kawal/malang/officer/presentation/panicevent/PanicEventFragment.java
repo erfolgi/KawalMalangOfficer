@@ -12,8 +12,8 @@ public final class PanicEventFragment extends androidx.fragment.app.Fragment {
     private com.kawal.malang.officer.presentation.viewmodels.panic.PanicViewModel viewModel;
     private com.kawal.malang.officer.core.util.AppPreference pref;
     private android.app.Dialog dialog;
-    private double lat = -6.1554;
-    private double lng = 106.8927;
+    private double lat = -7.9826145;
+    private double lng = 112.6308113;
     private com.kawal.malang.officer.data.model.panic.report.PanicReportData data;
     @javax.inject.Inject()
     public com.kawal.malang.officer.presentation.panicevent.PanicOfficerAdapter adapter;

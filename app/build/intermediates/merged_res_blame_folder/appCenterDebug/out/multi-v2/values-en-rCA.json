@@ -4,7 +4,7 @@
             "outputFile": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/incremental/mergeAppCenterDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
-                    "source": "/Users/erfolgi/.gradle/caches/transforms-3/6600f3a03d19deb2f18764b601bc97ed/transformed/appcompat-1.4.1/res/values-en-rCA/values-en-rCA.xml",
+                    "source": "/Users/erfolgi/.gradle/caches/transforms-3/fe7495dfd2dbc224fb8578aab6b614dd/transformed/appcompat-1.4.1/res/values-en-rCA/values-en-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/erfolgi/.gradle/caches/transforms-3/b168feaf87c36413f56f37026d8b83cf/transformed/core-1.7.0/res/values-en-rCA/values-en-rCA.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "34",
-                        "startColumns": "4",
-                        "startOffsets": "3208",
-                        "endColumns": "100",
-                        "endOffsets": "3304"
-                    }
-                },
-                {
-                    "source": "/Users/erfolgi/.gradle/caches/transforms-3/cc4c02853c91f7af6017d875dc32549e/transformed/preference-1.2.0/res/values-en-rCA/values-en-rCA.xml",
+                    "source": "/Users/erfolgi/.gradle/caches/transforms-3/4df01bbc6e343f8617cf05be4685c593/transformed/preference-1.2.0/res/values-en-rCA/values-en-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -52,6 +35,23 @@
                         "startOffsets": "2762,2830,2917,2991,3309,3478,3558",
                         "endColumns": "67,86,73,133,168,79,75",
                         "endOffsets": "2825,2912,2986,3120,3473,3553,3629"
+                    }
+                },
+                {
+                    "source": "/Users/erfolgi/.gradle/caches/transforms-3/44c0b87631eddc48ae10556733383959/transformed/core-1.7.0/res/values-en-rCA/values-en-rCA.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "34",
+                        "startColumns": "4",
+                        "startOffsets": "3208",
+                        "endColumns": "100",
+                        "endOffsets": "3304"
                     }
                 }
             ]

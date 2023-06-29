@@ -12,5 +12,6 @@
     <dimen name="space_4">4dp</dimen>
     <dimen name="corner_button">10dp</dimen>
     <dimen name="corner_5">5dp</dimen>
+    <dimen name="space_12">12dp</dimen>
 
 </resources>

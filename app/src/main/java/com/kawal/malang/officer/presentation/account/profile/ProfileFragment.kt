@@ -271,28 +271,30 @@ class ProfileFragment : Fragment() {
 
 
 //        if (pref.getPatrolStatus())
-        viewModel.doLogout()
-        viewModel.logoutData.observe(viewLifecycleOwner) { res ->
-            when (res) {
-                is Resource.Loading -> showLoading()
-                is Resource.Error -> {
-                    hideLoading()
-                    res.message?.let { AppUtil.snackBar((requireActivity()), it) }
-                }
-                is Resource.NetworkError -> {
-                    hideLoading()
-                    res.message?.let {
-                        AppUtil.snackBarAction((requireActivity()), it, "Try Again") {
-                            doLogout()
-                        }
-                    }
-                }
-                is Resource.Success -> {
-                    hideLoading()
-                    res.data?.message?.let { logoutSuccess(it) }
-                }
-            }
-        }
+//        viewModel.doLogout()
+        logoutSuccess("Logged Out")
+//        viewModel.logoutData.observe(viewLifecycleOwner) { res ->
+//            when (res) {
+//                is Resource.Loading -> showLoading()
+//                is Resource.Error -> {
+//                    hideLoading()
+//                    res.data?.message?.let { logoutSuccess(it) }
+//                    //res.message?.let { AppUtil.snackBar((requireActivity()), it) }
+//                }
+//                is Resource.NetworkError -> {
+//                    hideLoading()
+//                    res.message?.let {
+//                        AppUtil.snackBarAction((requireActivity()), it, "Try Again") {
+//                            doLogout()
+//                        }
+//                    }
+//                }
+//                is Resource.Success -> {
+//                    hideLoading()
+//                    res.data?.message?.let { logoutSuccess(it) }
+//                }
+//            }
+//        }
     }
 
     private fun loadContent(data: LoginData) {

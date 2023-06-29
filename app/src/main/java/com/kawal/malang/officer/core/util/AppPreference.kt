@@ -7,6 +7,9 @@ import com.kawal.malang.officer.R
 import com.kawal.malang.officer.data.model.auth.LoginData
 import com.kawal.malang.officer.data.model.briefing.BriefingData
 import com.google.gson.Gson
+import com.kawal.malang.citizen.model.response.pengaduan.agenda.AgendaItem
+import com.kawal.malang.officer.data.model.pengaduan.PengaduanItem
+import com.kawal.malang.officer.data.model.pengaduan.giat.GiatItem
 
 class AppPreference (val context: Context) {
     private var prefs: SharedPreferences = PreferenceManager.getDefaultSharedPreferences(context)
@@ -98,5 +101,51 @@ class AppPreference (val context: Context) {
         val keynama = context.resources.getString(R.string.stored_briefing)
         editornama.putString(keynama, null)
         editornama.apply()
+    }
+
+
+    fun setStoredAgenda(input: AgendaItem) {
+        val editornama = this.prefs.edit()
+        val keynama = context.resources.getString(R.string.stat_agenda)
+        val gson = Gson()
+        editornama.putString(keynama, gson.toJson(input))
+        editornama.apply()
+    }
+    fun getStoredAgenda(): AgendaItem {
+        val key = context.resources.getString(R.string.stat_agenda)
+        val gson = Gson()
+        val json : String = prefs.getString(key, gson.toJson(AgendaItem())).toString()
+        val data = gson.fromJson<AgendaItem>(json, AgendaItem ::class.java)
+        return data
+    }
+
+    fun setStoredGiat(input: GiatItem) {
+        val editornama = this.prefs.edit()
+        val keynama = context.resources.getString(R.string.stat_giat)
+        val gson = Gson()
+        editornama.putString(keynama, gson.toJson(input))
+        editornama.apply()
+    }
+    fun getStoredGiat(): GiatItem {
+        val key = context.resources.getString(R.string.stat_giat)
+        val gson = Gson()
+        val json : String = prefs.getString(key, gson.toJson(GiatItem())).toString()
+        val data = gson.fromJson<GiatItem>(json, GiatItem ::class.java)
+        return data
+    }
+
+    fun setStoredPengaduan(input: PengaduanItem) {
+        val editornama = this.prefs.edit()
+        val keynama = context.resources.getString(R.string.stat_pengaduan)
+        val gson = Gson()
+        editornama.putString(keynama, gson.toJson(input))
+        editornama.apply()
+    }
+    fun getStoredPengaduan(): PengaduanItem {
+        val key = context.resources.getString(R.string.stat_pengaduan)
+        val gson = Gson()
+        val json : String = prefs.getString(key, gson.toJson(PengaduanItem())).toString()
+        val data = gson.fromJson<PengaduanItem>(json,PengaduanItem ::class.java)
+        return data
     }
 }

@@ -70,7 +70,7 @@ class LocationService : Service() {
             .setContentTitle("Status Petugas")
             .setContentText("Petugas sedang menangani Panic")
             .setPriority(NotificationManager.IMPORTANCE_MIN)
-            .setSmallIcon(com.kawal.malang.officer.R.mipmap.ic_notification_grey)
+            .setSmallIcon(com.kawal.malang.officer.R.drawable.ic_notification_tray)
             .setCategory(Notification.CATEGORY_SERVICE)
             .build()
         startForeground(2, notification)

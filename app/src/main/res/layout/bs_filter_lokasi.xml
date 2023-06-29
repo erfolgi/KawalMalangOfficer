@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bottom_sheet_bg"
+    android:padding="@dimen/space"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Filter"
+            style="@style/Heading4"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textAlignment="center"
+            />
+
+        <ImageButton
+            android:id="@+id/btClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_close"
+            android:background="@drawable/button_invis"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+    <LinearLayout
+
+        android:layout_marginTop="@dimen/space"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Kategori"
+            style="@style/Heading5"
+            android:layout_weight="1"
+            />
+
+
+        <TextView
+            android:id="@+id/btDelKategori"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hapus"
+
+            style="@style/Action"
+            android:textColor="@color/dark_grey"
+            android:background="@drawable/button_invis"
+
+            />
+    </LinearLayout>
+    <com.skydoves.powerspinner.PowerSpinnerView
+        android:id="@+id/spKategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Textfield"
+        android:gravity="center_vertical"
+        android:hint="Pilih Kategori"
+        app:spinner_arrow_gravity="end"
+        app:spinner_arrow_padding="8dp"
+        app:spinner_divider_show="true"
+        app:spinner_divider_size="0.4dp"
+        app:spinner_popup_background="@color/light_grey"
+        app:spinner_arrow_tint="@color/primary_base"
+        app:spinner_popup_animation="dropdown"
+
+        app:spinner_popup_elevation="14dp" />
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="120dp"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btApply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/button_color"
+
+        app:cornerRadius="@dimen/corner_button"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:paddingVertical="18dp"
+        android:text="Terapkan"
+        android:textAllCaps="false"
+        android:letterSpacing="0"
+
+        />
+
+</LinearLayout>

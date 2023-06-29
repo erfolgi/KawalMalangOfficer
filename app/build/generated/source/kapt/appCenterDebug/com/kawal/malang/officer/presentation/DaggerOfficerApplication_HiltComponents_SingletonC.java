@@ -615,28 +615,28 @@ public final class DaggerOfficerApplication_HiltComponents_SingletonC extends Of
     }
 
     @Override
-    public void injectProfileFragment(ProfileFragment profileFragment) {
-      injectProfileFragment2(profileFragment);
+    public void injectProfileFragment(ProfileFragment arg0) {
+      injectProfileFragment2(arg0);
     }
 
     @Override
-    public void injectBriefingListFragment(BriefingListFragment briefingListFragment) {
-      injectBriefingListFragment2(briefingListFragment);
+    public void injectBriefingListFragment(BriefingListFragment arg0) {
+      injectBriefingListFragment2(arg0);
     }
 
     @Override
-    public void injectNotificationFragment(NotificationFragment notificationFragment) {
-      injectNotificationFragment2(notificationFragment);
+    public void injectNotificationFragment(NotificationFragment arg0) {
+      injectNotificationFragment2(arg0);
     }
 
     @Override
-    public void injectPanicEventFragment(PanicEventFragment panicEventFragment) {
-      injectPanicEventFragment2(panicEventFragment);
+    public void injectPanicEventFragment(PanicEventFragment arg0) {
+      injectPanicEventFragment2(arg0);
     }
 
     @Override
-    public void injectReportListFragment(ReportListFragment reportListFragment) {
-      injectReportListFragment2(reportListFragment);
+    public void injectReportListFragment(ReportListFragment arg0) {
+      injectReportListFragment2(arg0);
     }
 
     @Override
@@ -723,52 +723,52 @@ public final class DaggerOfficerApplication_HiltComponents_SingletonC extends Of
     }
 
     @Override
-    public void injectDashboardActivity(DashboardActivity dashboardActivity) {
+    public void injectDashboardActivity(DashboardActivity arg0) {
     }
 
     @Override
-    public void injectEditCarActivity(EditCarActivity editCarActivity) {
-      injectEditCarActivity2(editCarActivity);
+    public void injectEditCarActivity(EditCarActivity arg0) {
+      injectEditCarActivity2(arg0);
     }
 
     @Override
-    public void injectEditMemberActivity(EditMemberActivity editMemberActivity) {
-      injectEditMemberActivity2(editMemberActivity);
+    public void injectEditMemberActivity(EditMemberActivity arg0) {
+      injectEditMemberActivity2(arg0);
     }
 
     @Override
-    public void injectEditPasswordActivity(EditPasswordActivity editPasswordActivity) {
-      injectEditPasswordActivity2(editPasswordActivity);
+    public void injectEditPasswordActivity(EditPasswordActivity arg0) {
+      injectEditPasswordActivity2(arg0);
     }
 
     @Override
-    public void injectLoginActivity(LoginActivity loginActivity) {
-      injectLoginActivity2(loginActivity);
+    public void injectLoginActivity(LoginActivity arg0) {
+      injectLoginActivity2(arg0);
     }
 
     @Override
-    public void injectCreateBriefingActivity(CreateBriefingActivity createBriefingActivity) {
-      injectCreateBriefingActivity2(createBriefingActivity);
+    public void injectCreateBriefingActivity(CreateBriefingActivity arg0) {
+      injectCreateBriefingActivity2(arg0);
     }
 
     @Override
-    public void injectDetailBriefingActivity(DetailBriefingActivity detailBriefingActivity) {
-      injectDetailBriefingActivity2(detailBriefingActivity);
+    public void injectDetailBriefingActivity(DetailBriefingActivity arg0) {
+      injectDetailBriefingActivity2(arg0);
     }
 
     @Override
-    public void injectPatrolHistoryActivity(PatrolHistoryActivity patrolHistoryActivity) {
-      injectPatrolHistoryActivity2(patrolHistoryActivity);
+    public void injectPatrolHistoryActivity(PatrolHistoryActivity arg0) {
+      injectPatrolHistoryActivity2(arg0);
     }
 
     @Override
-    public void injectDetailReportActivity(DetailReportActivity detailReportActivity) {
-      injectDetailReportActivity2(detailReportActivity);
+    public void injectDetailReportActivity(DetailReportActivity arg0) {
+      injectDetailReportActivity2(arg0);
     }
 
     @Override
-    public void injectPanicHistoryActivity(PanicHistoryActivity panicHistoryActivity) {
-      injectPanicHistoryActivity2(panicHistoryActivity);
+    public void injectPanicHistoryActivity(PanicHistoryActivity arg0) {
+      injectPanicHistoryActivity2(arg0);
     }
 
     @Override

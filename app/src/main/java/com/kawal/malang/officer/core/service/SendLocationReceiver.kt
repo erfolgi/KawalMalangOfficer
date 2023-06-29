@@ -61,7 +61,7 @@ class SendLocationService: Service() {
         val pendingIntent = PendingIntent.getActivity(this@SendLocationService, 100,
             intent, PendingIntent.FLAG_CANCEL_CURRENT)
         val builder = NotificationCompat.Builder(this@SendLocationService, "CHANNEL_ID")
-            .setSmallIcon(R.mipmap.ic_notification_grey)
+            .setSmallIcon(R.drawable.ic_notification_tray)
             .setContentTitle("Status Patroli")
             .setContentText("Mobil sedang berpatroli")
             .setContentIntent(pendingIntent)
@@ -91,7 +91,7 @@ class SendLocationService: Service() {
         val pendingIntent = PendingIntent.getActivity(this@SendLocationService, 100,
             intent, PendingIntent.FLAG_CANCEL_CURRENT)
         val builder = NotificationCompat.Builder(this@SendLocationService, "CHANNEL_ID")
-            .setSmallIcon(R.mipmap.ic_notification_grey)
+            .setSmallIcon(R.drawable.ic_notification_tray)
             .setContentTitle("Status Patroli")
             .setContentText("Lat: ${data.latitude}, Lng: ${data.longitude}")
             .setContentIntent(pendingIntent)

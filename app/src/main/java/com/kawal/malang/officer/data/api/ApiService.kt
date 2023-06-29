@@ -1,18 +1,24 @@
 package com.kawal.malang.officer.data.api
 
+import com.kawal.malang.citizen.model.response.pengaduan.KategoriPengaduanItem
+import com.kawal.malang.officer.data.model.pengaduan.PengaduanItem
+import com.kawal.malang.citizen.model.response.pengaduan.agenda.AgendaItem
+import com.kawal.malang.citizen.model.response.pengaduan.lokasi.LokasiItem
 import com.kawal.malang.officer.data.model.BaseResponse
+import com.kawal.malang.officer.data.model.PostResponse
 import com.kawal.malang.officer.data.model.auth.LoginData
 import com.kawal.malang.officer.data.model.auth.MemberData
-import com.kawal.malang.officer.data.model.briefing.BriefingData
 import com.kawal.malang.officer.data.model.notification.NotificationData
 import com.kawal.malang.officer.data.model.panic.report.CategoryData
 import com.kawal.malang.officer.data.model.panic.report.PanicCarData
 import com.kawal.malang.officer.data.model.panic.report.PanicReportData
 import com.kawal.malang.officer.data.model.panic.report.PatrolData
 import com.kawal.malang.officer.data.model.patrol.history.LocationHistoryData
-import com.kawal.malang.officer.data.model.statistic.StatisticData
+import com.kawal.malang.officer.data.model.pengaduan.giat.GiatItem
+import com.kawal.malang.officer.data.model.pengaduan.giat.KomentarItem
 import okhttp3.MultipartBody
 import okhttp3.RequestBody
+import retrofit2.Call
 import retrofit2.Response
 import retrofit2.http.*
 
@@ -176,4 +182,8 @@ interface ApiService {
         @Header("Authorization") token: String,
         @Query("last_id") lastId: String
     ): Response<ArrayList<NotificationData>>
+
+
+
+
 }

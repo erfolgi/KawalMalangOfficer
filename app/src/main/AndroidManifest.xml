@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.kawal.malang.officer" >
+    package="com.kawal.malang.officer">
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -14,11 +14,35 @@
     <application
         android:name="com.kawal.malang.officer.presentation.OfficerApplication"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_logo_app_foreground"
+        android:icon="@mipmap/ic_logo_app"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_logo_app_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.PanicButtonPolresJakarta" >
+        android:theme="@style/Theme.PanicButtonPolresJakarta">
+        <activity
+            android:name=".presentation.pengaduan.detail.DetailPengaduanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.pengaduan.PengaduanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.bantuan.BantuanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.lokasi.LokasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.agenda.detail.DetailAgendaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.giat.detail.DetailGiatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.giat.GiatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.agenda.AgendaActivity"
+            android:exported="false" />
         <activity
             android:name="com.kawal.malang.officer.presentation.report.panicHistory.PanicHistoryActivity"
             android:exported="false" />
@@ -60,7 +84,7 @@
             android:exported="true"
             android:launchMode="singleInstance"
             android:noHistory="true"
-            android:theme="@style/AppTheme.Splash" >
+            android:theme="@style/AppTheme.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -70,7 +94,7 @@
 
         <service
             android:name="com.kawal.malang.officer.core.service.MyFirebaseMessagingService"
-            android:exported="false" >
+            android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
@@ -79,13 +103,12 @@
             android:name="com.kawal.malang.officer.core.service.SendLocationService"
             android:enabled="true"
             android:exported="true"
-            android:foregroundServiceType="dataSync|location"/>
-
+            android:foregroundServiceType="dataSync|location" />
         <service
             android:name="com.kawal.malang.officer.core.service.prototype.LocationService"
             android:enabled="true"
             android:exported="true"
-            android:foregroundServiceType="dataSync|location"/>
+            android:foregroundServiceType="dataSync|location" />
     </application>
 
 </manifest>

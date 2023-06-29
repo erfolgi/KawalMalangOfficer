@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_grey">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/rounded_home"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space"
+            android:layout_marginHorizontal="@dimen/space"
+            android:gravity="center_vertical"
+            android:layout_marginVertical="16dp"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/tbBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_back"
+                android:background="@drawable/button_invis"
+                android:layout_marginEnd="@dimen/space"
+                app:tint="@color/white" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                style="@style/Heading1"
+                android:layout_weight="1"
+                android:text="Agenda Kapolres"
+
+                android:textColor="@color/white"
+                />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swSurat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvLokasi"
+                android:elevation="-4dp"
+                android:background="@color/light_grey"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+
+                android:paddingTop="@dimen/space_8"
+                android:clipToPadding="false"
+                android:visibility="gone"
+                />
+
+
+            <LinearLayout
+                android:id="@+id/llEmpty"
+                android:background="@color/light_grey"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="42dp"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/ic_menu_pengaduan"
+                    />
+                <TextView
+                    android:layout_marginTop="@dimen/space"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Heading5"
+                    android:textColor="@color/grey"
+                    android:textAlignment="center"
+                    android:text="Tidak ada data"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+</LinearLayout>
