@@ -24,6 +24,7 @@
           <stringArguments>
             <stringArg name="classpath">
               <args>
+                <arg>$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/appCenterDebug/R.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/c40541e8c060641a68211424fb9fdde2/transformed/jetified-powerspinner-1.1.9-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/fa72f3ca8f8ef3100f131929142c37c2/transformed/jetified-viewbinding-7.0.4-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/f31682de73e34492e1e5fb89ca783b5f/transformed/jetified-preference-ktx-1.2.0-api.jar</arg>
@@ -137,7 +138,7 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/1a312b0c6389294b8d65bfb4348ae850/transformed/localbroadcastmanager-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/9f5fdbedfda74d23315c6624646d2dc5/transformed/print-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.5.0/857678d6b4ca7b28571ef7935c668bdb57e15027/annotation-1.5.0.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/833dc58df42df6ab4dc20318cb2c0e26/transformed/jetified-kotlin-stdlib-jdk7-1.6.21.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/c9e92017903df1ebdb1bdc2bc23a6bcb/transformed/jetified-kotlin-stdlib-jdk7-1.7.10.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/923f1a89b2e8f9367fb1461960d88e24/transformed/jetified-kotlin-android-extensions-runtime-1.6.10.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/c3d09f39c6c7f017f85598a29ef3c24a/transformed/jetified-kotlin-stdlib-1.7.10.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/dfb465d00e340b994b3f1fbb46dcb51e/transformed/jetified-kotlin-stdlib-common-1.7.10.jar</arg>
@@ -173,6 +174,7 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/d7669ae2754f8d2bd5b120a1115c2778/transformed/jetified-osmdroid-android-6.1.10-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/849b5328a4ead0b905cd10fbee5d04b5/transformed/jetified-filedownloadservice-1.2-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/9f2a6b8458beecd026a4e6c32eef178d/transformed/jetified-LottieAlertDialog-1.2-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/eef0424dca1df8f9c46dee0c207a1400/transformed/jetified-fishbun-1.1.1-api.jar</arg>
                 <arg>$USER_HOME$/Library/Android/sdk/platforms/android-33/android.jar</arg>
                 <arg>$USER_HOME$/Library/Android/sdk/build-tools/30.0.2/core-lambda-stubs.jar</arg>
               </args>
@@ -250,7 +252,7 @@
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.arch.core:core-common:2.1.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.concurrent:concurrent-futures:1.1.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.annotation:annotation:1.5.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.21" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.6.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.7.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.7.10" level="project" />
@@ -386,6 +388,7 @@
     <orderEntry type="library" scope="TEST" name="Gradle: org.osmdroid:osmdroid-android:6.1.10@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.github.naumanmir:filedownloadservice:1.2@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.github.mayuce:LottieAlertDialog:1.2@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.github.sangcomz:fishbun:1.1.1@aar" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="Kawal_Malang_Officer.app.main" />
 </module>

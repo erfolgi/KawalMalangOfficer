@@ -16,6 +16,10 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/rounded_5_bg.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_intelkam.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_intelkam.png"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/font_poppins_extrabolditalic.ttf.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/font/poppins_extrabolditalic.ttf"
     },
@@ -44,6 +48,10 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/panic_timeline_bsd.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_bank.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_bank.png"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_chevron_down.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_chevron_down.xml"
     },
@@ -66,6 +74,10 @@
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_item_bantuan_sm.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/item_bantuan_sm.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_app_logo_no_alpha.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_app_logo_no_alpha.png"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_polda_metro.png.flat",
@@ -92,12 +104,20 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/state_archive.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_simpati_makota.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_simpati_makota.png"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_disaster_2.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_disaster_2.xml"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/mipmap-xxhdpi_ic_logo_app.png.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/mipmap-xxhdpi/ic_logo_app.png"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_gift.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_gift.png"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/font_nunito_light.ttf.flat",
@@ -114,6 +134,10 @@
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_trash_sm.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_trash_sm.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_reserse.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_reserse.png"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_category_item.xml.flat",
@@ -144,6 +168,10 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/font/inter_regular.ttf"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_tempat_ibadah.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_tempat_ibadah.png"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_popup_detail_briefing.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/popup_detail_briefing.xml"
     },
@@ -160,12 +188,20 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_menu_pengaduan.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_university.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_university.png"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_timeline_item.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/timeline_item.xml"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_activity_detail_report.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/activity_detail_report.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_sabhara.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_sabhara.png"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_fragment_panic_event.xml.flat",
@@ -212,6 +248,10 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/font/nunito_bold.ttf"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_atm.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_atm.png"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_empty_notification.png.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/empty_notification.png"
     },
@@ -252,8 +292,16 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/state_notification.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_complaint.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_complaint.png"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_bottom_navbar_item.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/bottom_navbar_item.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_activity_detail_pengaduan.xml.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/activity_detail_pengaduan.xml"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_download.xml.flat",
@@ -266,6 +314,10 @@
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_border_lg.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/border_lg.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_camera_sm.xml.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_camera_sm.xml"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_eye_open.xml.flat",
@@ -292,8 +344,20 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_logo_app_background.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_activity_bantuan.xml.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/activity_bantuan.xml"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_component_file.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/component_file.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_apartment.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_apartment.png"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_activity_pengaduan.xml.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/activity_pengaduan.xml"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_state_password.xml.flat",
@@ -312,6 +376,14 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/font/nunito_extrabolditalic.ttf"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_cancel_button.xml.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_cancel_button.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_panic_report.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_panic_report.png"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_filter_1.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_filter_1.xml"
     },
@@ -328,8 +400,20 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/font/nunito_italic.ttf"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_logo_no_alpha.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_logo_no_alpha.png"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/menu_bottom_menu.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/menu/bottom_menu.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_component_photo.xml.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/component_photo.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_hotel.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_hotel.png"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_x_sm.xml.flat",
@@ -380,6 +464,14 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_logo_app_foreground.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_kesehatan.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_kesehatan.png"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_pop_comment.xml.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/pop_comment.xml"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_custom_tab_filter.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/custom_tab_filter.xml"
     },
@@ -396,8 +488,16 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/font/poppins_extrabold.ttf"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_hospital.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_hospital.png"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_fragment_profile.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_component_divider.xml.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/component_divider.xml"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_note.xml.flat",
@@ -420,8 +520,20 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/activity_giat.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_pungli.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_pungli.png"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_panic_filter.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/panic_filter.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_item_pengaduan.xml.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/item_pengaduan.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_pdam.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_pdam.png"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/font_poppins_semibolditalic.ttf.flat",
@@ -440,6 +552,14 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/patrol_history_item.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_empty.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_empty.png"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_modern_culinary.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_modern_culinary.png"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_konfirmasi.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_konfirmasi.xml"
     },
@@ -456,12 +576,20 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/toolbar_detail.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_kai.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_kai.png"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_loc.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_loc.xml"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_note_filled.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_note_filled.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_info_layanan.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_info_layanan.png"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_bottom_sheet_bg.xml.flat",
@@ -484,12 +612,20 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/empty_briefing.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_show.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_show.png"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_status_item.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/status_item.xml"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_fragment_notification.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/fragment_notification.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_satnarkoba.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_satnarkoba.png"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/font_inter_medium.ttf.flat",
@@ -532,6 +668,14 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_edit_sm.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_damkar.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_damkar.png"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_government.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_government.png"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_edit_password.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_edit_password.xml"
     },
@@ -540,20 +684,48 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/font/poppins_blackitalic.ttf"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_panic_list.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_panic_list.png"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_popup_comment.xml.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/popup_comment.xml"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/font_poppins_bold.ttf.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/font/poppins_bold.ttf"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_item_bantuan.xml.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/item_bantuan.xml"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_state_fieldbox.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/state_fieldbox.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_location.xml.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_location.xml"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_activity_patrol_history.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/activity_patrol_history.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_account.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_account.png"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_110.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_110.png"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_fragment_report_list.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/fragment_report_list.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_traditional_culinary.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_traditional_culinary.png"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/mipmap-anydpi-v26_ic_logo_app_round.xml.flat",
@@ -620,6 +792,14 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_filter.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_transportation.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_transportation.png"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_polri.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_polri.png"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_rounded_bg.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/rounded_bg.xml"
     },
@@ -628,8 +808,16 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/activity_officer.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_general_info.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_general_info.png"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_activity_dashboard.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_star.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_star.png"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/font_nunito_regular.ttf.flat",
@@ -656,8 +844,16 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_folder_active.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_sosial.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_sosial.png"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_rounded_grey_bg.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/rounded_grey_bg.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_activity_form_giat.xml.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/activity_form_giat.xml"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_launcher_background.xml.flat",
@@ -670,6 +866,14 @@
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_button_invis.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/button_invis.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_kost.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_kost.png"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_modern_shop.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_modern_shop.png"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/font_inter_extralight.ttf.flat",
@@ -698,6 +902,10 @@
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_eye_close.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_eye_close.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_item_comment.xml.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/item_comment.xml"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_border_selected.xml.flat",
@@ -736,6 +944,10 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/state_profile.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_delete.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_delete.png"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_state_home.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/state_home.xml"
     },
@@ -748,6 +960,10 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/activity_create_briefing.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_kominfo.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_kominfo.png"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_login_bg.png.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/login_bg.png"
     },
@@ -758,6 +974,10 @@
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_date.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_date.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_logo_new_no_alpha.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_logo_new_no_alpha.png"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/color_radio_textcolor.xml.flat",
@@ -780,6 +1000,10 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/activity_lokasi.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_hide.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_hide.png"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/font_nunito_semibold.ttf.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/font/nunito_semibold.ttf"
     },
@@ -794,6 +1018,10 @@
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_officer_selector_item.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/officer_selector_item.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_bs_filter_pengaduan.xml.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/bs_filter_pengaduan.xml"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_patrol_car_item.xml.flat",
@@ -840,6 +1068,10 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_pos.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_pln.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_pln.png"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_briefing_item.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/briefing_item.xml"
     },
@@ -852,20 +1084,56 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/activity_main.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_logo_new.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_logo_new.png"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_lalu_lintas.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_lalu_lintas.png"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_disaster.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_disaster.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_spkt.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_spkt.png"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_border_primary_line.xml.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/border_primary_line.xml"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_profile.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_profile.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_bmkg.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_bmkg.png"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_item_agenda.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/item_agenda.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_lingkungan_hidup.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_lingkungan_hidup.png"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/font_poppins_bolditalic.ttf.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/font/poppins_bolditalic.ttf"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_important_location.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_important_location.png"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_perhubungan.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_perhubungan.png"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_app_logo.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_app_logo.png"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/font_poppins_lightitalic.ttf.flat",
@@ -876,6 +1144,10 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/dialog_layout.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_telkom.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_telkom.png"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/font_nunito_semibolditalic.ttf.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/font/nunito_semibolditalic.ttf"
     },
@@ -884,8 +1156,16 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/empty_notification.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_wisata.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_wisata.png"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/font_nunito_black.ttf.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/font/nunito_black.ttf"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_comment_sm.xml.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_comment_sm.xml"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_activity_edit_member.xml.flat",
@@ -908,6 +1188,10 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/empty_report_state.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_bpdb.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_bpdb.png"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_history.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_history.xml"
     },
@@ -928,6 +1212,10 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/mipmap-anydpi-v26/ic_logo_app.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_tahti.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_tahti.png"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_home.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_home.xml"
     },
@@ -938,6 +1226,10 @@
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_report_item.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/report_item.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_logout.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_logout.png"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_person_sm.xml.flat",
@@ -956,12 +1248,20 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/dotted_border.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_spbu.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_spbu.png"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/font_poppins_mediumitalic.ttf.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/font/poppins_mediumitalic.ttf"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_edit_profil.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_edit_profil.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_makota_sigap.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_makota_sigap.png"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/xml_provider_paths.xml.flat",
@@ -976,12 +1276,24 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/font/nunito_lightitalic.ttf"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_bs_filter_lokasi.xml.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/bs_filter_lokasi.xml"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_toolbar_briefing.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/toolbar_briefing.xml"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_circle.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_circle.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_popup_giat.xml.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/popup_giat.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_item_lokasi.xml.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/layout/item_lokasi.xml"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/mipmap-mdpi_ic_logo_app.png.flat",
@@ -998,6 +1310,14 @@
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_discovery_filled.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_discovery_filled.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_logo.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_logo.png"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_binmas.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_binmas.png"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_insignia_polri.xml.flat",
@@ -1036,6 +1356,10 @@
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_dashboard_black_24dp.xml"
     },
     {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_health.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_health.png"
+    },
+    {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_archive.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_archive.xml"
     },
@@ -1046,6 +1370,10 @@
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_x.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_x.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_simatahati.jpeg.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_simatahati.jpeg"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/layout_fragment_briefing_list.xml.flat",
@@ -1086,6 +1414,10 @@
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_home_black_24dp.xml.flat",
         "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_ic_pu.png.flat",
+        "source": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/res/drawable/ic_pu.png"
     },
     {
         "merged": "/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/build/intermediates/merged_res/appCenterDebug/drawable_note_selector.xml.flat",

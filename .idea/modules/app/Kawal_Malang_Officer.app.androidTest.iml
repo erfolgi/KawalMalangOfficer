@@ -174,6 +174,7 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/b2cf1923e45a00489326b91c8a2a9a92/transformed/jetified-appcenter-analytics-4.4.5-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/d8fd3fe5c88f0a144d2ad82d29b96a0d/transformed/jetified-appcenter-crashes-4.4.5-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/9f2a6b8458beecd026a4e6c32eef178d/transformed/jetified-LottieAlertDialog-1.2-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/eef0424dca1df8f9c46dee0c207a1400/transformed/jetified-fishbun-1.1.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/18e689ac546d1a85fa212d56af2dec3d/transformed/jetified-appcenter-5.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/68659d9f78d54b005e9c892881d9c6a6/transformed/jetified-annotation-experimental-1.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/8c6180255fc1aa6d5429d28abe35d5f4/transformed/jetified-error_prone_annotations-2.9.0.jar</arg>
@@ -408,6 +409,7 @@
     <orderEntry type="library" scope="TEST" name="Gradle: com.microsoft.appcenter:appcenter-analytics:4.4.5@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.microsoft.appcenter:appcenter-crashes:4.4.5@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.github.mayuce:LottieAlertDialog:1.2@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.github.sangcomz:fishbun:1.1.1@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.microsoft.appcenter:appcenter:5.0.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.annotation:annotation-experimental:1.1.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.dagger:dagger-lint-aar:2.38.1@aar" level="project" />

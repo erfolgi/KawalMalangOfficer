@@ -73,7 +73,19 @@
         android:testOnly="true"
         android:theme="@style/Theme.PanicButtonPolresJakarta" >
         <activity
-            android:name="com.kawal.malang.officer.LokasiActivity"
+            android:name="com.kawal.malang.officer.presentation.giat.form.FormGiatActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.kawal.malang.officer.presentation.pengaduan.detail.DetailPengaduanActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.kawal.malang.officer.presentation.pengaduan.PengaduanActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.kawal.malang.officer.presentation.bantuan.BantuanActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.kawal.malang.officer.presentation.lokasi.LokasiActivity"
             android:exported="false" />
         <activity
             android:name="com.kawal.malang.officer.presentation.agenda.detail.DetailAgendaActivity"
@@ -252,6 +264,26 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/image_picker_provider_paths" />
         </provider>
+        <provider
+            android:name="com.sangcomz.fishbun.FishBunFileProvider"
+            android:authorities="com.kawal.malang.officer.fishbunfileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name="com.sangcomz.fishbun.ui.album.ui.AlbumActivity"
+            android:label="@string/album"
+            android:theme="@style/FishBunTheme" />
+        <activity
+            android:name="com.sangcomz.fishbun.ui.picker.PickerActivity"
+            android:theme="@style/FishBunTheme" />
+        <activity
+            android:name="com.sangcomz.fishbun.ui.detail.ui.DetailImageActivity"
+            android:theme="@style/DetailViewTheme" />
 
         <receiver
             android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"

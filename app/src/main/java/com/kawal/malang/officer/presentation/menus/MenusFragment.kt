@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.faltenreich.skeletonlayout.Skeleton
 import com.faltenreich.skeletonlayout.applySkeleton
 import com.kawal.malang.citizen.model.response.pengaduan.agenda.AgendaItem
+import com.kawal.malang.citizen.ui.bantuan.BantuanConst
 
 import com.kawal.malang.officer.R
 import com.kawal.malang.officer.core.util.AppPreference
@@ -127,7 +128,7 @@ class MenusFragment : Fragment(), MenusContract {
 
         val managerPres = LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL,false)
         binding.rvPresisi.layoutManager = managerPres
-      //  binding.rvPresisiresisi.adapter=PresisiSmAdapter(requireContext(), BantuanConst.presisiList)
+        binding.rvPresisi.adapter=PresisiSmAdapter(requireContext(), BantuanConst.presisiList)
 
         return root
     }

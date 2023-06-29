@@ -35,6 +35,24 @@ interface ApiCall {
         @Path(value = "id", encoded = true) id:Int
     ): Call<PostResponse<AgendaItem>>
 
+
+    @Multipart
+    @POST("giat")
+    fun postGiat(
+        @Header("authorization") authorization: String?,
+        @Part foto: MultipartBody.Part?,
+        @PartMap map: Map<String, @JvmSuppressWildcards RequestBody>
+    ): Call<PostResponse<GiatItem>>
+
+    @Multipart
+    @POST("giat/{id}?_method=PUT")
+    fun updateGiat(
+        @Header("authorization") authorization: String?,
+        @Path(value = "id", encoded = true) id:Int,
+        @Part foto: MultipartBody.Part?,
+        @PartMap map: Map<String, @JvmSuppressWildcards RequestBody>
+    ): Call<PostResponse<GiatItem>>
+
     @GET("giat")
     fun getGiat(
         @Header("authorization") authorization: String?,
@@ -124,5 +142,11 @@ interface ApiCall {
         @Part foto: MultipartBody.Part?,
         @PartMap map: Map<String, @JvmSuppressWildcards RequestBody>
     ): Call<PostResponse<PengaduanItem>>
+
+    @GET("giat/{id}?_method=DELETE")
+    fun deleteGiat(
+        @Header("authorization") authorization: String?,
+        @Path(value = "id", encoded = true) id:Int
+    ): Call<PostResponse<GiatItem>>
     //endregion Pengaduan
 }

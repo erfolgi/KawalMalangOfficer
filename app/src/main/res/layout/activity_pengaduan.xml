@@ -113,8 +113,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
 
-                    app:textColor="@color/white"
-
                     android:paddingTop="@dimen/space_8"
                     android:clipToPadding="false"
                     android:visibility="gone"

@@ -119,7 +119,7 @@
 61-->[org.osmdroid:osmdroid-android:6.1.10] /Users/erfolgi/.gradle/caches/transforms-3/5baa156d752bbd8defa81cd07fdf560b/transformed/jetified-osmdroid-android-6.1.10/AndroidManifest.xml:27:9-33
 62
 63    <application
-63-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:14:5-103:19
+63-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:14:5-115:19
 64        android:name="com.kawal.malang.officer.presentation.OfficerApplication"
 64-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:15:9-80
 65        android:allowBackup="true"
@@ -141,573 +141,635 @@
 74-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:21:9-62
 75        <activity
 75-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:22:9-24:40
-76            android:name="com.kawal.malang.officer.LokasiActivity"
-76-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:23:13-43
+76            android:name="com.kawal.malang.officer.presentation.giat.form.FormGiatActivity"
+76-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:23:13-68
 77            android:exported="false" />
 77-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:24:13-37
 78        <activity
 78-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:25:9-27:40
-79            android:name="com.kawal.malang.officer.presentation.agenda.detail.DetailAgendaActivity"
-79-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:26:13-76
+79            android:name="com.kawal.malang.officer.presentation.pengaduan.detail.DetailPengaduanActivity"
+79-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:26:13-82
 80            android:exported="false" />
 80-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:27:13-37
 81        <activity
 81-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:28:9-30:40
-82            android:name="com.kawal.malang.officer.presentation.giat.detail.DetailGiatActivity"
-82-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:29:13-72
+82            android:name="com.kawal.malang.officer.presentation.pengaduan.PengaduanActivity"
+82-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:29:13-69
 83            android:exported="false" />
 83-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:30:13-37
 84        <activity
 84-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:31:9-33:40
-85            android:name="com.kawal.malang.officer.presentation.giat.GiatActivity"
-85-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:32:13-59
+85            android:name="com.kawal.malang.officer.presentation.bantuan.BantuanActivity"
+85-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:32:13-65
 86            android:exported="false" />
 86-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:33:13-37
 87        <activity
 87-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:34:9-36:40
-88            android:name="com.kawal.malang.officer.presentation.agenda.AgendaActivity"
+88            android:name="com.kawal.malang.officer.presentation.lokasi.LokasiActivity"
 88-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:35:13-63
 89            android:exported="false" />
 89-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:36:13-37
 90        <activity
 90-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:37:9-39:40
-91            android:name="com.kawal.malang.officer.presentation.report.panicHistory.PanicHistoryActivity"
-91-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:38:13-106
+91            android:name="com.kawal.malang.officer.presentation.agenda.detail.DetailAgendaActivity"
+91-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:38:13-76
 92            android:exported="false" />
 92-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:39:13-37
 93        <activity
 93-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:40:9-42:40
-94            android:name="com.kawal.malang.officer.presentation.briefing.create.CreateBriefingActivity"
-94-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:41:13-104
+94            android:name="com.kawal.malang.officer.presentation.giat.detail.DetailGiatActivity"
+94-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:41:13-72
 95            android:exported="false" />
 95-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:42:13-37
 96        <activity
 96-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:43:9-45:40
-97            android:name="com.kawal.malang.officer.presentation.account.edit.editMember.EditMemberActivity"
-97-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:44:13-108
+97            android:name="com.kawal.malang.officer.presentation.giat.GiatActivity"
+97-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:44:13-59
 98            android:exported="false" />
 98-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:45:13-37
 99        <activity
 99-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:46:9-48:40
-100            android:name="com.kawal.malang.officer.presentation.account.edit.password.EditPasswordActivity"
-100-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:47:13-108
+100            android:name="com.kawal.malang.officer.presentation.agenda.AgendaActivity"
+100-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:47:13-63
 101            android:exported="false" />
 101-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:48:13-37
 102        <activity
 102-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:49:9-51:40
-103            android:name="com.kawal.malang.officer.presentation.account.edit.editCar.EditCarActivity"
-103-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:50:13-102
+103            android:name="com.kawal.malang.officer.presentation.report.panicHistory.PanicHistoryActivity"
+103-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:50:13-106
 104            android:exported="false" />
 104-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:51:13-37
 105        <activity
 105-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:52:9-54:40
-106            android:name="com.kawal.malang.officer.presentation.patrol.history.PatrolHistoryActivity"
-106-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:53:13-102
+106            android:name="com.kawal.malang.officer.presentation.briefing.create.CreateBriefingActivity"
+106-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:53:13-104
 107            android:exported="false" />
 107-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:54:13-37
 108        <activity
 108-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:55:9-57:40
-109            android:name="com.kawal.malang.officer.presentation.report.detail.DetailReportActivity"
-109-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:56:13-100
+109            android:name="com.kawal.malang.officer.presentation.account.edit.editMember.EditMemberActivity"
+109-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:56:13-108
 110            android:exported="false" />
 110-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:57:13-37
 111        <activity
 111-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:58:9-60:40
-112            android:name="com.kawal.malang.officer.presentation.DashboardActivity"
-112-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:59:13-83
+112            android:name="com.kawal.malang.officer.presentation.account.edit.password.EditPasswordActivity"
+112-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:59:13-108
 113            android:exported="false" />
 113-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:60:13-37
 114        <activity
 114-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:61:9-63:40
-115            android:name="com.kawal.malang.officer.presentation.briefing.detail.DetailBriefingActivity"
-115-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:62:13-104
+115            android:name="com.kawal.malang.officer.presentation.account.edit.editCar.EditCarActivity"
+115-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:62:13-102
 116            android:exported="false" />
 116-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:63:13-37
 117        <activity
 117-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:64:9-66:40
-118            android:name="com.kawal.malang.officer.presentation.auth.login.LoginActivity"
-118-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:65:13-90
+118            android:name="com.kawal.malang.officer.presentation.patrol.history.PatrolHistoryActivity"
+118-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:65:13-102
 119            android:exported="false" />
 119-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:66:13-37
 120        <activity
 120-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:67:9-69:40
-121            android:name="com.kawal.malang.officer.core.util.PreviewActivity"
-121-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:68:13-78
+121            android:name="com.kawal.malang.officer.presentation.report.detail.DetailReportActivity"
+121-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:68:13-100
 122            android:exported="false" />
 122-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:69:13-37
 123        <activity
 123-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:70:9-72:40
-124            android:name="com.kawal.malang.officer.core.util.ImageActivity"
-124-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:71:13-76
+124            android:name="com.kawal.malang.officer.presentation.DashboardActivity"
+124-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:71:13-83
 125            android:exported="false" />
 125-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:72:13-37
 126        <activity
-126-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:73:9-84:20
-127            android:name="com.kawal.malang.officer.presentation.MainActivity"
-127-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:74:13-78
-128            android:exported="true"
-128-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:75:13-36
-129            android:launchMode="singleInstance"
-129-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:76:13-48
-130            android:noHistory="true"
-130-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:77:13-37
-131            android:theme="@style/AppTheme.Splash" >
-131-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:78:13-51
-132            <intent-filter>
-132-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:79:13-83:29
-133                <action android:name="android.intent.action.MAIN" />
-133-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:80:17-69
-133-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:80:25-66
-134
-135                <category android:name="android.intent.category.LAUNCHER" />
-135-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:82:17-77
-135-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:82:27-74
-136            </intent-filter>
-137        </activity>
-138
-139        <service
-139-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:86:9-92:19
-140            android:name="com.kawal.malang.officer.core.service.MyFirebaseMessagingService"
-140-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:87:13-92
-141            android:exported="false" >
-141-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:88:13-37
-142            <intent-filter>
-142-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:89:13-91:29
-143                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-143-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:90:17-78
-143-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:90:25-75
-144            </intent-filter>
-145        </service>
-146        <service
-146-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:93:9-97:65
-147            android:name="com.kawal.malang.officer.core.service.SendLocationService"
-147-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:94:13-85
-148            android:enabled="true"
-148-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:95:13-35
-149            android:exported="true"
-149-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:96:13-36
-150            android:foregroundServiceType="dataSync|location" />
-150-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:97:13-62
+126-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:73:9-75:40
+127            android:name="com.kawal.malang.officer.presentation.briefing.detail.DetailBriefingActivity"
+127-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:74:13-104
+128            android:exported="false" />
+128-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:75:13-37
+129        <activity
+129-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:76:9-78:40
+130            android:name="com.kawal.malang.officer.presentation.auth.login.LoginActivity"
+130-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:77:13-90
+131            android:exported="false" />
+131-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:78:13-37
+132        <activity
+132-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:79:9-81:40
+133            android:name="com.kawal.malang.officer.core.util.PreviewActivity"
+133-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:80:13-78
+134            android:exported="false" />
+134-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:81:13-37
+135        <activity
+135-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:82:9-84:40
+136            android:name="com.kawal.malang.officer.core.util.ImageActivity"
+136-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:83:13-76
+137            android:exported="false" />
+137-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:84:13-37
+138        <activity
+138-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:85:9-96:20
+139            android:name="com.kawal.malang.officer.presentation.MainActivity"
+139-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:86:13-78
+140            android:exported="true"
+140-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:87:13-36
+141            android:launchMode="singleInstance"
+141-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:88:13-48
+142            android:noHistory="true"
+142-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:89:13-37
+143            android:theme="@style/AppTheme.Splash" >
+143-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:90:13-51
+144            <intent-filter>
+144-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:91:13-95:29
+145                <action android:name="android.intent.action.MAIN" />
+145-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:92:17-69
+145-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:92:25-66
+146
+147                <category android:name="android.intent.category.LAUNCHER" />
+147-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:94:17-77
+147-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:94:27-74
+148            </intent-filter>
+149        </activity>
+150
 151        <service
-151-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:98:9-102:65
-152            android:name="com.kawal.malang.officer.core.service.prototype.LocationService"
-152-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:99:13-91
-153            android:enabled="true"
-153-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:100:13-35
-154            android:exported="true"
-154-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:101:13-36
-155            android:foregroundServiceType="dataSync|location" />
-155-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:102:13-62
-156        <service
-156-->[com.google.firebase:firebase-messaging-ktx:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/d9457bb338e82e7541d3b8025760596a/transformed/jetified-firebase-messaging-ktx-23.1.2/AndroidManifest.xml:25:9-31:19
-157            android:name="com.google.firebase.components.ComponentDiscoveryService"
-157-->[com.google.firebase:firebase-messaging-ktx:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/d9457bb338e82e7541d3b8025760596a/transformed/jetified-firebase-messaging-ktx-23.1.2/AndroidManifest.xml:26:13-84
-158            android:directBootAware="true"
-158-->[com.google.firebase:firebase-common:20.3.1] /Users/erfolgi/.gradle/caches/transforms-3/f8292a9079a3f3170cc25a357f8c3aaf/transformed/jetified-firebase-common-20.3.1/AndroidManifest.xml:34:13-43
-159            android:exported="false" >
-159-->[com.google.firebase:firebase-messaging-ktx:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/d9457bb338e82e7541d3b8025760596a/transformed/jetified-firebase-messaging-ktx-23.1.2/AndroidManifest.xml:27:13-37
-160            <meta-data
-160-->[com.google.firebase:firebase-messaging-ktx:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/d9457bb338e82e7541d3b8025760596a/transformed/jetified-firebase-messaging-ktx-23.1.2/AndroidManifest.xml:28:13-30:85
-161                android:name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingKtxRegistrar"
-161-->[com.google.firebase:firebase-messaging-ktx:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/d9457bb338e82e7541d3b8025760596a/transformed/jetified-firebase-messaging-ktx-23.1.2/AndroidManifest.xml:29:17-126
-162                android:value="com.google.firebase.components.ComponentRegistrar" />
-162-->[com.google.firebase:firebase-messaging-ktx:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/d9457bb338e82e7541d3b8025760596a/transformed/jetified-firebase-messaging-ktx-23.1.2/AndroidManifest.xml:30:17-82
-163            <meta-data
-163-->[com.google.firebase:firebase-crashlytics-ktx:17.3.1] /Users/erfolgi/.gradle/caches/transforms-3/d35110304fd6877e20e3bad9b160027d/transformed/jetified-firebase-crashlytics-ktx-17.3.1/AndroidManifest.xml:27:13-29:85
-164                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ktx.FirebaseCrashlyticsKtxRegistrar"
-164-->[com.google.firebase:firebase-crashlytics-ktx:17.3.1] /Users/erfolgi/.gradle/caches/transforms-3/d35110304fd6877e20e3bad9b160027d/transformed/jetified-firebase-crashlytics-ktx-17.3.1/AndroidManifest.xml:28:17-130
-165                android:value="com.google.firebase.components.ComponentRegistrar" />
-165-->[com.google.firebase:firebase-crashlytics-ktx:17.3.1] /Users/erfolgi/.gradle/caches/transforms-3/d35110304fd6877e20e3bad9b160027d/transformed/jetified-firebase-crashlytics-ktx-17.3.1/AndroidManifest.xml:29:17-82
-166            <meta-data
-166-->[com.google.firebase:firebase-analytics-ktx:18.0.2] /Users/erfolgi/.gradle/caches/transforms-3/202b56d1549c27148504645fc94cc79f/transformed/jetified-firebase-analytics-ktx-18.0.2/AndroidManifest.xml:11:13-13:85
-167                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
-167-->[com.google.firebase:firebase-analytics-ktx:18.0.2] /Users/erfolgi/.gradle/caches/transforms-3/202b56d1549c27148504645fc94cc79f/transformed/jetified-firebase-analytics-ktx-18.0.2/AndroidManifest.xml:12:17-126
-168                android:value="com.google.firebase.components.ComponentRegistrar" />
-168-->[com.google.firebase:firebase-analytics-ktx:18.0.2] /Users/erfolgi/.gradle/caches/transforms-3/202b56d1549c27148504645fc94cc79f/transformed/jetified-firebase-analytics-ktx-18.0.2/AndroidManifest.xml:13:17-82
-169            <meta-data
-169-->[com.google.firebase:firebase-common-ktx:20.3.1] /Users/erfolgi/.gradle/caches/transforms-3/7e65f2193b14eab9dd3e7f2646788143/transformed/jetified-firebase-common-ktx-20.3.1/AndroidManifest.xml:14:13-16:85
-170                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
-170-->[com.google.firebase:firebase-common-ktx:20.3.1] /Users/erfolgi/.gradle/caches/transforms-3/7e65f2193b14eab9dd3e7f2646788143/transformed/jetified-firebase-common-ktx-20.3.1/AndroidManifest.xml:15:17-113
-171                android:value="com.google.firebase.components.ComponentRegistrar" />
-171-->[com.google.firebase:firebase-common-ktx:20.3.1] /Users/erfolgi/.gradle/caches/transforms-3/7e65f2193b14eab9dd3e7f2646788143/transformed/jetified-firebase-common-ktx-20.3.1/AndroidManifest.xml:16:17-82
+151-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:98:9-104:19
+152            android:name="com.kawal.malang.officer.core.service.MyFirebaseMessagingService"
+152-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:99:13-92
+153            android:exported="false" >
+153-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:100:13-37
+154            <intent-filter>
+154-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:101:13-103:29
+155                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+155-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:102:17-78
+155-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:102:25-75
+156            </intent-filter>
+157        </service>
+158        <service
+158-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:105:9-109:65
+159            android:name="com.kawal.malang.officer.core.service.SendLocationService"
+159-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:106:13-85
+160            android:enabled="true"
+160-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:107:13-35
+161            android:exported="true"
+161-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:108:13-36
+162            android:foregroundServiceType="dataSync|location" />
+162-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:109:13-62
+163        <service
+163-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:110:9-114:65
+164            android:name="com.kawal.malang.officer.core.service.prototype.LocationService"
+164-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:111:13-91
+165            android:enabled="true"
+165-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:112:13-35
+166            android:exported="true"
+166-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:113:13-36
+167            android:foregroundServiceType="dataSync|location" />
+167-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:114:13-62
+168        <service
+168-->[com.google.firebase:firebase-messaging-ktx:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/d9457bb338e82e7541d3b8025760596a/transformed/jetified-firebase-messaging-ktx-23.1.2/AndroidManifest.xml:25:9-31:19
+169            android:name="com.google.firebase.components.ComponentDiscoveryService"
+169-->[com.google.firebase:firebase-messaging-ktx:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/d9457bb338e82e7541d3b8025760596a/transformed/jetified-firebase-messaging-ktx-23.1.2/AndroidManifest.xml:26:13-84
+170            android:directBootAware="true"
+170-->[com.google.firebase:firebase-common:20.3.1] /Users/erfolgi/.gradle/caches/transforms-3/f8292a9079a3f3170cc25a357f8c3aaf/transformed/jetified-firebase-common-20.3.1/AndroidManifest.xml:34:13-43
+171            android:exported="false" >
+171-->[com.google.firebase:firebase-messaging-ktx:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/d9457bb338e82e7541d3b8025760596a/transformed/jetified-firebase-messaging-ktx-23.1.2/AndroidManifest.xml:27:13-37
 172            <meta-data
-172-->[com.google.firebase:firebase-messaging:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/cca66f25368e6be1f25e61682758f1bc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:55:13-57:85
-173                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-173-->[com.google.firebase:firebase-messaging:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/cca66f25368e6be1f25e61682758f1bc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:56:17-119
+172-->[com.google.firebase:firebase-messaging-ktx:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/d9457bb338e82e7541d3b8025760596a/transformed/jetified-firebase-messaging-ktx-23.1.2/AndroidManifest.xml:28:13-30:85
+173                android:name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingKtxRegistrar"
+173-->[com.google.firebase:firebase-messaging-ktx:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/d9457bb338e82e7541d3b8025760596a/transformed/jetified-firebase-messaging-ktx-23.1.2/AndroidManifest.xml:29:17-126
 174                android:value="com.google.firebase.components.ComponentRegistrar" />
-174-->[com.google.firebase:firebase-messaging:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/cca66f25368e6be1f25e61682758f1bc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:57:17-82
+174-->[com.google.firebase:firebase-messaging-ktx:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/d9457bb338e82e7541d3b8025760596a/transformed/jetified-firebase-messaging-ktx-23.1.2/AndroidManifest.xml:30:17-82
 175            <meta-data
-175-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/erfolgi/.gradle/caches/transforms-3/9e375653acd68ce3b5533a843dac5f08/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
-176                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-176-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/erfolgi/.gradle/caches/transforms-3/9e375653acd68ce3b5533a843dac5f08/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+175-->[com.google.firebase:firebase-crashlytics-ktx:17.3.1] /Users/erfolgi/.gradle/caches/transforms-3/d35110304fd6877e20e3bad9b160027d/transformed/jetified-firebase-crashlytics-ktx-17.3.1/AndroidManifest.xml:27:13-29:85
+176                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ktx.FirebaseCrashlyticsKtxRegistrar"
+176-->[com.google.firebase:firebase-crashlytics-ktx:17.3.1] /Users/erfolgi/.gradle/caches/transforms-3/d35110304fd6877e20e3bad9b160027d/transformed/jetified-firebase-crashlytics-ktx-17.3.1/AndroidManifest.xml:28:17-130
 177                android:value="com.google.firebase.components.ComponentRegistrar" />
-177-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/erfolgi/.gradle/caches/transforms-3/9e375653acd68ce3b5533a843dac5f08/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+177-->[com.google.firebase:firebase-crashlytics-ktx:17.3.1] /Users/erfolgi/.gradle/caches/transforms-3/d35110304fd6877e20e3bad9b160027d/transformed/jetified-firebase-crashlytics-ktx-17.3.1/AndroidManifest.xml:29:17-82
 178            <meta-data
-178-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/erfolgi/.gradle/caches/transforms-3/33fbd99dc4af035b9354e57f90d3edf1/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:31:13-33:85
-179                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-179-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/erfolgi/.gradle/caches/transforms-3/33fbd99dc4af035b9354e57f90d3edf1/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:32:17-139
+178-->[com.google.firebase:firebase-analytics-ktx:18.0.2] /Users/erfolgi/.gradle/caches/transforms-3/202b56d1549c27148504645fc94cc79f/transformed/jetified-firebase-analytics-ktx-18.0.2/AndroidManifest.xml:11:13-13:85
+179                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+179-->[com.google.firebase:firebase-analytics-ktx:18.0.2] /Users/erfolgi/.gradle/caches/transforms-3/202b56d1549c27148504645fc94cc79f/transformed/jetified-firebase-analytics-ktx-18.0.2/AndroidManifest.xml:12:17-126
 180                android:value="com.google.firebase.components.ComponentRegistrar" />
-180-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/erfolgi/.gradle/caches/transforms-3/33fbd99dc4af035b9354e57f90d3edf1/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:33:17-82
+180-->[com.google.firebase:firebase-analytics-ktx:18.0.2] /Users/erfolgi/.gradle/caches/transforms-3/202b56d1549c27148504645fc94cc79f/transformed/jetified-firebase-analytics-ktx-18.0.2/AndroidManifest.xml:13:17-82
 181            <meta-data
-181-->[com.google.firebase:firebase-crashlytics:17.3.1] /Users/erfolgi/.gradle/caches/transforms-3/fc32b3eed2a6b1bb2c3ed72344f11cae/transformed/jetified-firebase-crashlytics-17.3.1/AndroidManifest.xml:18:13-20:85
-182                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
-182-->[com.google.firebase:firebase-crashlytics:17.3.1] /Users/erfolgi/.gradle/caches/transforms-3/fc32b3eed2a6b1bb2c3ed72344f11cae/transformed/jetified-firebase-crashlytics-17.3.1/AndroidManifest.xml:19:17-115
+181-->[com.google.firebase:firebase-common-ktx:20.3.1] /Users/erfolgi/.gradle/caches/transforms-3/7e65f2193b14eab9dd3e7f2646788143/transformed/jetified-firebase-common-ktx-20.3.1/AndroidManifest.xml:14:13-16:85
+182                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+182-->[com.google.firebase:firebase-common-ktx:20.3.1] /Users/erfolgi/.gradle/caches/transforms-3/7e65f2193b14eab9dd3e7f2646788143/transformed/jetified-firebase-common-ktx-20.3.1/AndroidManifest.xml:15:17-113
 183                android:value="com.google.firebase.components.ComponentRegistrar" />
-183-->[com.google.firebase:firebase-crashlytics:17.3.1] /Users/erfolgi/.gradle/caches/transforms-3/fc32b3eed2a6b1bb2c3ed72344f11cae/transformed/jetified-firebase-crashlytics-17.3.1/AndroidManifest.xml:20:17-82
+183-->[com.google.firebase:firebase-common-ktx:20.3.1] /Users/erfolgi/.gradle/caches/transforms-3/7e65f2193b14eab9dd3e7f2646788143/transformed/jetified-firebase-common-ktx-20.3.1/AndroidManifest.xml:16:17-82
 184            <meta-data
-184-->[com.google.firebase:firebase-installations:17.1.3] /Users/erfolgi/.gradle/caches/transforms-3/5b53df0d266fe7fd0eb4cd59ab1b7a05/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
-185                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-185-->[com.google.firebase:firebase-installations:17.1.3] /Users/erfolgi/.gradle/caches/transforms-3/5b53df0d266fe7fd0eb4cd59ab1b7a05/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+184-->[com.google.firebase:firebase-messaging:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/cca66f25368e6be1f25e61682758f1bc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:55:13-57:85
+185                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+185-->[com.google.firebase:firebase-messaging:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/cca66f25368e6be1f25e61682758f1bc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:56:17-119
 186                android:value="com.google.firebase.components.ComponentRegistrar" />
-186-->[com.google.firebase:firebase-installations:17.1.3] /Users/erfolgi/.gradle/caches/transforms-3/5b53df0d266fe7fd0eb4cd59ab1b7a05/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
-187        </service>
-188
-189        <uses-library
-189-->[androidx.window:window:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/107e2f4b2ddea8faa3fcf214f2e07562/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
-190            android:name="androidx.window.extensions"
-190-->[androidx.window:window:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/107e2f4b2ddea8faa3fcf214f2e07562/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
-191            android:required="false" />
-191-->[androidx.window:window:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/107e2f4b2ddea8faa3fcf214f2e07562/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
-192        <uses-library
-192-->[androidx.window:window:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/107e2f4b2ddea8faa3fcf214f2e07562/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
-193            android:name="androidx.window.sidecar"
-193-->[androidx.window:window:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/107e2f4b2ddea8faa3fcf214f2e07562/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
-194            android:required="false" />
-194-->[androidx.window:window:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/107e2f4b2ddea8faa3fcf214f2e07562/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
-195
-196        <activity
-196-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:31:9-34:75
-197            android:name="com.microsoft.appcenter.distribute.install.ReleaseInstallerActivity"
-197-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:32:13-95
-198            android:exported="false"
-198-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:33:13-37
-199            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-199-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:34:13-72
-200        <activity
-200-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:35:9-38:75
-201            android:name="com.microsoft.appcenter.distribute.permissions.PermissionRequestActivity"
-201-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:36:13-100
-202            android:exported="false"
-202-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:37:13-37
-203            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-203-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:38:13-72
-204        <activity
-204-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:39:9-54:20
-205            android:name="com.microsoft.appcenter.distribute.DeepLinkActivity"
-205-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:40:13-79
-206            android:exported="true"
-206-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:41:13-36
-207            android:theme="@android:style/Theme.NoDisplay" >
-207-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:42:13-59
-208            <intent-filter>
-208-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:43:13-53:29
-209                <action android:name="android.intent.action.VIEW" />
-209-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:24:13-65
-209-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:24:21-62
-210
-211                <category android:name="android.intent.category.DEFAULT" />
-211-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:46:17-76
-211-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:46:27-73
-212                <category android:name="android.intent.category.BROWSABLE" />
-212-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:47:17-78
-212-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:47:27-75
-213
-214                <data
-214-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:26:13-44
-215                    android:host="updates"
-216                    android:path="/"
-217                    android:scheme="appcenter" />
-217-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:26:19-41
-218            </intent-filter>
-219        </activity>
-220
-221        <receiver
-221-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:56:9-62:20
-222            android:name="com.microsoft.appcenter.distribute.UpdateReceiver"
-222-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:57:13-77
-223            android:exported="false" >
-223-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:58:13-37
-224            <intent-filter>
-224-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:59:13-61:29
-225                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-225-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:60:17-84
-225-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:60:25-81
-226            </intent-filter>
-227        </receiver>
-228        <receiver
-228-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:63:9-70:20
-229            android:name="com.microsoft.appcenter.distribute.DownloadManagerReceiver"
-229-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:64:13-86
-230            android:exported="true" >
-230-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:65:13-36
-231            <intent-filter>
-231-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:66:13-69:29
-232                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
-232-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:67:17-82
-232-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:67:25-79
-233                <action android:name="android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED" />
-233-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:68:17-94
-233-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:68:25-91
-234            </intent-filter>
-235        </receiver>
-236
-237        <activity
-237-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:22:9-25:68
-238            android:name="com.github.dhaval2404.imagepicker.ImagePickerActivity"
-238-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:23:13-81
-239            android:screenOrientation="unspecified"
-239-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:24:13-52
-240            android:theme="@style/Theme.Transparent.ImagePicker" />
-240-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:25:13-65
-241        <activity
-241-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:26:9-29:72
-242            android:name="com.yalantis.ucrop.UCropActivity"
-242-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:27:13-60
-243            android:screenOrientation="portrait"
-243-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:28:13-49
-244            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-244-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:29:13-69
-245
-246        <provider
-246-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:31:9-39:20
-247            android:name="com.github.dhaval2404.imagepicker.ImagePickerFileProvider"
-247-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:32:13-85
-248            android:authorities="com.kawal.malang.officer.imagepicker.provider"
-248-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:33:13-72
-249            android:exported="false"
-249-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:34:13-37
-250            android:grantUriPermissions="true" >
-250-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:35:13-47
-251            <meta-data
-251-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:36:13-38:71
-252                android:name="android.support.FILE_PROVIDER_PATHS"
-252-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:37:17-67
-253                android:resource="@xml/image_picker_provider_paths" />
-253-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:38:17-68
-254        </provider>
-255
-256        <receiver
-256-->[com.google.firebase:firebase-messaging:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/cca66f25368e6be1f25e61682758f1bc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:31:9-38:20
-257            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-257-->[com.google.firebase:firebase-messaging:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/cca66f25368e6be1f25e61682758f1bc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:32:13-78
-258            android:exported="true"
-258-->[com.google.firebase:firebase-messaging:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/cca66f25368e6be1f25e61682758f1bc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:33:13-36
-259            android:permission="com.google.android.c2dm.permission.SEND" >
-259-->[com.google.firebase:firebase-messaging:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/cca66f25368e6be1f25e61682758f1bc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:34:13-73
-260            <intent-filter>
-260-->[com.google.firebase:firebase-messaging:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/cca66f25368e6be1f25e61682758f1bc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:35:13-37:29
-261                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-261-->[com.google.firebase:firebase-messaging:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/cca66f25368e6be1f25e61682758f1bc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:36:17-81
-261-->[com.google.firebase:firebase-messaging:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/cca66f25368e6be1f25e61682758f1bc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:36:25-78
-262            </intent-filter>
-263        </receiver>
-264        <!--
-265             FirebaseMessagingService performs security checks at runtime,
-266             but set to not exported to explicitly avoid allowing another app to call it.
-267        -->
-268        <service
-268-->[com.google.firebase:firebase-messaging:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/cca66f25368e6be1f25e61682758f1bc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:44:9-51:19
-269            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-269-->[com.google.firebase:firebase-messaging:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/cca66f25368e6be1f25e61682758f1bc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:45:13-82
-270            android:directBootAware="true"
-270-->[com.google.firebase:firebase-messaging:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/cca66f25368e6be1f25e61682758f1bc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:46:13-43
-271            android:exported="false" >
-271-->[com.google.firebase:firebase-messaging:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/cca66f25368e6be1f25e61682758f1bc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:47:13-37
-272            <intent-filter android:priority="-500" >
-272-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:89:13-91:29
-273                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-273-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:90:17-78
-273-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:90:25-75
-274            </intent-filter>
-275        </service>
+186-->[com.google.firebase:firebase-messaging:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/cca66f25368e6be1f25e61682758f1bc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:57:17-82
+187            <meta-data
+187-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/erfolgi/.gradle/caches/transforms-3/9e375653acd68ce3b5533a843dac5f08/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+188                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+188-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/erfolgi/.gradle/caches/transforms-3/9e375653acd68ce3b5533a843dac5f08/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+189                android:value="com.google.firebase.components.ComponentRegistrar" />
+189-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/erfolgi/.gradle/caches/transforms-3/9e375653acd68ce3b5533a843dac5f08/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+190            <meta-data
+190-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/erfolgi/.gradle/caches/transforms-3/33fbd99dc4af035b9354e57f90d3edf1/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:31:13-33:85
+191                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+191-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/erfolgi/.gradle/caches/transforms-3/33fbd99dc4af035b9354e57f90d3edf1/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:32:17-139
+192                android:value="com.google.firebase.components.ComponentRegistrar" />
+192-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/erfolgi/.gradle/caches/transforms-3/33fbd99dc4af035b9354e57f90d3edf1/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:33:17-82
+193            <meta-data
+193-->[com.google.firebase:firebase-crashlytics:17.3.1] /Users/erfolgi/.gradle/caches/transforms-3/fc32b3eed2a6b1bb2c3ed72344f11cae/transformed/jetified-firebase-crashlytics-17.3.1/AndroidManifest.xml:18:13-20:85
+194                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+194-->[com.google.firebase:firebase-crashlytics:17.3.1] /Users/erfolgi/.gradle/caches/transforms-3/fc32b3eed2a6b1bb2c3ed72344f11cae/transformed/jetified-firebase-crashlytics-17.3.1/AndroidManifest.xml:19:17-115
+195                android:value="com.google.firebase.components.ComponentRegistrar" />
+195-->[com.google.firebase:firebase-crashlytics:17.3.1] /Users/erfolgi/.gradle/caches/transforms-3/fc32b3eed2a6b1bb2c3ed72344f11cae/transformed/jetified-firebase-crashlytics-17.3.1/AndroidManifest.xml:20:17-82
+196            <meta-data
+196-->[com.google.firebase:firebase-installations:17.1.3] /Users/erfolgi/.gradle/caches/transforms-3/5b53df0d266fe7fd0eb4cd59ab1b7a05/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+197                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+197-->[com.google.firebase:firebase-installations:17.1.3] /Users/erfolgi/.gradle/caches/transforms-3/5b53df0d266fe7fd0eb4cd59ab1b7a05/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+198                android:value="com.google.firebase.components.ComponentRegistrar" />
+198-->[com.google.firebase:firebase-installations:17.1.3] /Users/erfolgi/.gradle/caches/transforms-3/5b53df0d266fe7fd0eb4cd59ab1b7a05/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+199        </service>
+200
+201        <uses-library
+201-->[androidx.window:window:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/107e2f4b2ddea8faa3fcf214f2e07562/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+202            android:name="androidx.window.extensions"
+202-->[androidx.window:window:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/107e2f4b2ddea8faa3fcf214f2e07562/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+203            android:required="false" />
+203-->[androidx.window:window:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/107e2f4b2ddea8faa3fcf214f2e07562/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+204        <uses-library
+204-->[androidx.window:window:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/107e2f4b2ddea8faa3fcf214f2e07562/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+205            android:name="androidx.window.sidecar"
+205-->[androidx.window:window:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/107e2f4b2ddea8faa3fcf214f2e07562/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+206            android:required="false" />
+206-->[androidx.window:window:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/107e2f4b2ddea8faa3fcf214f2e07562/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+207
+208        <activity
+208-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:31:9-34:75
+209            android:name="com.microsoft.appcenter.distribute.install.ReleaseInstallerActivity"
+209-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:32:13-95
+210            android:exported="false"
+210-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:33:13-37
+211            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+211-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:34:13-72
+212        <activity
+212-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:35:9-38:75
+213            android:name="com.microsoft.appcenter.distribute.permissions.PermissionRequestActivity"
+213-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:36:13-100
+214            android:exported="false"
+214-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:37:13-37
+215            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+215-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:38:13-72
+216        <activity
+216-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:39:9-54:20
+217            android:name="com.microsoft.appcenter.distribute.DeepLinkActivity"
+217-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:40:13-79
+218            android:exported="true"
+218-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:41:13-36
+219            android:theme="@android:style/Theme.NoDisplay" >
+219-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:42:13-59
+220            <intent-filter>
+220-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:43:13-53:29
+221                <action android:name="android.intent.action.VIEW" />
+221-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:24:13-65
+221-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:24:21-62
+222
+223                <category android:name="android.intent.category.DEFAULT" />
+223-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:46:17-76
+223-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:46:27-73
+224                <category android:name="android.intent.category.BROWSABLE" />
+224-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:47:17-78
+224-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:47:27-75
+225
+226                <data
+226-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:26:13-44
+227                    android:host="updates"
+228                    android:path="/"
+229                    android:scheme="appcenter" />
+229-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:26:19-41
+230            </intent-filter>
+231        </activity>
+232
+233        <receiver
+233-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:56:9-62:20
+234            android:name="com.microsoft.appcenter.distribute.UpdateReceiver"
+234-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:57:13-77
+235            android:exported="false" >
+235-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:58:13-37
+236            <intent-filter>
+236-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:59:13-61:29
+237                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+237-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:60:17-84
+237-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:60:25-81
+238            </intent-filter>
+239        </receiver>
+240        <receiver
+240-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:63:9-70:20
+241            android:name="com.microsoft.appcenter.distribute.DownloadManagerReceiver"
+241-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:64:13-86
+242            android:exported="true" >
+242-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:65:13-36
+243            <intent-filter>
+243-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:66:13-69:29
+244                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+244-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:67:17-82
+244-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:67:25-79
+245                <action android:name="android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED" />
+245-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:68:17-94
+245-->[com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:68:25-91
+246            </intent-filter>
+247        </receiver>
+248
+249        <activity
+249-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:22:9-25:68
+250            android:name="com.github.dhaval2404.imagepicker.ImagePickerActivity"
+250-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:23:13-81
+251            android:screenOrientation="unspecified"
+251-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:24:13-52
+252            android:theme="@style/Theme.Transparent.ImagePicker" />
+252-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:25:13-65
+253        <activity
+253-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:26:9-29:72
+254            android:name="com.yalantis.ucrop.UCropActivity"
+254-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:27:13-60
+255            android:screenOrientation="portrait"
+255-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:28:13-49
+256            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+256-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:29:13-69
+257
+258        <provider
+258-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:31:9-39:20
+259            android:name="com.github.dhaval2404.imagepicker.ImagePickerFileProvider"
+259-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:32:13-85
+260            android:authorities="com.kawal.malang.officer.imagepicker.provider"
+260-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:33:13-72
+261            android:exported="false"
+261-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:34:13-37
+262            android:grantUriPermissions="true" >
+262-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:35:13-47
+263            <meta-data
+263-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:36:13-38:71
+264                android:name="android.support.FILE_PROVIDER_PATHS"
+264-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:37:17-67
+265                android:resource="@xml/image_picker_provider_paths" />
+265-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:38:17-68
+266        </provider>
+267        <provider
+267-->[io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:10:9-18:20
+268            android:name="com.sangcomz.fishbun.FishBunFileProvider"
+268-->[io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:11:13-68
+269            android:authorities="com.kawal.malang.officer.fishbunfileprovider"
+269-->[io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:12:13-71
+270            android:exported="false"
+270-->[io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:13:13-37
+271            android:grantUriPermissions="true" >
+271-->[io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:14:13-47
+272            <meta-data
+272-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:36:13-38:71
+273                android:name="android.support.FILE_PROVIDER_PATHS"
+273-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:37:17-67
+274                android:resource="@xml/provider_paths" />
+274-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:38:17-68
+275        </provider>
 276
-277        <provider
-277-->[com.google.firebase:firebase-common:20.3.1] /Users/erfolgi/.gradle/caches/transforms-3/f8292a9079a3f3170cc25a357f8c3aaf/transformed/jetified-firebase-common-20.3.1/AndroidManifest.xml:25:9-30:39
-278            android:name="com.google.firebase.provider.FirebaseInitProvider"
-278-->[com.google.firebase:firebase-common:20.3.1] /Users/erfolgi/.gradle/caches/transforms-3/f8292a9079a3f3170cc25a357f8c3aaf/transformed/jetified-firebase-common-20.3.1/AndroidManifest.xml:26:13-77
-279            android:authorities="com.kawal.malang.officer.firebaseinitprovider"
-279-->[com.google.firebase:firebase-common:20.3.1] /Users/erfolgi/.gradle/caches/transforms-3/f8292a9079a3f3170cc25a357f8c3aaf/transformed/jetified-firebase-common-20.3.1/AndroidManifest.xml:27:13-72
-280            android:directBootAware="true"
-280-->[com.google.firebase:firebase-common:20.3.1] /Users/erfolgi/.gradle/caches/transforms-3/f8292a9079a3f3170cc25a357f8c3aaf/transformed/jetified-firebase-common-20.3.1/AndroidManifest.xml:28:13-43
-281            android:exported="false"
-281-->[com.google.firebase:firebase-common:20.3.1] /Users/erfolgi/.gradle/caches/transforms-3/f8292a9079a3f3170cc25a357f8c3aaf/transformed/jetified-firebase-common-20.3.1/AndroidManifest.xml:29:13-37
-282            android:initOrder="100" />
-282-->[com.google.firebase:firebase-common:20.3.1] /Users/erfolgi/.gradle/caches/transforms-3/f8292a9079a3f3170cc25a357f8c3aaf/transformed/jetified-firebase-common-20.3.1/AndroidManifest.xml:30:13-36
-283
+277        <activity
+277-->[io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:20:9-23:51
+278            android:name="com.sangcomz.fishbun.ui.album.ui.AlbumActivity"
+278-->[io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:21:13-74
+279            android:label="@string/album"
+279-->[io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:22:13-42
+280            android:theme="@style/FishBunTheme" />
+280-->[io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:23:13-48
+281        <activity
+281-->[io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:24:9-26:51
+282            android:name="com.sangcomz.fishbun.ui.picker.PickerActivity"
+282-->[io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:25:13-73
+283            android:theme="@style/FishBunTheme" />
+283-->[io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:26:13-48
 284        <activity
-284-->[com.google.android.gms:play-services-base:18.0.1] /Users/erfolgi/.gradle/caches/transforms-3/78c9d8357df89ac3aca1ce87b771093f/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
-285            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-285-->[com.google.android.gms:play-services-base:18.0.1] /Users/erfolgi/.gradle/caches/transforms-3/78c9d8357df89ac3aca1ce87b771093f/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
-286            android:exported="false"
-286-->[com.google.android.gms:play-services-base:18.0.1] /Users/erfolgi/.gradle/caches/transforms-3/78c9d8357df89ac3aca1ce87b771093f/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
-287            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-287-->[com.google.android.gms:play-services-base:18.0.1] /Users/erfolgi/.gradle/caches/transforms-3/78c9d8357df89ac3aca1ce87b771093f/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
-288
-289        <receiver
-289-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/erfolgi/.gradle/caches/transforms-3/2c0ac2be3950f785d0c8401a6f322109/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:29:9-33:20
-290            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-290-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/erfolgi/.gradle/caches/transforms-3/2c0ac2be3950f785d0c8401a6f322109/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:30:13-85
-291            android:enabled="true"
-291-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/erfolgi/.gradle/caches/transforms-3/2c0ac2be3950f785d0c8401a6f322109/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:31:13-35
-292            android:exported="false" >
-292-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/erfolgi/.gradle/caches/transforms-3/2c0ac2be3950f785d0c8401a6f322109/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:32:13-37
-293        </receiver>
-294
-295        <service
-295-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/erfolgi/.gradle/caches/transforms-3/2c0ac2be3950f785d0c8401a6f322109/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:35:9-38:40
-296            android:name="com.google.android.gms.measurement.AppMeasurementService"
-296-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/erfolgi/.gradle/caches/transforms-3/2c0ac2be3950f785d0c8401a6f322109/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:36:13-84
-297            android:enabled="true"
-297-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/erfolgi/.gradle/caches/transforms-3/2c0ac2be3950f785d0c8401a6f322109/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:37:13-35
-298            android:exported="false" />
-298-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/erfolgi/.gradle/caches/transforms-3/2c0ac2be3950f785d0c8401a6f322109/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:38:13-37
-299        <service
-299-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/erfolgi/.gradle/caches/transforms-3/2c0ac2be3950f785d0c8401a6f322109/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:39:9-43:72
-300            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-300-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/erfolgi/.gradle/caches/transforms-3/2c0ac2be3950f785d0c8401a6f322109/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:40:13-87
-301            android:enabled="true"
-301-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/erfolgi/.gradle/caches/transforms-3/2c0ac2be3950f785d0c8401a6f322109/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:41:13-35
-302            android:exported="false"
-302-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/erfolgi/.gradle/caches/transforms-3/2c0ac2be3950f785d0c8401a6f322109/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:42:13-37
-303            android:permission="android.permission.BIND_JOB_SERVICE" />
-303-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/erfolgi/.gradle/caches/transforms-3/2c0ac2be3950f785d0c8401a6f322109/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:43:13-69
-304
-305        <meta-data
-305-->[com.google.android.gms:play-services-basement:18.1.0] /Users/erfolgi/.gradle/caches/transforms-3/96cf73d0ae884b0481b7896ee6174cd1/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
-306            android:name="com.google.android.gms.version"
-306-->[com.google.android.gms:play-services-basement:18.1.0] /Users/erfolgi/.gradle/caches/transforms-3/96cf73d0ae884b0481b7896ee6174cd1/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
-307            android:value="@integer/google_play_services_version" /> <!-- The activities will be merged into the manifest of the hosting app. -->
-307-->[com.google.android.gms:play-services-basement:18.1.0] /Users/erfolgi/.gradle/caches/transforms-3/96cf73d0ae884b0481b7896ee6174cd1/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
-308        <activity
-308-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:18:9-24:45
-309            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
-309-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:19:13-100
-310            android:enabled="false"
-310-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:20:13-36
-311            android:exported="false"
-311-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:21:13-37
-312            android:launchMode="singleInstance"
-312-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:22:13-48
-313            android:process=":playcore_missing_splits_activity"
-313-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:23:13-64
-314            android:stateNotNeeded="true" />
-314-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:24:13-42
-315        <activity
-315-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:25:9-29:65
-316            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
-316-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:26:13-93
-317            android:exported="false"
-317-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:27:13-37
-318            android:stateNotNeeded="true"
-318-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:28:13-42
-319            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
-319-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:29:13-62
-320        <service
-320-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:32:9-39:19
-321            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
-321-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:33:13-94
-322            android:enabled="false"
-322-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:34:13-36
-323            android:exported="true" >
-323-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:35:13-36
-324            <meta-data
-324-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:36:13-38:41
-325                android:name="com.google.android.play.core.assetpacks.versionCode"
-325-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:37:17-83
-326                android:value="11003" />
-326-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:38:17-38
-327        </service>
-328        <service
-328-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:40:9-43:40
-329            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
-329-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:41:13-95
-330            android:enabled="false"
-330-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:42:13-36
-331            android:exported="false" />
-331-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:43:13-37
-332
-333        <activity
-333-->[com.droidninja:filepicker:2.2.5] /Users/erfolgi/.gradle/caches/transforms-3/92bf6f55e92deaed8a80d1de9d005b9b/transformed/jetified-filepicker-2.2.5/AndroidManifest.xml:17:9-19:62
-334            android:name="droidninja.filepicker.FilePickerActivity"
-334-->[com.droidninja:filepicker:2.2.5] /Users/erfolgi/.gradle/caches/transforms-3/92bf6f55e92deaed8a80d1de9d005b9b/transformed/jetified-filepicker-2.2.5/AndroidManifest.xml:18:13-68
-335            android:configChanges="orientation|screenSize" />
-335-->[com.droidninja:filepicker:2.2.5] /Users/erfolgi/.gradle/caches/transforms-3/92bf6f55e92deaed8a80d1de9d005b9b/transformed/jetified-filepicker-2.2.5/AndroidManifest.xml:19:13-59
-336        <activity
-336-->[com.droidninja:filepicker:2.2.5] /Users/erfolgi/.gradle/caches/transforms-3/92bf6f55e92deaed8a80d1de9d005b9b/transformed/jetified-filepicker-2.2.5/AndroidManifest.xml:20:9-22:62
-337            android:name="droidninja.filepicker.MediaDetailsActivity"
-337-->[com.droidninja:filepicker:2.2.5] /Users/erfolgi/.gradle/caches/transforms-3/92bf6f55e92deaed8a80d1de9d005b9b/transformed/jetified-filepicker-2.2.5/AndroidManifest.xml:21:13-70
-338            android:configChanges="orientation|screenSize" />
-338-->[com.droidninja:filepicker:2.2.5] /Users/erfolgi/.gradle/caches/transforms-3/92bf6f55e92deaed8a80d1de9d005b9b/transformed/jetified-filepicker-2.2.5/AndroidManifest.xml:22:13-59
-339
-340        <provider
-340-->[com.droidninja:filepicker:2.2.5] /Users/erfolgi/.gradle/caches/transforms-3/92bf6f55e92deaed8a80d1de9d005b9b/transformed/jetified-filepicker-2.2.5/AndroidManifest.xml:24:9-32:20
-341            android:name="droidninja.filepicker.utils.FilePickerProvider"
-341-->[com.droidninja:filepicker:2.2.5] /Users/erfolgi/.gradle/caches/transforms-3/92bf6f55e92deaed8a80d1de9d005b9b/transformed/jetified-filepicker-2.2.5/AndroidManifest.xml:25:13-74
-342            android:authorities="com.kawal.malang.officer.droidninja.filepicker.provider"
-342-->[com.droidninja:filepicker:2.2.5] /Users/erfolgi/.gradle/caches/transforms-3/92bf6f55e92deaed8a80d1de9d005b9b/transformed/jetified-filepicker-2.2.5/AndroidManifest.xml:26:13-82
+284-->[io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:27:9-29:54
+285            android:name="com.sangcomz.fishbun.ui.detail.ui.DetailImageActivity"
+285-->[io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:28:13-81
+286            android:theme="@style/DetailViewTheme" />
+286-->[io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:29:13-51
+287
+288        <receiver
+288-->[com.google.firebase:firebase-messaging:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/cca66f25368e6be1f25e61682758f1bc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:31:9-38:20
+289            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+289-->[com.google.firebase:firebase-messaging:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/cca66f25368e6be1f25e61682758f1bc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:32:13-78
+290            android:exported="true"
+290-->[com.google.firebase:firebase-messaging:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/cca66f25368e6be1f25e61682758f1bc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:33:13-36
+291            android:permission="com.google.android.c2dm.permission.SEND" >
+291-->[com.google.firebase:firebase-messaging:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/cca66f25368e6be1f25e61682758f1bc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:34:13-73
+292            <intent-filter>
+292-->[com.google.firebase:firebase-messaging:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/cca66f25368e6be1f25e61682758f1bc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:35:13-37:29
+293                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+293-->[com.google.firebase:firebase-messaging:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/cca66f25368e6be1f25e61682758f1bc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:36:17-81
+293-->[com.google.firebase:firebase-messaging:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/cca66f25368e6be1f25e61682758f1bc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:36:25-78
+294            </intent-filter>
+295        </receiver>
+296        <!--
+297             FirebaseMessagingService performs security checks at runtime,
+298             but set to not exported to explicitly avoid allowing another app to call it.
+299        -->
+300        <service
+300-->[com.google.firebase:firebase-messaging:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/cca66f25368e6be1f25e61682758f1bc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:44:9-51:19
+301            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+301-->[com.google.firebase:firebase-messaging:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/cca66f25368e6be1f25e61682758f1bc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:45:13-82
+302            android:directBootAware="true"
+302-->[com.google.firebase:firebase-messaging:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/cca66f25368e6be1f25e61682758f1bc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:46:13-43
+303            android:exported="false" >
+303-->[com.google.firebase:firebase-messaging:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/cca66f25368e6be1f25e61682758f1bc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:47:13-37
+304            <intent-filter android:priority="-500" >
+304-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:101:13-103:29
+305                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+305-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:102:17-78
+305-->/Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:102:25-75
+306            </intent-filter>
+307        </service>
+308
+309        <provider
+309-->[com.google.firebase:firebase-common:20.3.1] /Users/erfolgi/.gradle/caches/transforms-3/f8292a9079a3f3170cc25a357f8c3aaf/transformed/jetified-firebase-common-20.3.1/AndroidManifest.xml:25:9-30:39
+310            android:name="com.google.firebase.provider.FirebaseInitProvider"
+310-->[com.google.firebase:firebase-common:20.3.1] /Users/erfolgi/.gradle/caches/transforms-3/f8292a9079a3f3170cc25a357f8c3aaf/transformed/jetified-firebase-common-20.3.1/AndroidManifest.xml:26:13-77
+311            android:authorities="com.kawal.malang.officer.firebaseinitprovider"
+311-->[com.google.firebase:firebase-common:20.3.1] /Users/erfolgi/.gradle/caches/transforms-3/f8292a9079a3f3170cc25a357f8c3aaf/transformed/jetified-firebase-common-20.3.1/AndroidManifest.xml:27:13-72
+312            android:directBootAware="true"
+312-->[com.google.firebase:firebase-common:20.3.1] /Users/erfolgi/.gradle/caches/transforms-3/f8292a9079a3f3170cc25a357f8c3aaf/transformed/jetified-firebase-common-20.3.1/AndroidManifest.xml:28:13-43
+313            android:exported="false"
+313-->[com.google.firebase:firebase-common:20.3.1] /Users/erfolgi/.gradle/caches/transforms-3/f8292a9079a3f3170cc25a357f8c3aaf/transformed/jetified-firebase-common-20.3.1/AndroidManifest.xml:29:13-37
+314            android:initOrder="100" />
+314-->[com.google.firebase:firebase-common:20.3.1] /Users/erfolgi/.gradle/caches/transforms-3/f8292a9079a3f3170cc25a357f8c3aaf/transformed/jetified-firebase-common-20.3.1/AndroidManifest.xml:30:13-36
+315
+316        <activity
+316-->[com.google.android.gms:play-services-base:18.0.1] /Users/erfolgi/.gradle/caches/transforms-3/78c9d8357df89ac3aca1ce87b771093f/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+317            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+317-->[com.google.android.gms:play-services-base:18.0.1] /Users/erfolgi/.gradle/caches/transforms-3/78c9d8357df89ac3aca1ce87b771093f/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+318            android:exported="false"
+318-->[com.google.android.gms:play-services-base:18.0.1] /Users/erfolgi/.gradle/caches/transforms-3/78c9d8357df89ac3aca1ce87b771093f/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+319            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+319-->[com.google.android.gms:play-services-base:18.0.1] /Users/erfolgi/.gradle/caches/transforms-3/78c9d8357df89ac3aca1ce87b771093f/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+320
+321        <receiver
+321-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/erfolgi/.gradle/caches/transforms-3/2c0ac2be3950f785d0c8401a6f322109/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:29:9-33:20
+322            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+322-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/erfolgi/.gradle/caches/transforms-3/2c0ac2be3950f785d0c8401a6f322109/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:30:13-85
+323            android:enabled="true"
+323-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/erfolgi/.gradle/caches/transforms-3/2c0ac2be3950f785d0c8401a6f322109/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:31:13-35
+324            android:exported="false" >
+324-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/erfolgi/.gradle/caches/transforms-3/2c0ac2be3950f785d0c8401a6f322109/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:32:13-37
+325        </receiver>
+326
+327        <service
+327-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/erfolgi/.gradle/caches/transforms-3/2c0ac2be3950f785d0c8401a6f322109/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:35:9-38:40
+328            android:name="com.google.android.gms.measurement.AppMeasurementService"
+328-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/erfolgi/.gradle/caches/transforms-3/2c0ac2be3950f785d0c8401a6f322109/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:36:13-84
+329            android:enabled="true"
+329-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/erfolgi/.gradle/caches/transforms-3/2c0ac2be3950f785d0c8401a6f322109/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:37:13-35
+330            android:exported="false" />
+330-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/erfolgi/.gradle/caches/transforms-3/2c0ac2be3950f785d0c8401a6f322109/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:38:13-37
+331        <service
+331-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/erfolgi/.gradle/caches/transforms-3/2c0ac2be3950f785d0c8401a6f322109/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:39:9-43:72
+332            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+332-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/erfolgi/.gradle/caches/transforms-3/2c0ac2be3950f785d0c8401a6f322109/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:40:13-87
+333            android:enabled="true"
+333-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/erfolgi/.gradle/caches/transforms-3/2c0ac2be3950f785d0c8401a6f322109/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:41:13-35
+334            android:exported="false"
+334-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/erfolgi/.gradle/caches/transforms-3/2c0ac2be3950f785d0c8401a6f322109/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:42:13-37
+335            android:permission="android.permission.BIND_JOB_SERVICE" />
+335-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/erfolgi/.gradle/caches/transforms-3/2c0ac2be3950f785d0c8401a6f322109/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:43:13-69
+336
+337        <meta-data
+337-->[com.google.android.gms:play-services-basement:18.1.0] /Users/erfolgi/.gradle/caches/transforms-3/96cf73d0ae884b0481b7896ee6174cd1/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+338            android:name="com.google.android.gms.version"
+338-->[com.google.android.gms:play-services-basement:18.1.0] /Users/erfolgi/.gradle/caches/transforms-3/96cf73d0ae884b0481b7896ee6174cd1/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+339            android:value="@integer/google_play_services_version" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+339-->[com.google.android.gms:play-services-basement:18.1.0] /Users/erfolgi/.gradle/caches/transforms-3/96cf73d0ae884b0481b7896ee6174cd1/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+340        <activity
+340-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:18:9-24:45
+341            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+341-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:19:13-100
+342            android:enabled="false"
+342-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:20:13-36
 343            android:exported="false"
-343-->[com.droidninja:filepicker:2.2.5] /Users/erfolgi/.gradle/caches/transforms-3/92bf6f55e92deaed8a80d1de9d005b9b/transformed/jetified-filepicker-2.2.5/AndroidManifest.xml:27:13-37
-344            android:grantUriPermissions="true" >
-344-->[com.droidninja:filepicker:2.2.5] /Users/erfolgi/.gradle/caches/transforms-3/92bf6f55e92deaed8a80d1de9d005b9b/transformed/jetified-filepicker-2.2.5/AndroidManifest.xml:28:13-47
-345            <meta-data
-345-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:36:13-38:71
-346                android:name="android.support.FILE_PROVIDER_PATHS"
-346-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:37:17-67
-347                android:resource="@xml/provider_paths" />
-347-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:38:17-68
-348        </provider>
-349
-350        <service
-350-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/erfolgi/.gradle/caches/transforms-3/f5ec7b9d75ef1da4d9ad97cc9d3a4f94/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
-351            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-351-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/erfolgi/.gradle/caches/transforms-3/f5ec7b9d75ef1da4d9ad97cc9d3a4f94/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
-352            android:exported="false" >
-352-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/erfolgi/.gradle/caches/transforms-3/f5ec7b9d75ef1da4d9ad97cc9d3a4f94/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
-353            <meta-data
-353-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/erfolgi/.gradle/caches/transforms-3/f5ec7b9d75ef1da4d9ad97cc9d3a4f94/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
-354                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-354-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/erfolgi/.gradle/caches/transforms-3/f5ec7b9d75ef1da4d9ad97cc9d3a4f94/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
-355                android:value="cct" />
-355-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/erfolgi/.gradle/caches/transforms-3/f5ec7b9d75ef1da4d9ad97cc9d3a4f94/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
-356        </service>
-357        <service
-357-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/erfolgi/.gradle/caches/transforms-3/8f73adc2c226bdf47bc7679de0e5d67a/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
-358            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-358-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/erfolgi/.gradle/caches/transforms-3/8f73adc2c226bdf47bc7679de0e5d67a/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
-359            android:exported="false"
-359-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/erfolgi/.gradle/caches/transforms-3/8f73adc2c226bdf47bc7679de0e5d67a/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
-360            android:permission="android.permission.BIND_JOB_SERVICE" >
-360-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/erfolgi/.gradle/caches/transforms-3/8f73adc2c226bdf47bc7679de0e5d67a/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
-361        </service>
-362
-363        <receiver
-363-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/erfolgi/.gradle/caches/transforms-3/8f73adc2c226bdf47bc7679de0e5d67a/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
-364            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-364-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/erfolgi/.gradle/caches/transforms-3/8f73adc2c226bdf47bc7679de0e5d67a/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
-365            android:exported="false" />
-365-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/erfolgi/.gradle/caches/transforms-3/8f73adc2c226bdf47bc7679de0e5d67a/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
-366
-367        <provider
-367-->[androidx.emoji2:emoji2:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/5c0ea18d3eec79d9e069a662c080b32f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
-368            android:name="androidx.startup.InitializationProvider"
-368-->[androidx.emoji2:emoji2:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/5c0ea18d3eec79d9e069a662c080b32f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
-369            android:authorities="com.kawal.malang.officer.androidx-startup"
-369-->[androidx.emoji2:emoji2:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/5c0ea18d3eec79d9e069a662c080b32f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
-370            android:exported="false" >
-370-->[androidx.emoji2:emoji2:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/5c0ea18d3eec79d9e069a662c080b32f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
-371            <meta-data
-371-->[androidx.emoji2:emoji2:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/5c0ea18d3eec79d9e069a662c080b32f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
-372                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-372-->[androidx.emoji2:emoji2:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/5c0ea18d3eec79d9e069a662c080b32f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
-373                android:value="androidx.startup" />
-373-->[androidx.emoji2:emoji2:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/5c0ea18d3eec79d9e069a662c080b32f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
-374            <meta-data
-374-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/erfolgi/.gradle/caches/transforms-3/61b994e4e93594efaada295d40b4f95f/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
-375                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-375-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/erfolgi/.gradle/caches/transforms-3/61b994e4e93594efaada295d40b4f95f/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
-376                android:value="androidx.startup" />
-376-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/erfolgi/.gradle/caches/transforms-3/61b994e4e93594efaada295d40b4f95f/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
-377        </provider>
-378    </application>
-379
-380</manifest>
+343-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:21:13-37
+344            android:launchMode="singleInstance"
+344-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:22:13-48
+345            android:process=":playcore_missing_splits_activity"
+345-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:23:13-64
+346            android:stateNotNeeded="true" />
+346-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:24:13-42
+347        <activity
+347-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:25:9-29:65
+348            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+348-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:26:13-93
+349            android:exported="false"
+349-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:27:13-37
+350            android:stateNotNeeded="true"
+350-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:28:13-42
+351            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+351-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:29:13-62
+352        <service
+352-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:32:9-39:19
+353            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+353-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:33:13-94
+354            android:enabled="false"
+354-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:34:13-36
+355            android:exported="true" >
+355-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:35:13-36
+356            <meta-data
+356-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:36:13-38:41
+357                android:name="com.google.android.play.core.assetpacks.versionCode"
+357-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:37:17-83
+358                android:value="11003" />
+358-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:38:17-38
+359        </service>
+360        <service
+360-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:40:9-43:40
+361            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+361-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:41:13-95
+362            android:enabled="false"
+362-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:42:13-36
+363            android:exported="false" />
+363-->[com.google.android.play:core:1.10.3] /Users/erfolgi/.gradle/caches/transforms-3/6fcc1ebfca6e41b1069bea8256243b85/transformed/jetified-core-1.10.3/AndroidManifest.xml:43:13-37
+364
+365        <activity
+365-->[com.droidninja:filepicker:2.2.5] /Users/erfolgi/.gradle/caches/transforms-3/92bf6f55e92deaed8a80d1de9d005b9b/transformed/jetified-filepicker-2.2.5/AndroidManifest.xml:17:9-19:62
+366            android:name="droidninja.filepicker.FilePickerActivity"
+366-->[com.droidninja:filepicker:2.2.5] /Users/erfolgi/.gradle/caches/transforms-3/92bf6f55e92deaed8a80d1de9d005b9b/transformed/jetified-filepicker-2.2.5/AndroidManifest.xml:18:13-68
+367            android:configChanges="orientation|screenSize" />
+367-->[com.droidninja:filepicker:2.2.5] /Users/erfolgi/.gradle/caches/transforms-3/92bf6f55e92deaed8a80d1de9d005b9b/transformed/jetified-filepicker-2.2.5/AndroidManifest.xml:19:13-59
+368        <activity
+368-->[com.droidninja:filepicker:2.2.5] /Users/erfolgi/.gradle/caches/transforms-3/92bf6f55e92deaed8a80d1de9d005b9b/transformed/jetified-filepicker-2.2.5/AndroidManifest.xml:20:9-22:62
+369            android:name="droidninja.filepicker.MediaDetailsActivity"
+369-->[com.droidninja:filepicker:2.2.5] /Users/erfolgi/.gradle/caches/transforms-3/92bf6f55e92deaed8a80d1de9d005b9b/transformed/jetified-filepicker-2.2.5/AndroidManifest.xml:21:13-70
+370            android:configChanges="orientation|screenSize" />
+370-->[com.droidninja:filepicker:2.2.5] /Users/erfolgi/.gradle/caches/transforms-3/92bf6f55e92deaed8a80d1de9d005b9b/transformed/jetified-filepicker-2.2.5/AndroidManifest.xml:22:13-59
+371
+372        <provider
+372-->[com.droidninja:filepicker:2.2.5] /Users/erfolgi/.gradle/caches/transforms-3/92bf6f55e92deaed8a80d1de9d005b9b/transformed/jetified-filepicker-2.2.5/AndroidManifest.xml:24:9-32:20
+373            android:name="droidninja.filepicker.utils.FilePickerProvider"
+373-->[com.droidninja:filepicker:2.2.5] /Users/erfolgi/.gradle/caches/transforms-3/92bf6f55e92deaed8a80d1de9d005b9b/transformed/jetified-filepicker-2.2.5/AndroidManifest.xml:25:13-74
+374            android:authorities="com.kawal.malang.officer.droidninja.filepicker.provider"
+374-->[com.droidninja:filepicker:2.2.5] /Users/erfolgi/.gradle/caches/transforms-3/92bf6f55e92deaed8a80d1de9d005b9b/transformed/jetified-filepicker-2.2.5/AndroidManifest.xml:26:13-82
+375            android:exported="false"
+375-->[com.droidninja:filepicker:2.2.5] /Users/erfolgi/.gradle/caches/transforms-3/92bf6f55e92deaed8a80d1de9d005b9b/transformed/jetified-filepicker-2.2.5/AndroidManifest.xml:27:13-37
+376            android:grantUriPermissions="true" >
+376-->[com.droidninja:filepicker:2.2.5] /Users/erfolgi/.gradle/caches/transforms-3/92bf6f55e92deaed8a80d1de9d005b9b/transformed/jetified-filepicker-2.2.5/AndroidManifest.xml:28:13-47
+377            <meta-data
+377-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:36:13-38:71
+378                android:name="android.support.FILE_PROVIDER_PATHS"
+378-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:37:17-67
+379                android:resource="@xml/provider_paths" />
+379-->[com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:38:17-68
+380        </provider>
+381
+382        <service
+382-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/erfolgi/.gradle/caches/transforms-3/f5ec7b9d75ef1da4d9ad97cc9d3a4f94/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+383            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+383-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/erfolgi/.gradle/caches/transforms-3/f5ec7b9d75ef1da4d9ad97cc9d3a4f94/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+384            android:exported="false" >
+384-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/erfolgi/.gradle/caches/transforms-3/f5ec7b9d75ef1da4d9ad97cc9d3a4f94/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+385            <meta-data
+385-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/erfolgi/.gradle/caches/transforms-3/f5ec7b9d75ef1da4d9ad97cc9d3a4f94/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+386                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+386-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/erfolgi/.gradle/caches/transforms-3/f5ec7b9d75ef1da4d9ad97cc9d3a4f94/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+387                android:value="cct" />
+387-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/erfolgi/.gradle/caches/transforms-3/f5ec7b9d75ef1da4d9ad97cc9d3a4f94/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+388        </service>
+389        <service
+389-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/erfolgi/.gradle/caches/transforms-3/8f73adc2c226bdf47bc7679de0e5d67a/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+390            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+390-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/erfolgi/.gradle/caches/transforms-3/8f73adc2c226bdf47bc7679de0e5d67a/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+391            android:exported="false"
+391-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/erfolgi/.gradle/caches/transforms-3/8f73adc2c226bdf47bc7679de0e5d67a/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+392            android:permission="android.permission.BIND_JOB_SERVICE" >
+392-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/erfolgi/.gradle/caches/transforms-3/8f73adc2c226bdf47bc7679de0e5d67a/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+393        </service>
+394
+395        <receiver
+395-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/erfolgi/.gradle/caches/transforms-3/8f73adc2c226bdf47bc7679de0e5d67a/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+396            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+396-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/erfolgi/.gradle/caches/transforms-3/8f73adc2c226bdf47bc7679de0e5d67a/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+397            android:exported="false" />
+397-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/erfolgi/.gradle/caches/transforms-3/8f73adc2c226bdf47bc7679de0e5d67a/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+398
+399        <provider
+399-->[androidx.emoji2:emoji2:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/5c0ea18d3eec79d9e069a662c080b32f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+400            android:name="androidx.startup.InitializationProvider"
+400-->[androidx.emoji2:emoji2:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/5c0ea18d3eec79d9e069a662c080b32f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+401            android:authorities="com.kawal.malang.officer.androidx-startup"
+401-->[androidx.emoji2:emoji2:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/5c0ea18d3eec79d9e069a662c080b32f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+402            android:exported="false" >
+402-->[androidx.emoji2:emoji2:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/5c0ea18d3eec79d9e069a662c080b32f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+403            <meta-data
+403-->[androidx.emoji2:emoji2:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/5c0ea18d3eec79d9e069a662c080b32f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+404                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+404-->[androidx.emoji2:emoji2:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/5c0ea18d3eec79d9e069a662c080b32f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+405                android:value="androidx.startup" />
+405-->[androidx.emoji2:emoji2:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/5c0ea18d3eec79d9e069a662c080b32f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+406            <meta-data
+406-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/erfolgi/.gradle/caches/transforms-3/61b994e4e93594efaada295d40b4f95f/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+407                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+407-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/erfolgi/.gradle/caches/transforms-3/61b994e4e93594efaada295d40b4f95f/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+408                android:value="androidx.startup" />
+408-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/erfolgi/.gradle/caches/transforms-3/61b994e4e93594efaada295d40b4f95f/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+409        </provider>
+410    </application>
+411
+412</manifest>

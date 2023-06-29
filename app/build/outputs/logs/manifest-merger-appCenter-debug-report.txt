@@ -1,9 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:2:1-105:12
-INJECTED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:2:1-105:12
-INJECTED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:2:1-105:12
-INJECTED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:2:1-105:12
+ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:2:1-117:12
+INJECTED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:2:1-117:12
+INJECTED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:2:1-117:12
+INJECTED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:2:1-117:12
+MERGED from [com.github.skydoves:powerspinner:1.1.9] /Users/erfolgi/.gradle/caches/transforms-3/252955b70699ad0701ee537cbabd9d1a/transformed/jetified-powerspinner-1.1.9/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.databinding:viewbinding:7.0.4] /Users/erfolgi/.gradle/caches/transforms-3/2fe3b8fbef2d7d966b091c91272ad74d/transformed/jetified-viewbinding-7.0.4/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-messaging-ktx:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/d9457bb338e82e7541d3b8025760596a/transformed/jetified-firebase-messaging-ktx-23.1.2/AndroidManifest.xml:17:1-34:12
 MERGED from [com.google.firebase:firebase-crashlytics-ktx:17.3.1] /Users/erfolgi/.gradle/caches/transforms-3/d35110304fd6877e20e3bad9b160027d/transformed/jetified-firebase-crashlytics-ktx-17.3.1/AndroidManifest.xml:15:1-33:12
@@ -30,6 +31,7 @@ MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/erfolgi/.gra
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.1] /Users/erfolgi/.gradle/caches/transforms-3/95383da71dd7fc3aaa5acbb37969d21f/transformed/jetified-lifecycle-livedata-ktx-2.4.1/AndroidManifest.xml:17:1-24:12
 MERGED from [com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:6:1-73:12
 MERGED from [com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:2:1-42:12
+MERGED from [io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:2:1-32:12
 MERGED from [com.google.android.material:material:1.5.0] /Users/erfolgi/.gradle/caches/transforms-3/64e2e2c8e4ec6c52ce3000e2cbc27be3/transformed/material-1.5.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/erfolgi/.gradle/caches/transforms-3/e6dcef4dfac1ca1d6e996672a6c433b2/transformed/constraintlayout-2.1.3/AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.yalantis:ucrop:2.2.6] /Users/erfolgi/.gradle/caches/transforms-3/7f7d7bb8e1e3a34613b709462fa0410a/transformed/jetified-ucrop-2.2.6/AndroidManifest.xml:2:1-11:12
@@ -90,7 +92,7 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/erfol
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/erfolgi/.gradle/caches/transforms-3/c5b97a609a1b668bc3a37137ff5493fa/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.media:media:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/69b07ffdc50be82168cd47f0bb29c83a/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/17229cc34bebce3802decf1bd3796208/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.2.0] /Users/erfolgi/.gradle/caches/transforms-3/2bf6d85c53d23b1a484f192767888056/transformed/recyclerview-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/erfolgi/.gradle/caches/transforms-3/11493aa4dee13ce2469635a8f18c2ac5/transformed/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/bd6e73306cd088b5a313e6f7075925d7/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/8219308292c77cefb84b90592569b08f/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.1.0] /Users/erfolgi/.gradle/caches/transforms-3/1208a2f5235da8802ceb8f7fff31aeb0/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
@@ -123,20 +125,20 @@ MERGED from [androidx.print:print:1.0.0] /Users/erfolgi/.gradle/caches/transform
 MERGED from [com.microsoft.appcenter:appcenter:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/d9c197a93f96d0a0fff8665f36e72465/transformed/jetified-appcenter-5.0.0/AndroidManifest.xml:6:1-16:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/erfolgi/.gradle/caches/transforms-3/9271254974f7cbdbbb54e8b6b4d89a3f/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.dagger:dagger-lint-aar:2.38.1] /Users/erfolgi/.gradle/caches/transforms-3/d61e50332c1144172b930c5ea77fc2fc/transformed/jetified-dagger-lint-aar-2.38.1/AndroidManifest.xml:16:1-19:12
-INJECTED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:2:1-105:12
-INJECTED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:2:1-105:12
-INJECTED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:2:1-105:12
+INJECTED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:2:1-117:12
+INJECTED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:2:1-117:12
+INJECTED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:2:1-117:12
 	package
 		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:3:5-39
 		INJECTED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:2:1-105:12
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:2:1-117:12
 		INJECTED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:2:1-105:12
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:2:1-117:12
 		INJECTED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:2:11-69
@@ -227,7 +229,7 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.3.0] /U
 	android:name
 		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:12:22-65
 application
-ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:14:5-103:19
+ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:14:5-115:19
 MERGED from [com.google.firebase:firebase-messaging-ktx:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/d9457bb338e82e7541d3b8025760596a/transformed/jetified-firebase-messaging-ktx-23.1.2/AndroidManifest.xml:24:5-32:19
 MERGED from [com.google.firebase:firebase-messaging-ktx:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/d9457bb338e82e7541d3b8025760596a/transformed/jetified-firebase-messaging-ktx-23.1.2/AndroidManifest.xml:24:5-32:19
 MERGED from [com.google.firebase:firebase-crashlytics-ktx:17.3.1] /Users/erfolgi/.gradle/caches/transforms-3/d35110304fd6877e20e3bad9b160027d/transformed/jetified-firebase-crashlytics-ktx-17.3.1/AndroidManifest.xml:23:5-31:19
@@ -242,6 +244,8 @@ MERGED from [com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/
 MERGED from [com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:30:5-71:19
 MERGED from [com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:21:5-40:19
 MERGED from [com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:21:5-40:19
+MERGED from [io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:9:5-30:19
+MERGED from [io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:9:5-30:19
 MERGED from [com.google.android.material:material:1.5.0] /Users/erfolgi/.gradle/caches/transforms-3/64e2e2c8e4ec6c52ce3000e2cbc27be3/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.5.0] /Users/erfolgi/.gradle/caches/transforms-3/64e2e2c8e4ec6c52ce3000e2cbc27be3/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/erfolgi/.gradle/caches/transforms-3/e6dcef4dfac1ca1d6e996672a6c433b2/transformed/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
@@ -330,166 +334,192 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/erfolgi/.gradle/cach
 		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:21:9-62
 	android:name
 		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:15:9-80
-activity#com.kawal.malang.officer.LokasiActivity
+activity#com.kawal.malang.officer.presentation.giat.form.FormGiatActivity
 ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:22:9-24:40
 	android:exported
 		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:24:13-37
 	android:name
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:23:13-43
-activity#com.kawal.malang.officer.presentation.agenda.detail.DetailAgendaActivity
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:23:13-68
+activity#com.kawal.malang.officer.presentation.pengaduan.detail.DetailPengaduanActivity
 ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:25:9-27:40
 	android:exported
 		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:26:13-76
-activity#com.kawal.malang.officer.presentation.giat.detail.DetailGiatActivity
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:26:13-82
+activity#com.kawal.malang.officer.presentation.pengaduan.PengaduanActivity
 ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:28:9-30:40
 	android:exported
 		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:29:13-72
-activity#com.kawal.malang.officer.presentation.giat.GiatActivity
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:29:13-69
+activity#com.kawal.malang.officer.presentation.bantuan.BantuanActivity
 ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:31:9-33:40
 	android:exported
 		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:33:13-37
 	android:name
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:32:13-59
-activity#com.kawal.malang.officer.presentation.agenda.AgendaActivity
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:32:13-65
+activity#com.kawal.malang.officer.presentation.lokasi.LokasiActivity
 ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:34:9-36:40
 	android:exported
 		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:36:13-37
 	android:name
 		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:35:13-63
-activity#com.kawal.malang.officer.presentation.report.panicHistory.PanicHistoryActivity
+activity#com.kawal.malang.officer.presentation.agenda.detail.DetailAgendaActivity
 ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:37:9-39:40
 	android:exported
 		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:39:13-37
 	android:name
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:38:13-106
-activity#com.kawal.malang.officer.presentation.briefing.create.CreateBriefingActivity
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:38:13-76
+activity#com.kawal.malang.officer.presentation.giat.detail.DetailGiatActivity
 ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:40:9-42:40
 	android:exported
 		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:42:13-37
 	android:name
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:41:13-104
-activity#com.kawal.malang.officer.presentation.account.edit.editMember.EditMemberActivity
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:41:13-72
+activity#com.kawal.malang.officer.presentation.giat.GiatActivity
 ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:43:9-45:40
 	android:exported
 		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:45:13-37
 	android:name
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:44:13-108
-activity#com.kawal.malang.officer.presentation.account.edit.password.EditPasswordActivity
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:44:13-59
+activity#com.kawal.malang.officer.presentation.agenda.AgendaActivity
 ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:46:9-48:40
 	android:exported
 		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:48:13-37
 	android:name
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:47:13-108
-activity#com.kawal.malang.officer.presentation.account.edit.editCar.EditCarActivity
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:47:13-63
+activity#com.kawal.malang.officer.presentation.report.panicHistory.PanicHistoryActivity
 ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:49:9-51:40
 	android:exported
 		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:51:13-37
 	android:name
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:50:13-102
-activity#com.kawal.malang.officer.presentation.patrol.history.PatrolHistoryActivity
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:50:13-106
+activity#com.kawal.malang.officer.presentation.briefing.create.CreateBriefingActivity
 ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:52:9-54:40
 	android:exported
 		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:54:13-37
 	android:name
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:53:13-102
-activity#com.kawal.malang.officer.presentation.report.detail.DetailReportActivity
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:53:13-104
+activity#com.kawal.malang.officer.presentation.account.edit.editMember.EditMemberActivity
 ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:55:9-57:40
 	android:exported
 		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:57:13-37
 	android:name
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:56:13-100
-activity#com.kawal.malang.officer.presentation.DashboardActivity
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:56:13-108
+activity#com.kawal.malang.officer.presentation.account.edit.password.EditPasswordActivity
 ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:58:9-60:40
 	android:exported
 		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:60:13-37
 	android:name
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:59:13-83
-activity#com.kawal.malang.officer.presentation.briefing.detail.DetailBriefingActivity
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:59:13-108
+activity#com.kawal.malang.officer.presentation.account.edit.editCar.EditCarActivity
 ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:61:9-63:40
 	android:exported
 		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:63:13-37
 	android:name
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:62:13-104
-activity#com.kawal.malang.officer.presentation.auth.login.LoginActivity
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:62:13-102
+activity#com.kawal.malang.officer.presentation.patrol.history.PatrolHistoryActivity
 ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:64:9-66:40
 	android:exported
 		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:66:13-37
 	android:name
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:65:13-90
-activity#com.kawal.malang.officer.core.util.PreviewActivity
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:65:13-102
+activity#com.kawal.malang.officer.presentation.report.detail.DetailReportActivity
 ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:67:9-69:40
 	android:exported
 		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:69:13-37
 	android:name
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:68:13-78
-activity#com.kawal.malang.officer.core.util.ImageActivity
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:68:13-100
+activity#com.kawal.malang.officer.presentation.DashboardActivity
 ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:70:9-72:40
 	android:exported
 		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:72:13-37
 	android:name
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:71:13-76
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:71:13-83
+activity#com.kawal.malang.officer.presentation.briefing.detail.DetailBriefingActivity
+ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:73:9-75:40
+	android:exported
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:75:13-37
+	android:name
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:74:13-104
+activity#com.kawal.malang.officer.presentation.auth.login.LoginActivity
+ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:76:9-78:40
+	android:exported
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:78:13-37
+	android:name
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:77:13-90
+activity#com.kawal.malang.officer.core.util.PreviewActivity
+ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:79:9-81:40
+	android:exported
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:81:13-37
+	android:name
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:80:13-78
+activity#com.kawal.malang.officer.core.util.ImageActivity
+ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:82:9-84:40
+	android:exported
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:84:13-37
+	android:name
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:83:13-76
 activity#com.kawal.malang.officer.presentation.MainActivity
-ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:73:9-84:20
+ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:85:9-96:20
 	android:launchMode
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:76:13-48
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:88:13-48
 	android:noHistory
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:77:13-37
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:89:13-37
 	android:exported
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:75:13-36
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:87:13-36
 	android:theme
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:78:13-51
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:90:13-51
 	android:name
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:74:13-78
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:86:13-78
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:79:13-83:29
+ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:91:13-95:29
 action#android.intent.action.MAIN
-ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:80:17-69
+ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:92:17-69
 	android:name
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:80:25-66
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:92:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:82:17-77
+ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:94:17-77
 	android:name
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:82:27-74
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:94:27-74
 service#com.kawal.malang.officer.core.service.MyFirebaseMessagingService
-ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:86:9-92:19
+ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:98:9-104:19
 	android:exported
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:88:13-37
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:100:13-37
 	android:name
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:87:13-92
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:99:13-92
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:89:13-91:29
+ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:101:13-103:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:90:17-78
+ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:102:17-78
 	android:name
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:90:25-75
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:102:25-75
 service#com.kawal.malang.officer.core.service.SendLocationService
-ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:93:9-97:65
+ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:105:9-109:65
 	android:enabled
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:95:13-35
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:107:13-35
 	android:exported
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:96:13-36
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:108:13-36
 	android:foregroundServiceType
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:97:13-62
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:109:13-62
 	android:name
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:94:13-85
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:106:13-85
 service#com.kawal.malang.officer.core.service.prototype.LocationService
-ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:98:9-102:65
+ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:110:9-114:65
 	android:enabled
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:100:13-35
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:112:13-35
 	android:exported
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:101:13-36
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:113:13-36
 	android:foregroundServiceType
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:102:13-62
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:114:13-62
 	android:name
-		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:99:13-91
+		ADDED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml:111:13-91
 uses-sdk
 INJECTED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml
 INJECTED from /Users/erfolgi/Documents/StudioProject/Kawal Malang Officer/app/src/main/AndroidManifest.xml
+MERGED from [com.github.skydoves:powerspinner:1.1.9] /Users/erfolgi/.gradle/caches/transforms-3/252955b70699ad0701ee537cbabd9d1a/transformed/jetified-powerspinner-1.1.9/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.skydoves:powerspinner:1.1.9] /Users/erfolgi/.gradle/caches/transforms-3/252955b70699ad0701ee537cbabd9d1a/transformed/jetified-powerspinner-1.1.9/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.databinding:viewbinding:7.0.4] /Users/erfolgi/.gradle/caches/transforms-3/2fe3b8fbef2d7d966b091c91272ad74d/transformed/jetified-viewbinding-7.0.4/AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:viewbinding:7.0.4] /Users/erfolgi/.gradle/caches/transforms-3/2fe3b8fbef2d7d966b091c91272ad74d/transformed/jetified-viewbinding-7.0.4/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-messaging-ktx:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/d9457bb338e82e7541d3b8025760596a/transformed/jetified-firebase-messaging-ktx-23.1.2/AndroidManifest.xml:20:5-22:41
@@ -542,6 +572,8 @@ MERGED from [com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/
 MERGED from [com.microsoft.appcenter:appcenter-distribute:5.0.0] /Users/erfolgi/.gradle/caches/transforms-3/6b146d4820cb6153911d968880e4e7da/transformed/jetified-appcenter-distribute-5.0.0/AndroidManifest.xml:9:5-11:41
 MERGED from [com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:5:5-7:41
+MERGED from [io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:5:5-7:41
+MERGED from [io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.material:material:1.5.0] /Users/erfolgi/.gradle/caches/transforms-3/64e2e2c8e4ec6c52ce3000e2cbc27be3/transformed/material-1.5.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.5.0] /Users/erfolgi/.gradle/caches/transforms-3/64e2e2c8e4ec6c52ce3000e2cbc27be3/transformed/material-1.5.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/erfolgi/.gradle/caches/transforms-3/e6dcef4dfac1ca1d6e996672a6c433b2/transformed/constraintlayout-2.1.3/AndroidManifest.xml:5:5-7:41
@@ -662,8 +694,8 @@ MERGED from [androidx.media:media:1.0.0] /Users/erfolgi/.gradle/caches/transform
 MERGED from [androidx.media:media:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/69b07ffdc50be82168cd47f0bb29c83a/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/17229cc34bebce3802decf1bd3796208/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/17229cc34bebce3802decf1bd3796208/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.2.0] /Users/erfolgi/.gradle/caches/transforms-3/2bf6d85c53d23b1a484f192767888056/transformed/recyclerview-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.2.0] /Users/erfolgi/.gradle/caches/transforms-3/2bf6d85c53d23b1a484f192767888056/transformed/recyclerview-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/erfolgi/.gradle/caches/transforms-3/11493aa4dee13ce2469635a8f18c2ac5/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/erfolgi/.gradle/caches/transforms-3/11493aa4dee13ce2469635a8f18c2ac5/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/bd6e73306cd088b5a313e6f7075925d7/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/bd6e73306cd088b5a313e6f7075925d7/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/erfolgi/.gradle/caches/transforms-3/8219308292c77cefb84b90592569b08f/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
@@ -936,6 +968,36 @@ ADDED from [com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches
 		ADDED from [com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:38:17-68
 	android:name
 		ADDED from [com.github.dhaval2404:imagepicker:2.1] /Users/erfolgi/.gradle/caches/transforms-3/1c479500a48e875a9ff9f57f9f990b25/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:37:17-67
+provider#com.sangcomz.fishbun.FishBunFileProvider
+ADDED from [io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:12:13-71
+	android:exported
+		ADDED from [io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:11:13-68
+activity#com.sangcomz.fishbun.ui.album.ui.AlbumActivity
+ADDED from [io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:20:9-23:51
+	android:label
+		ADDED from [io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:22:13-42
+	android:theme
+		ADDED from [io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:23:13-48
+	android:name
+		ADDED from [io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:21:13-74
+activity#com.sangcomz.fishbun.ui.picker.PickerActivity
+ADDED from [io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:24:9-26:51
+	android:theme
+		ADDED from [io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:26:13-48
+	android:name
+		ADDED from [io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:25:13-73
+activity#com.sangcomz.fishbun.ui.detail.ui.DetailImageActivity
+ADDED from [io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:27:9-29:54
+	android:theme
+		ADDED from [io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:29:13-51
+	android:name
+		ADDED from [io.github.sangcomz:fishbun:1.1.1] /Users/erfolgi/.gradle/caches/transforms-3/56ca85809397bf8945e2f355f417baee/transformed/jetified-fishbun-1.1.1/AndroidManifest.xml:28:13-81
 uses-permission#com.google.android.c2dm.permission.RECEIVE
 ADDED from [com.google.firebase:firebase-messaging:23.1.2] /Users/erfolgi/.gradle/caches/transforms-3/cca66f25368e6be1f25e61682758f1bc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:28:5-82
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/erfolgi/.gradle/caches/transforms-3/4a52aa85e8ab8b71e82589529d295c81/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:11:5-82

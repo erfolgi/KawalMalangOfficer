@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/llCard"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/llContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imUser"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_profile_photo"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/txUser"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    style="@style/Subtitle_2"
+                    android:text="@string/app_name"
+                    android:layout_marginHorizontal="12dp"
+                    android:lines="1"
+                    android:ellipsize="end"
+                    />
+
+                <TextView
+                    android:id="@+id/txDate"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="@dimen/space_4"
+                    style="@style/Caption"
+                    android:layout_marginHorizontal="12dp"
+                    android:textColor="@color/grey"
+                    android:text="@string/app_name"
+                    />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                />
+
+            <ImageButton
+                android:id="@+id/tbMore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_more"
+                android:background="@drawable/button_invis" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/txContent"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            style="@style/Body_2"
+            android:textColor="@color/black"
+            android:text="@string/app_name"
+            android:layout_marginTop="@dimen/space_8"
+            android:ellipsize="end"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txHidden"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        style="@style/Body_2"
+        android:textColor="@color/grey"
+        android:text="Komentar dari pengguna ini disembunyikan"
+        android:layout_marginTop="@dimen/space_8"
+        android:ellipsize="end"
+        android:textStyle="italic"
+        />
+
+    <include layout="@layout/component_divider"/>
+
+</LinearLayout>

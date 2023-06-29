@@ -20,6 +20,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PanicButtonPolresJakarta">
         <activity
+            android:name=".presentation.giat.form.FormGiatActivity"
+            android:exported="false" />
+        <activity
             android:name=".presentation.pengaduan.detail.DetailPengaduanActivity"
             android:exported="false" />
         <activity

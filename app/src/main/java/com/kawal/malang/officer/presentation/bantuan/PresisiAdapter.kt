@@ -1,4 +1,4 @@
-package com.kawal.malang.citizen.ui.bantuan
+package com.kawal.malang.officer.ui.bantuan
 
 import android.content.Context
 import android.content.Intent
@@ -6,16 +6,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.kawal.malang.citizen.R
-import com.kawal.malang.citizen.databinding.ItemBantuanBinding
-import com.kawal.malang.citizen.databinding.ItemGiatSmBinding
-import com.kawal.malang.citizen.model.response.pengaduan.giat.GiatItem
-import com.kawal.malang.citizen.ui.giat.detail.DetailGiatActivity
-import com.kawal.malang.citizen.util.AppPreference
-import com.kawal.malang.citizen.util.Util
-import com.kawal.malang.citizen.util.Util.arise
-import com.kawal.malang.citizen.util.Util.begone
-import com.kawal.malang.citizen.util.Util.bindIcon
+import com.kawal.malang.citizen.ui.bantuan.MenuModel
+import com.kawal.malang.officer.R
+import com.kawal.malang.officer.core.util.Util.arise
+import com.kawal.malang.officer.core.util.Util.begone
+import com.kawal.malang.officer.core.util.Util.bindIcon
+import com.kawal.malang.officer.databinding.ItemBantuanBinding
+import com.kawal.malang.officer.databinding.ItemGiatSmBinding
+
 
 class PresisiAdapter  (private val context: Context, var items: ArrayList<MenuModel>)
     : RecyclerView.Adapter<PresisiAdapter.PresisiHolder>(){
